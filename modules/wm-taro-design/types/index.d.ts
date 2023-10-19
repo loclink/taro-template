@@ -9,3 +9,5 @@ export * from './loading';
 export * from './col';
 export * from './tab';
 export * from './image';
+export * from './cell';
+export * from './tag';

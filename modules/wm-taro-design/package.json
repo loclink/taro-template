@@ -40,7 +40,8 @@
     "dev:quickapp": "npm run build:quickapp -- --watch",
     "test": "jest",
     "dev:docs": "node ./scripts/md.js && npx antm-doc-start",
-    "build:docs": "node ./scripts/md.js && sh ./scripts/build.sh"
+    "build:docs": "node ./scripts/md.js && sh ./scripts/build.sh",
+    "md": "node ./scripts/md.js"
   },
   "browserslist": [
     "last 3 versions",

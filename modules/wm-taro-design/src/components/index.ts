@@ -14,3 +14,6 @@ export * from './tabs';
 export * from './tab';
 export * from './col';
 export * from './row';
+export * from './cell';
+export * from './tag';
+export * from './cell-group';

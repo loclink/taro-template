@@ -9,7 +9,9 @@ export default defineAppConfig({
     'pages/loading/index',
     'pages/toast/index',
     'pages/tabbar/index',
-    'pages/image/index'
+    'pages/image/index',
+    'pages/cell/index',
+    'pages/tag/index'
   ],
   navigationStyle: 'custom',
   window: {

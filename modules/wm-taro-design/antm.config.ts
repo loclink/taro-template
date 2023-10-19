@@ -104,10 +104,10 @@ function getMenus() {
           path: 'button',
           title: 'Button 按钮'
         },
-        // {
-        //   path: 'cell',
-        //   title: 'Cell 单元格'
-        // },
+        {
+          path: 'cell',
+          title: 'Cell 单元格'
+        },
         {
           path: 'config-provider',
           title: 'ConfigProvider 全局配置'
@@ -307,10 +307,10 @@ function getMenus() {
         //   path: 'sticky',
         //   title: 'Sticky 粘性布局'
         // },
-        // {
-        //   path: 'tag',
-        //   title: 'Tag 标签'
-        // },
+        {
+          path: 'tag',
+          title: 'Tag 标签'
+        },
         // {
         //   path: 'water-mark',
         //   title: 'WaterMark 水印'
