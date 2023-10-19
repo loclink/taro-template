@@ -1,0 +1,22 @@
+@import 'wm-taro-design/src/style/var.less';
+
+.wm-tabbar {
+  display: flex;
+  box-sizing: content-box;
+  width: 100%;
+  z-index: @tabbar-z-index;
+  .theme(height, '@tabbar-height');
+  .theme(background-color, '@tabbar-background-color');
+
+  &--fixed {
+    position: fixed !important;
+    bottom: 0;
+    left: 0;
+  }
+
+  &--safe {
+    padding-bottom: constant(safe-area-inset-bottom);
+    /* stylelint-disable-next-line */
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+}

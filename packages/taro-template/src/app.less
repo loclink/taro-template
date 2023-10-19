@@ -1,0 +1,20 @@
+@import 'wm-taro-design/src/style/var.less';
+@import 'wm-taro-design/src/components/tabbar/index.less';
+@import 'wm-taro-design/src/components/tabbar-item/index.less';
+
+page {
+  height: 100vh;
+  width: 100vw;
+}
+
+// 组件的css变量修改或添加
+page {
+  --primary-color: @primary-color; // 主题色
+  --nav-bar-title-text-color: @black; // 导航栏标题文字颜色
+}
+
+// 自定义tabbar的样式变量统一在这里修改
+page,
+.customTabbar {
+  --tabbar-height: 100px;
+}

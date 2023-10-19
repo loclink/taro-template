@@ -1,0 +1,32 @@
+/* eslint-disable object-shorthand */
+/* eslint-disable max-lines */
+/* eslint-disable id-length */
+
+<%
+const { utils, route, config, modelTypes } = it;
+const { _, classNameCase, require } = utils;
+const apiClassName = "API";
+const routes = route.routes;
+const dataContracts = _.map(modelTypes, "name");
+%>
+
+<% if (config.httpClientType === config.constants.HTTP_CLIENT.AXIOS) { %> import { AxiosRequestConfig, AxiosResponse } from "axios"; <% } %>
+
+<% /* import { HttpClient, RequestParams, ContentType } from "./<%~ config.fileNames.httpClient %>"; */ %>
+<% if (dataContracts.length) { %>
+import { <%~ dataContracts.join(", ") %> } from "./<%~ config.fileNames.dataContracts %>"
+<% } %>
+
+<% /* 这是是自己的配置 */ %>
+import requestInstance from './instance';
+import { IRequestConfig } from "@wmeimob/request/src/types/fetch-type";
+
+type RequestConfig = Omit<IRequestConfig, 'url' | 'method'>
+
+<% /* end */ %>
+export const <%= apiClassName %> = {
+
+    <% routes.forEach((route) => { %>
+        <%~ includeFile('./procedure-call.eta', { ...it, route }) %>
+    <% }) %>
+}

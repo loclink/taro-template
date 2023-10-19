@@ -4,10 +4,10 @@ import devConfig from './dev';
 import prodConfig from './prod';
 
 // https://taro-docs.jd.com/docs/next/config#defineconfig-辅助函数
-export default defineConfig(async (merge, { command, mode }) => {
+export default defineConfig(async (merge) => {
   const baseConfig: UserConfigExport = {
     projectName: 'taro-template',
-    date: '2023-9-5',
+    date: '2023-10-16',
     designWidth: 750,
     deviceRatio: {
       640: 2.34 / 2,
@@ -15,20 +15,30 @@ export default defineConfig(async (merge, { command, mode }) => {
       375: 2,
       828: 1.81 / 2
     },
+
     sourceRoot: 'src',
     outputRoot: 'dist',
-    plugins: [],
+    plugins: ['tarojs-plugin-generate-router', 'tarojs-plugin-generate-tools', 'tarojs-plugin-generate-config'],
     defineConstants: {},
     copy: {
       patterns: [],
       options: {}
     },
     framework: 'react',
-    compiler: 'webpack5',
-    cache: {
-      enable: false // Webpack 持久化缓存配置，建议开启。默认配置请参考：https://docs.taro.zone/docs/config-detail#cache
+    compiler: {
+      type: 'webpack5',
+      prebundle: {
+        exclude: ['wm-taro-design']
+      }
     },
+    cache: {
+      enable: true // Webpack 持久化缓存配置，建议开启。默认配置请参考：https://docs.taro.zone/docs/config-detail#cache
+    },
+
     mini: {
+      miniCssExtractPluginOption: {
+        ignoreOrder: true
+      },
       postcss: {
         pxtransform: {
           enable: true,
@@ -70,7 +80,7 @@ export default defineConfig(async (merge, { command, mode }) => {
           config: {}
         },
         cssModules: {
-          enable: false, // 默认为 false，如需使用 css modules 功能，则设为 true
+          enable: true, // 默认为 false，如需使用 css modules 功能，则设为 true
           config: {
             namingPattern: 'module', // 转换模式，取值为 global/module
             generateScopedName: '[name]__[local]___[hash:base64:5]'

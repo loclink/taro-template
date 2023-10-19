@@ -1,0 +1,33 @@
+{
+  "name": "wm-taro-router",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "npm run clean && npm run prod",
+    "dev": "tsc -w",
+    "prod": "tsc",
+    "clean": "rimraf dist",
+    "prepublishOnly": "npm run clean && npm run prod"
+  },
+  "files": [
+    "dist",
+    "src",
+    "package.json",
+    "tsconfig.json"
+  ],
+  "author": "lblblong",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "query-string": "^7.1.1"
+  },
+  "keywords": [
+    "taro",
+    "weapp",
+    "router"
+  ],
+  "devDependencies": {
+    "@types/lodash": "^4.14.199"
+  }
+}

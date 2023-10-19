@@ -1,0 +1,16 @@
+/* stylelint-disable no-descending-specificity */
+@import 'wm-taro-design/src/style/var.less';
+
+
+.van-sticky {
+  position: relative;
+
+  &-wrap {
+    &--fixed {
+      position: fixed;
+      right: 0;
+      left: 0;
+      z-index: @sticky-z-index;
+    }
+  }
+}

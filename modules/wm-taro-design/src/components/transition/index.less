@@ -1,0 +1,79 @@
+.wm-transition {
+  transition-timing-function: ease;
+}
+
+.wm-fade-enter-active,
+.wm-fade-leave-active {
+  transition-property: opacity;
+}
+
+.wm-fade-enter,
+.wm-fade-leave-to {
+  opacity: 0;
+}
+
+.wm-fade-up-enter-active,
+.wm-fade-up-leave-active,
+.wm-fade-down-enter-active,
+.wm-fade-down-leave-active,
+.wm-fade-left-enter-active,
+.wm-fade-left-leave-active,
+.wm-fade-right-enter-active,
+.wm-fade-right-leave-active {
+  transition-property: opacity, transform;
+}
+
+.wm-fade-up-enter,
+.wm-fade-up-leave-to {
+  transform: translate3d(0, 100%, 0);
+  opacity: 0;
+}
+
+.wm-fade-down-enter,
+.wm-fade-down-leave-to {
+  transform: translate3d(0, -100%, 0);
+  opacity: 0;
+}
+
+.wm-fade-left-enter,
+.wm-fade-left-leave-to {
+  transform: translate3d(-100%, 0, 0);
+  opacity: 0;
+}
+
+.wm-fade-right-enter,
+.wm-fade-right-leave-to {
+  transform: translate3d(100%, 0, 0);
+  opacity: 0;
+}
+
+.wm-slide-up-enter-active,
+.wm-slide-up-leave-active,
+.wm-slide-down-enter-active,
+.wm-slide-down-leave-active,
+.wm-slide-left-enter-active,
+.wm-slide-left-leave-active,
+.wm-slide-right-enter-active,
+.wm-slide-right-leave-active {
+  transition-property: transform;
+}
+
+.wm-slide-up-enter,
+.wm-slide-up-leave-to {
+  transform: translate3d(0, 100%, 0);
+}
+
+.wm-slide-down-enter,
+.wm-slide-down-leave-to {
+  transform: translate3d(0, -100%, 0);
+}
+
+.wm-slide-left-enter,
+.wm-slide-left-leave-to {
+  transform: translate3d(-100%, 0, 0);
+}
+
+.wm-slide-right-enter,
+.wm-slide-right-leave-to {
+  transform: translate3d(100%, 0, 0);
+}

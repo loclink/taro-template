@@ -1,0 +1,30 @@
+{
+  "name": "wm-taro-template-docs",
+  "version": "0.0.1",
+  "description": "A static site based on dumi",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "dumi dev",
+    "build": "dumi build",
+    "prepare": "dumi setup"
+  },
+  "authors": [],
+  "license": "MIT",
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "lint-staged": {
+    "*.{md,json}": [
+      "prettier --write --no-error-on-unmatched-pattern"
+    ]
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.8.0",
+    "@commitlint/config-conventional": "^17.8.0",
+    "dumi": "^2.2.13",
+    "lint-staged": "^15.0.1",
+    "prettier": "^3.0.3"
+  }
+}

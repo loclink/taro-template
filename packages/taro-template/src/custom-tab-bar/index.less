@@ -1,0 +1,19 @@
+@import '@/app.less';
+.customTabbar {
+  .wm-tabbar {
+    height: var(--tabbar-height, 100rpx) !important;
+  }
+  .wm-hairline--top-bottom::after {
+    border: none !important;
+  }
+  .wm-tabbar-item__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .wm-icon__image {
+    width: 48rpx;
+    height: 48rpx;
+  }
+}

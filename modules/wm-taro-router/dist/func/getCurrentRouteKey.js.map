@@ -1,0 +1,1 @@
+{"version":3,"file":"getCurrentRouteKey.js","sourceRoot":"","sources":["../../src/func/getCurrentRouteKey.ts"],"names":[],"mappings":";;;;;;AAAA,sDAA+B;AAC/B,0CAAwC;AAExC,SAAgB,kBAAkB;IAChC,IAAI,CAAC,cAAI,CAAC,OAAO,CAAC,IAAI,EAAE;QACtB,OAAO,EAAE,CAAA;KACV;IACD,OAAO,cAAI,CAAC,OAAO,CAAC,IAAI,CAAC,qBAAS,CAAC,CAAA;AACrC,CAAC;AALD,gDAKC"}
