@@ -61,6 +61,7 @@
     "jotai": "^2.4.3",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
+    "wm-kit": "^0.0.3",
     "wm-taro-design": "workspace:*",
     "wm-taro-router": "workspace:*",
     "wm-taro-template-docs": "workspace:*"

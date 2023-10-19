@@ -7,7 +7,6 @@ import './index.less';
 
 export function Col(props: ColProps): JSX.Element {
   const { span, offset, gutter = 14, children, className, style, ...others } = props;
-
   return (
     <View
       className={classNames(utils.bem('col', [span]), offset ? 'van-col--offset-' + offset : '', className)}

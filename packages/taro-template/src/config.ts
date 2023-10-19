@@ -1,8 +1,8 @@
-import home from '@/assets/images/home.png';
-import home_active from '@/assets/images/home_active.png';
-import profile from '../src/assets/images/profile.png';
-import profile_active from '@/assets/images/profile_active.png';
 import Router from 'wm-taro-router';
+import home from '@/assets/images/tabbar/home.png';
+import home_active from '@/assets/images/tabbar/home_active.png';
+import profile from '../src/assets/images/tabbar/profile.png';
+import profile_active from '@/assets/images/tabbar/profile_active.png';
 
 export default {
   homePage: '/pages/tabbar/home/index',
