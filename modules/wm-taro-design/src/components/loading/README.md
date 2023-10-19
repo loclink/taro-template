@@ -112,7 +112,7 @@ function Demo() {
 
 [object Promise]
 
-### LoadingProps [[详情]](https://github.com/AntmJS/vantui/tree/main/packages/vantui/types/loading.d.ts)
+### LoadingProps [[详情]](https://codeup.aliyun.com/5f855dfb1858a17210466fd0/wuhang-meimeng-development/wm-taro-template/tree/master/modules/wm-taro-design/types/loading.d.ts)
 
 | 参数     | 说明 | 类型                                                                                                                              | 默认值 | 必填    |
 | -------- | ---- | --------------------------------------------------------------------------------------------------------------------------------- | ------ | ------- |

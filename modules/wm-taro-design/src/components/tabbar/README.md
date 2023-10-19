@@ -40,7 +40,7 @@ import { Tabbar, TabbarItem } from 'wm-taro-design'
 
 请参考 [微信官方文档](https://developers.weixin.qq.com/miniprogram/dev/framework/ability/customTabbar.html) 与 [代码片段](https://developers.weixin.qq.com/s/vaXgTsmQ7hnm)。
 
-### TabbarProps [[详情]](https://github.com/AntmJS/vantui/tree/main/packages/vantui/types/tabbar.d.ts)
+### TabbarProps [[详情]](https://codeup.aliyun.com/5f855dfb1858a17210466fd0/wuhang-meimeng-development/wm-taro-template/tree/master/modules/wm-taro-design/types/tabbar.d.ts)
 
 | 参数                | 说明                                                                                                                      | 类型                                                                                                                                                                                                                                 | 默认值 | 必填    |
 | ------------------- | ------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------ | ------- |
@@ -56,7 +56,7 @@ import { Tabbar, TabbarItem } from 'wm-taro-design'
 | onChange            | -                                                                                                                         | _&nbsp;&nbsp;(event:&nbsp;{<br/>&nbsp;&nbsp;&nbsp;&nbsp;detail:<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&brvbar;&nbsp;string<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&brvbar;&nbsp;number<br/>&nbsp;&nbsp;})&nbsp;=>&nbsp;void<br/>_ | -      | `false` |
 | rectWrapper         | 微信端使用时, 所在元素层级太深，需要设置元素层级不是很深的父元素的 className(‘.xx’)或 id(#xx), 支持当前组件获取 rect 信息 | _&nbsp;&nbsp;string<br/>_                                                                                                                                                                                                            | -      | `false` |
 
-### TabbarItemProps [[详情]](https://github.com/AntmJS/vantui/tree/main/packages/vantui/types/tabbar.d.ts)
+### TabbarItemProps [[详情]](https://codeup.aliyun.com/5f855dfb1858a17210466fd0/wuhang-meimeng-development/wm-taro-template/tree/master/modules/wm-taro-design/types/tabbar.d.ts)
 
 | 参数             | 说明 | 类型                                                                                                                             | 默认值 | 必填    |
 | ---------------- | ---- | -------------------------------------------------------------------------------------------------------------------------------- | ------ | ------- |

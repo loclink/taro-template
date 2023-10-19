@@ -77,7 +77,7 @@ import { Dialog } from 'wm-taro-design'
 
 [object Promise]
 
-### DialogProps [[详情]](https://github.com/AntmJS/vantui/tree/main/packages/vantui/types/dialog.d.ts)
+### DialogProps [[详情]](https://codeup.aliyun.com/5f855dfb1858a17210466fd0/wuhang-meimeng-development/wm-taro-template/tree/master/modules/wm-taro-design/types/dialog.d.ts)
 
 | 参数                  | 说明 | 类型                                                                                                                                                                                                                                                                                                                                                                               | 默认值 | 必填    |
 | --------------------- | ---- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ | ------- |
@@ -109,7 +109,7 @@ import { Dialog } from 'wm-taro-design'
 | confirmButtonOpenType | -    | _&nbsp;&nbsp;TaroButtonProps.OpenType<br/>_                                                                                                                                                                                                                                                                                                                                        | -      | `false` |
 | renderTitle           | -    | _&nbsp;&nbsp;ReactNode<br/>_                                                                                                                                                                                                                                                                                                                                                       | -      | `false` |
 
-### dialogProps [[详情]](https://github.com/AntmJS/vantui/tree/main/packages/vantui/types/dialog.d.ts)
+### dialogProps [[详情]](https://codeup.aliyun.com/5f855dfb1858a17210466fd0/wuhang-meimeng-development/wm-taro-template/tree/master/modules/wm-taro-design/types/dialog.d.ts)
 
 | 参数                | 说明                                                    | 类型                                                                                                                                                                                                   | 默认值 | 必填   |
 | ------------------- | ------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------ | ------ |

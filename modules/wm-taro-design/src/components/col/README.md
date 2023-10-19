@@ -78,7 +78,7 @@ Layout 组件提供了`24列栅格`，通过在`Col`上添加`span`属性设置�
 
 [object Promise]
 
-### ColProps [[详情]](https://github.com/AntmJS/vantui/tree/main/packages/vantui/types/col.d.ts)
+### ColProps [[详情]](https://codeup.aliyun.com/5f855dfb1858a17210466fd0/wuhang-meimeng-development/wm-taro-template/tree/master/modules/wm-taro-design/types/col.d.ts)
 
 | 参数     | 说明                                         | 类型                                                | 默认值 | 必填    |
 | -------- | -------------------------------------------- | --------------------------------------------------- | ------ | ------- |
@@ -87,7 +87,7 @@ Layout 组件提供了`24列栅格`，通过在`Col`上添加`span`属性设置�
 | gutter   | 列元素之间的间距（单位为 px）, 从 Row 上获取 | _&nbsp;&nbsp;number&nbsp;&brvbar;&nbsp;string<br/>_ | -      | `false` |
 | children | -                                            | _&nbsp;&nbsp;React.ReactNode<br/>_                  | -      | `true`  |
 
-### Row Props [[详情]](https://github.com/AntmJS/vantui/tree/main/packages/vantui/types/col.d.ts)
+### Row Props [[详情]](https://codeup.aliyun.com/5f855dfb1858a17210466fd0/wuhang-meimeng-development/wm-taro-template/tree/master/modules/wm-taro-design/types/col.d.ts)
 
 | 参数     | 说明                                                                        | 类型                                                                                                                                                                                                                                                       | 默认值 | 必填    |
 | -------- | --------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ | ------- |

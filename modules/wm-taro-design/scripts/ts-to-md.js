@@ -10,7 +10,7 @@ const formatMd = require('./utils/md-format')
 const ora = require('ora')
 const crossPlatformPath = require('./utils/cross-platform-path.js')
 
-const GITHUB_TYPESHS = `https://github.com/AntmJS/vantui/tree/main/packages/vantui/types`
+const GITHUB_TYPESHS = `https://codeup.aliyun.com/5f855dfb1858a17210466fd0/wuhang-meimeng-development/wm-taro-template/tree/master/modules/wm-taro-design/types`
 const READMES_PATH = crossPlatformPath(
   `${path.resolve(process.cwd(), './src/**/README.md')}`,
 )

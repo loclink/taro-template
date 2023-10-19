@@ -163,7 +163,7 @@ Toast.show({
 })
 ```
 
-### ToastProps [[详情]](https://github.com/AntmJS/vantui/tree/main/packages/vantui/types/toast.d.ts)
+### ToastProps [[详情]](https://codeup.aliyun.com/5f855dfb1858a17210466fd0/wuhang-meimeng-development/wm-taro-template/tree/master/modules/wm-taro-design/types/toast.d.ts)
 
 | 参数         | 说明                                    | 类型                                                                                                                                                                                                                                                                                | 默认值    | 必填    |
 | ------------ | --------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------- | ------- |
@@ -181,7 +181,7 @@ Toast.show({
 | children     | -                                       | _&nbsp;&nbsp;ReactNode<br/>_                                                                                                                                                                                                                                                        | -         | `false` |
 | onClose      | 关闭时的回调函数                        | _&nbsp;&nbsp;()&nbsp;=>&nbsp;any<br/>_                                                                                                                                                                                                                                              | -         | `false` |
 
-### Toast 下命令式调用方法 [[详情]](https://github.com/AntmJS/vantui/tree/main/packages/vantui/types/toast.d.ts)
+### Toast 下命令式调用方法 [[详情]](https://codeup.aliyun.com/5f855dfb1858a17210466fd0/wuhang-meimeng-development/wm-taro-template/tree/master/modules/wm-taro-design/types/toast.d.ts)
 
 调用方式传入 ToastProps 或者 ToastProps.message 执行
 | 参数 | 说明 | 类型 | 默认值 | 必填 |
