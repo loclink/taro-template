@@ -43,6 +43,40 @@ import { Dialog } from 'wm-taro-design'
 
 ::: $demo3 :::
 
+[object Promise]
+
+[object Promise]
+
+[object Promise]
+
+[object Promise]
+
+[object Promise]
+
+[object Promise]
+
+[object Promise]
+
+[object Promise]
+
+[object Promise]
+
+[object Promise]
+
+[object Promise]
+
+[object Promise]
+
+[object Promise]
+
+[object Promise]
+
+[object Promise]
+
+[object Promise]
+
+[object Promise]
+
 ### DialogProps [[详情]](https://github.com/AntmJS/vantui/tree/main/packages/vantui/types/dialog.d.ts)
 
 | 参数                  | 说明 | 类型                                                                                                                                                                                                                                                                                                                                                                               | 默认值 | 必填    |
@@ -89,7 +123,7 @@ import { Dialog } from 'wm-taro-design'
 
 ### 样式变量
 
-组件提供了下列 CSS 变量，可用于自定义样式，使用方法请参考[ConfigProvider 组件](https://antmjs.github.io/vantui/#/config-provider)
+组件提供了下列 CSS 变量，可用于自定义样式
 
 | 名称                                   | 默认值                |
 | -------------------------------------- | --------------------- |

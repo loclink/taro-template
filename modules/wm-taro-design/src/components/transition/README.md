@@ -36,3 +36,55 @@ import { Transition } from 'wm-taro-design'
 }
 ```
 
+[object Promise]
+
+[object Promise]
+
+[object Promise]
+
+[object Promise]
+
+[object Promise]
+
+[object Promise]
+
+[object Promise]
+
+[object Promise]
+
+[object Promise]
+
+[object Promise]
+
+[object Promise]
+
+[object Promise]
+
+[object Promise]
+
+[object Promise]
+
+[object Promise]
+
+[object Promise]
+
+[object Promise]
+
+[object Promise]
+
+[object Promise]
+
+[object Promise]
+
+[object Promise]
+
+[object Promise]
+
+[object Promise]
+
+[object Promise]
+
+[object Promise]
+
+[object Promise]
+

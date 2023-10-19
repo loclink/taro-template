@@ -9,7 +9,7 @@
 在 Taro 文件中引入组件
 
 ```js
-import { Tabbar, TabbarItem } from 'wm-taro-design';
+import { Tabbar, TabbarItem } from 'wm-taro-design'
 ```
 
 ## 代码演示
@@ -72,7 +72,7 @@ import { Tabbar, TabbarItem } from 'wm-taro-design';
 
 ### 样式变量
 
-组件提供了下列 CSS 变量，可用于自定义样式，使用方法请参考[ConfigProvider 组件](https://antmjs.github.io/vantui/#/config-provider)
+组件提供了下列 CSS 变量，可用于自定义样式
 
 | 名称                      | 默认值     |
 | ------------------------- | ---------- |

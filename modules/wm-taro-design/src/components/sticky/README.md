@@ -67,6 +67,58 @@ function Demo() {
 }
 ```
 
+[object Promise]
+
+[object Promise]
+
+[object Promise]
+
+[object Promise]
+
+[object Promise]
+
+[object Promise]
+
+[object Promise]
+
+[object Promise]
+
+[object Promise]
+
+[object Promise]
+
+[object Promise]
+
+[object Promise]
+
+[object Promise]
+
+[object Promise]
+
+[object Promise]
+
+[object Promise]
+
+[object Promise]
+
+[object Promise]
+
+[object Promise]
+
+[object Promise]
+
+[object Promise]
+
+[object Promise]
+
+[object Promise]
+
+[object Promise]
+
+[object Promise]
+
+[object Promise]
+
 ### StickyProps [[详情]](https://github.com/AntmJS/vantui/tree/main/packages/vantui/types/sticky.d.ts)
 
 | 参数        | 说明                                                                                                                      | 类型                                                                                                                                                                                                                                                                         | 默认值 | 必填    |

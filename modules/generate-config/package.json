@@ -31,8 +31,6 @@
     "@tarojs/service": "^3.6.16"
   },
   "devDependencies": {
-    "@babel/parser": "^7.23.0",
-    "@babel/traverse": "^7.23.2",
     "@types/node": "^18.13.0",
     "esm": "^3.2.25",
     "fs-extra": "^11.1.1",

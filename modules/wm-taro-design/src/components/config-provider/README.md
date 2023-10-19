@@ -52,6 +52,14 @@ page {
 
 ::: $demo1 :::
 
+[object Promise]
+
+[object Promise]
+
+[object Promise]
+
+[object Promise]
+
 ### ConfigProviderProps [[详情]](https://github.com/AntmJS/vantui/tree/main/packages/vantui/types/config-provider.d.ts)
 
 | 参数      | 说明                           | 类型                          | 默认值 | 必填    |
@@ -130,19 +138,19 @@ page {
 
 ### 公共样式变量 Font
 
-| 名称                        | 默认值                                                                                      |
-| --------------------------- | ------------------------------------------------------------------------------------------- |
-| --font-size-xs              | ` 20px;`                                                                                    |
-| --font-size-sm              | ` 24px;`                                                                                    |
-| --font-size-md              | ` 28px;`                                                                                    |
-| --font-size-lg              | ` 32px;`                                                                                    |
-| --font-weight-bold          | ` 500;`                                                                                     |
-| --line-height-xs            | ` 28px;`                                                                                    |
-| --line-height-sm            | ` 36px;`                                                                                    |
-| --line-height-md            | ` 40px;`                                                                                    |
-| --line-height-lg            | ` 44px;`                                                                                    |
-| --base-font-family          | ` -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Segoe UI, Arial, Roboto,` |
-| --price-integer-font-family | ` Avenir-Heavy, PingFang SC, Helvetica Neue, Arial, sans-serif;`                            |
+| 名称                        | 默认值   |
+| --------------------------- | -------- |
+| --font-size-xs              | ` 20px;` |
+| --font-size-sm              | ` 24px;` |
+| --font-size-md              | ` 28px;` |
+| --font-size-lg              | ` 32px;` |
+| --font-weight-bold          | ` 500;`  |
+| --line-height-xs            | ` 28px;` |
+| --line-height-sm            | ` 36px;` |
+| --line-height-md            | ` 40px;` |
+| --line-height-lg            | ` 44px;` |
+| --base-font-family          | ``       |
+| --price-integer-font-family | ``       |
 
 ### 公共样式变量 Animation
 

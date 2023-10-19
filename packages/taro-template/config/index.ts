@@ -28,7 +28,8 @@ export default defineConfig(async (merge) => {
     compiler: {
       type: 'webpack5',
       prebundle: {
-        exclude: ['wm-taro-design']
+        // exclude: ['wm-taro-design']
+        enable: false
       }
     },
     cache: {

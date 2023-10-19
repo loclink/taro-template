@@ -20,7 +20,7 @@ export default {
     simulator: {
       url: {
         development: 'http://localhost:10086/',
-        production: '/vantui/main/mobile.html'
+        production: 'http://wm-taro-design-demo.develop.meimob.com/'
       },
       transform: (url) => {
         return `#/pages/${url}/index`;
@@ -94,14 +94,6 @@ function getMenus() {
         {
           path: 'custom-style',
           title: '样式覆盖'
-        },
-        {
-          path: 'theme',
-          title: '定制主题'
-        },
-        {
-          path: 'premium',
-          title: '高级模版功能说明'
         }
       ]
     },

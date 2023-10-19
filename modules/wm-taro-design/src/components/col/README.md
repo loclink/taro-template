@@ -26,6 +26,58 @@ Layout 组件提供了`24列栅格`，通过在`Col`上添加`span`属性设置�
 
 ::: $demo2 :::
 
+[object Promise]
+
+[object Promise]
+
+[object Promise]
+
+[object Promise]
+
+[object Promise]
+
+[object Promise]
+
+[object Promise]
+
+[object Promise]
+
+[object Promise]
+
+[object Promise]
+
+[object Promise]
+
+[object Promise]
+
+[object Promise]
+
+[object Promise]
+
+[object Promise]
+
+[object Promise]
+
+[object Promise]
+
+[object Promise]
+
+[object Promise]
+
+[object Promise]
+
+[object Promise]
+
+[object Promise]
+
+[object Promise]
+
+[object Promise]
+
+[object Promise]
+
+[object Promise]
+
 ### ColProps [[详情]](https://github.com/AntmJS/vantui/tree/main/packages/vantui/types/col.d.ts)
 
 | 参数     | 说明                                         | 类型                                                | 默认值 | 必填    |
