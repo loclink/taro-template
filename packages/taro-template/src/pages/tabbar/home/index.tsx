@@ -3,6 +3,7 @@ import { View } from '@tarojs/components';
 import { Button, PageContainer } from 'wm-taro-design';
 import styles from './index.module.less';
 import Router, { NavigateType } from 'wm-taro-router';
+import RichText from '@/components/rich-text';
 
 const Component: React.FC = () => {
   const handleJump = () => {
@@ -15,6 +16,11 @@ const Component: React.FC = () => {
         <Button type='primary' onClick={handleJump}>
           跳转
         </Button>
+        <RichText
+          html='<div>
+          <div>富文本组件</div>
+          <img src="https://loclink.cn/logo.jpg"/> </div>'
+        />
       </View>
     </PageContainer>
   );
@@ -28,5 +34,9 @@ export default Home;
  * 参考: https://docs.taro.zone/docs/page-config#配置项列表
  */
 definePageConfig({
-  disableScroll: true
+  disableScroll: true,
+  // 使用富文本组件需要在这里注册原生组件
+  usingComponents: {
+    wxparse: '../../../components/rich-text/wxparse/index'
+  }
 });
