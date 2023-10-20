@@ -103,6 +103,7 @@ class Plugin {
         };
         for (const pkg of this.config.packages) {
             const onChange = (value) => {
+                value = path.normalize(value).replace(/\\/g, "/");
                 if (value.endsWith("route.config.ts")) {
                     value = value.replace("/route.config.ts", "");
                 }

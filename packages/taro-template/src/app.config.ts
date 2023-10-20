@@ -17,13 +17,6 @@ export default defineAppConfig({
       }
     ]
   },
-  window: {
-    navigationStyle: "custom",
-    backgroundTextStyle: "light",
-    navigationBarBackgroundColor: "#fff",
-    navigationBarTitleText: "WeChat",
-    navigationBarTextStyle: "black"
-  },
   subPackages: [
     {
       root: "pages-sub/profile",
@@ -31,5 +24,12 @@ export default defineAppConfig({
         "user-info/index"
       ]
     }
-  ]
+  ],
+  window: {
+    navigationStyle: "custom",
+    backgroundTextStyle: "light",
+    navigationBarBackgroundColor: "#fff",
+    navigationBarTitleText: "WeChat",
+    navigationBarTextStyle: "black"
+  }
 });
