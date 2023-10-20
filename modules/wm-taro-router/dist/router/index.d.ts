@@ -42,15 +42,15 @@ export declare class Router {
         toUser_Info: RequiredKeys<NavigateOptions & Params<import('/Users/loclink/Project/wm-taro-template/packages/taro-template/src/pages-sub/profile/user-info/route.config').Params> & Data<import('/Users/loclink/Project/wm-taro-template/packages/taro-template/src/pages-sub/profile/user-info/route.config').Data>> extends never ? <T = any>(options?: NavigateOptions & Params<import('/Users/loclink/Project/wm-taro-template/packages/taro-template/src/pages-sub/profile/user-info/route.config').Params> & Data<import('/Users/loclink/Project/wm-taro-template/packages/taro-template/src/pages-sub/profile/user-info/route.config').Data>) => Promise<T> : <T = any>(options: NavigateOptions & Params<import('/Users/loclink/Project/wm-taro-template/packages/taro-template/src/pages-sub/profile/user-info/route.config').Params> & Data<import('/Users/loclink/Project/wm-taro-template/packages/taro-template/src/pages-sub/profile/user-info/route.config').Data>) => Promise<T>;
     };
 }
-type RequiredKeys<T> = {
+declare type RequiredKeys<T> = {
     [K in keyof T]-?: {} extends Pick<T, K> ? never : K;
 }[keyof T];
-type Data<Q> = RequiredKeys<Q> extends never ? {
+declare type Data<Q> = RequiredKeys<Q> extends never ? {
     data?: Q;
 } : {
     data: Q;
 };
-type Params<P> = RequiredKeys<P> extends never ? {
+declare type Params<P> = RequiredKeys<P> extends never ? {
     params?: P;
 } : {
     params: P;
