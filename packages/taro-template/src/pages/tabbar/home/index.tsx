@@ -2,12 +2,12 @@ import React, { memo } from 'react';
 import { View } from '@tarojs/components';
 import { Button, PageContainer } from 'wm-taro-design';
 import styles from './index.module.less';
-import Router, { NavigateType } from 'wm-taro-router';
+import Router from 'wm-taro-router';
 import RichText from '@/components/rich-text';
 
 const Component: React.FC = () => {
   const handleJump = () => {
-    Router.tabbar.toProfile({ type: NavigateType.switchTab });
+    Router.profile.toUser_Info();
   };
 
   return (

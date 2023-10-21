@@ -7,6 +7,7 @@
     "clean": "pnpm -r exec rimraf node_modules && pnpm dlx rimraf node_modules",
     "prepare": "rimraf node_modules/@vue/runtime-dom/dist/runtime-dom.d.ts",
     "dev:uidocs": "concurrently  \"pnpm -F=wm-taro-design run dev:docs\" \"pnpm -F=wm-taro-design run dev:h5\"",
+    "build:uidocs": "pnpm -F=wm-taro-design run build:docs",
     "dev:docs": "pnpm -F=wm-taro-template-docs run dev",
     "dev": "pnpm -F=taro-template run dev:weapp",
     "build": "pnpm -F=taro-template run build:weapp",

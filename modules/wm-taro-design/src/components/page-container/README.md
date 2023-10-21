@@ -18,8 +18,9 @@ import { PageContainer } from 'wm-taro-design';
 
 ### PageContainerProps [[详情]](https://codeup.aliyun.com/5f855dfb1858a17210466fd0/wuhang-meimeng-development/wm-taro-template/tree/master/modules/wm-taro-design/types/page-container.d.ts)
 
-| 参数        | 说明             | 类型                                                                                                                                                                            | 默认值 | 必填    |
-| ----------- | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ | ------- |
-| title       | 页面 navbar 标题 | _&nbsp;&nbsp;string<br/>_                                                                                                                                                       | -      | `false` |
-| isScroll    | 是否启用纵向滚动 | _&nbsp;&nbsp;boolean<br/>_                                                                                                                                                      | true   | `false` |
-| navBarProps | Navbar 组件参数  | _&nbsp;&nbsp;NavBarProps&nbsp;&&nbsp;{<br/>&nbsp;&nbsp;&nbsp;&nbsp;backIconColor?:&nbsp;string<br/>&nbsp;&nbsp;&nbsp;&nbsp;isTransparent?:&nbsp;boolean<br/>&nbsp;&nbsp;}<br/>_ | -      | `false` |
+| 参数        | 说明                 | 类型                                                                                                                                                                            | 默认值 | 必填    |
+| ----------- | -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ | ------- |
+| title       | 页面 navbar 标题     | _&nbsp;&nbsp;string<br/>_                                                                                                                                                       | -      | `false` |
+| isScroll    | 是否启用纵向滚动     | _&nbsp;&nbsp;boolean<br/>_                                                                                                                                                      | true   | `false` |
+| isSafeArea  | 是否开启底部安全距离 | _&nbsp;&nbsp;boolean<br/>_                                                                                                                                                      | true   | `false` |
+| navBarProps | Navbar 组件参数      | _&nbsp;&nbsp;NavBarProps&nbsp;&&nbsp;{<br/>&nbsp;&nbsp;&nbsp;&nbsp;backIconColor?:&nbsp;string<br/>&nbsp;&nbsp;&nbsp;&nbsp;isTransparent?:&nbsp;boolean<br/>&nbsp;&nbsp;}<br/>_ | -      | `false` |

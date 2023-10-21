@@ -1,17 +1,19 @@
-import React, { memo } from "react";
-import { View } from "@tarojs/components";
-import { PageContainer } from "wm-taro-design";
-import styles from "./index.module.less";
+import React, { memo } from 'react';
+import { View } from '@tarojs/components';
+import { PageContainer } from 'wm-taro-design';
+import styles from './index.module.less';
 
 const Component: React.FC = () => {
   return (
     <PageContainer title='UserInfo'>
-      <View className={styles.userInfoWrapper}>UserInfo</View>
+      <View className={styles.userInfoWrapper}>
+        <View>UserInfo</View>
+      </View>
     </PageContainer>
   );
 };
 
-const UserInfo = memo(Component)
+const UserInfo = memo(Component);
 export default UserInfo;
 
 /**

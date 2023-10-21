@@ -15,6 +15,12 @@ export interface PageContainerProps extends ViewProps {
   isScroll?: boolean;
 
   /**
+   * @description 是否开启底部安全距离
+   * @default true
+   */
+  isSafeArea?: boolean;
+
+  /**
    * @description Navbar组件参数
    */
   navBarProps?: NavBarProps & {
