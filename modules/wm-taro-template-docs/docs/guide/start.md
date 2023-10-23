@@ -46,3 +46,65 @@ pnpm build
 :::
 
 ### 3.创建页面
+
+- 创建主包页面 (该命令将会在 `src/pages` 文件夹下创建一个页面) ：
+
+```bash
+# 项目根目录下执行命令，生成 src/pages/auth 页面
+pnpm gp auth
+
+```
+
+:::info{title=注意}
+主包页面除 tabbar 之外均为一级文件夹结构
+:::
+
+- 创建tabbar页面
+
+```bash
+# 项目根目录下执行命令，生成 src/pages/tabbar/home 页面
+pnpm gp tabbar/home
+```
+
+:::info{title=注意}
+tabbar 页面只允许为二级文件夹结构
+:::
+
+- 创建分包页面
+
+```bash
+# 项目根目录下执行命令，生成 src/pages-sub/profile/user-info 页面
+pnpm gs profile/user-info
+```
+
+:::info{title=注意}
+分包页面只允许为二级文件夹结构
+:::
+
+### 4. 根据 swagger json 生成api代码文件
+
+请在项目根目录下的swaggerApi.config.js中配置swagger json的地址，并执行命令：
+
+- 配置：
+
+```js
+
+module.exports = {
+  templatesType: 'taro',
+  apifoxOption: {
+    projects: [
+      {
+        name: '',
+        // url 来自于 ApiFox
+        url: 'http://127.0.0.1:4523/export/openapi?projectId=3127145&version=3.0',
+      },
+    ],
+  },
+};
+```
+
+- 接着执行：
+
+```bash
+pnpm api
+```

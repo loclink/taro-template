@@ -9,6 +9,7 @@
     "dev:uidocs": "concurrently  \"pnpm -F=wm-taro-design run dev:docs\" \"pnpm -F=wm-taro-design run dev:h5\"",
     "build:uidocs": "pnpm -F=wm-taro-design run build:docs",
     "dev:docs": "pnpm -F=wm-taro-template-docs run dev",
+    "build:docs": "pnpm -F=wm-taro-template-docs run build",
     "dev": "pnpm -F=taro-template run dev:weapp",
     "build": "pnpm -F=taro-template run build:weapp",
     "router": "pnpm -F=taro-template run router",
