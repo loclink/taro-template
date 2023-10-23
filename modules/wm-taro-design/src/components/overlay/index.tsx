@@ -3,6 +3,8 @@ import { RootPortal } from '@tarojs/components';
 import * as utils from '../wxs/utils';
 import Transition from './../transition';
 import { OverlayProps } from 'types/overlay';
+import { PREFIX } from '../wxs/bem';
+import './index.less';
 
 function OverlayInner(props: OverlayProps & { setOuterShow?: any }) {
   const {
@@ -23,7 +25,7 @@ function OverlayInner(props: OverlayProps & { setOuterShow?: any }) {
   return lockScroll ? (
     <Transition
       show={show}
-      className={'wm-overlay' + `  ${className}`}
+      className={`${PREFIX}-overlay` + `  ${className}`}
       style={utils.style([{ 'z-index': zIndex }, style])}
       duration={duration}
       onTouchMove={_noop}
@@ -39,7 +41,7 @@ function OverlayInner(props: OverlayProps & { setOuterShow?: any }) {
   ) : (
     <Transition
       show={show}
-      className={'wm-overlay' + `  ${className || ''}`}
+      className={`${PREFIX}-overlay` + `  ${className || ''}`}
       style={utils.style([{ 'z-index': zIndex }, style])}
       duration={duration}
       onAfterLeave={() => setOuterShow(false)}
@@ -55,9 +57,7 @@ export function Overlay(props: OverlayProps) {
   const [innerShow, setInnerShow] = useState(false);
 
   useEffect(() => {
-    if (show) {
-      setInnerShow(true);
-    }
+    if (show) setInnerShow(true);
   }, [show]);
 
   return (

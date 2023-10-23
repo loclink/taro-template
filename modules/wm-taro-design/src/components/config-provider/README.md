@@ -67,6 +67,12 @@ page {
 | themeVars | 自定义主题变量, 具体请查看详情 | _&nbsp;&nbsp;IThemeVars<br/>_ | -      | `false` |
 | children  | -                              | _&nbsp;&nbsp;ReactNode<br/>_  | -      | `true`  |
 
+### 公共样式变量 定义前缀
+
+| 名称           | 默认值 |
+| -------------- | ------ |
+| ----css-prefix | ` wm;` |
+
 ### 公共样式变量 Color Palette
 
 | 名称            | 默认值      |
@@ -138,19 +144,19 @@ page {
 
 ### 公共样式变量 Font
 
-| 名称                        | 默认值   |
-| --------------------------- | -------- |
-| --font-size-xs              | ` 20px;` |
-| --font-size-sm              | ` 24px;` |
-| --font-size-md              | ` 28px;` |
-| --font-size-lg              | ` 32px;` |
-| --font-weight-bold          | ` 500;`  |
-| --line-height-xs            | ` 28px;` |
-| --line-height-sm            | ` 36px;` |
-| --line-height-md            | ` 40px;` |
-| --line-height-lg            | ` 44px;` |
-| --base-font-family          | ``       |
-| --price-integer-font-family | ``       |
+| 名称                        | 默认值                                                                                      |
+| --------------------------- | ------------------------------------------------------------------------------------------- |
+| --font-size-xs              | ` 20px;`                                                                                    |
+| --font-size-sm              | ` 24px;`                                                                                    |
+| --font-size-md              | ` 28px;`                                                                                    |
+| --font-size-lg              | ` 32px;`                                                                                    |
+| --font-weight-bold          | ` 500;`                                                                                     |
+| --line-height-xs            | ` 28px;`                                                                                    |
+| --line-height-sm            | ` 36px;`                                                                                    |
+| --line-height-md            | ` 40px;`                                                                                    |
+| --line-height-lg            | ` 44px;`                                                                                    |
+| --base-font-family          | ` -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Segoe UI, Arial, Roboto,` |
+| --price-integer-font-family | ` Avenir-Heavy, PingFang SC, Helvetica Neue, Arial, sans-serif;`                            |
 
 ### 公共样式变量 Animation
 

@@ -1,5 +1,5 @@
 @import 'wm-taro-design/src/style/var.less';
-.wm-native-button {
+.@{--css-prefix}-native-button {
   position: absolute;
   padding: 0;
   left: 0;
@@ -17,7 +17,7 @@
   }
 }
 
-.wm-button {
+.@{--css-prefix}-button {
   position: relative;
   flex-direction: row;
   align-items: center;
@@ -43,7 +43,7 @@
     .theme(min-width, '@button-mini-min-width');
     .theme(border-radius, '@button-mini-border-radius');
 
-    & + .wm-button--mini {
+    & + .@{--css-prefix}-button--mini {
       margin-left: 10px;
     }
   }
@@ -100,19 +100,19 @@
 
     overflow: hidden;
 
-    &.wm-button--primary {
+    &.@{--css-prefix}-button--primary {
       .theme(color, '@button-primary-background-color');
     }
 
-    &.wm-button--info {
+    &.@{--css-prefix}-button--info {
       .theme(color, '@button-info-background-color');
     }
 
-    &.wm-button--danger {
+    &.@{--css-prefix}-button--danger {
       .theme(color, '@button-danger-background-color');
     }
 
-    &.wm-button--warning {
+    &.@{--css-prefix}-button--warning {
       .theme(color, '@button-warning-background-color');
     }
   }
@@ -150,19 +150,19 @@
   }
 
   &--hairline {
-    &.wm-button--primary {
+    &.@{--css-prefix}-button--primary {
       .theme(border, '@button-border-width solid @button-primary-background-color');
     }
 
-    &.wm-button--info {
+    &.@{--css-prefix}-button--info {
       .theme(border, '@button-border-width solid @button-info-background-color');
     }
 
-    &.wm-button--danger {
+    &.@{--css-prefix}-button--danger {
       .theme(border, '@button-border-width solid @button-danger-background-color');
     }
 
-    &.wm-button--warning {
+    &.@{--css-prefix}-button--warning {
       .theme(border, '@button-border-width solid @button-warning-background-color');
     }
   }
@@ -180,6 +180,6 @@
   }
 }
 
-.wm-button + .wm-button {
+.@{--css-prefix}-button + .@{--css-prefix}-button {
   margin-top: 0;
 }

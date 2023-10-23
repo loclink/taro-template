@@ -3,6 +3,7 @@ import * as utils from '../wxs/utils';
 import * as computed from './wxs';
 import { useTransition } from '../mixins/transition';
 import { TransitionPropsCom } from 'types/transition';
+import { PREFIX } from '../wxs/bem';
 import './index.less';
 
 export function Transition(props: TransitionPropsCom) {
@@ -48,7 +49,7 @@ export function Transition(props: TransitionPropsCom) {
   return (
     <>
       <View
-        className={'wm-transition ' + classes + ` ${className || ''}`}
+        className={`${PREFIX}-transition ` + classes + ` ${className || ''}`}
         style={utils.style([
           computed.rootStyle({
             currentDuration,

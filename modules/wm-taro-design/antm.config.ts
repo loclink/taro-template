@@ -230,10 +230,10 @@ function getMenus() {
         //   path: 'notify',
         //   title: 'Notify 消息通知'
         // },
-        // {
-        //   path: 'overlay',
-        //   title: 'Overlay 遮罩层'
-        // },
+        {
+          path: 'overlay',
+          title: 'Overlay 遮罩层'
+        },
         // {
         //   path: 'share-sheet',
         //   title: 'ShareSheet 分享面板'

@@ -1,20 +1,20 @@
-/* eslint-disable */
-import react from 'react'
-import { View } from '@tarojs/components'
-import { Button, Overlay } from 'wm-taro-design'
+import react from 'react';
+import { View } from '@tarojs/components';
+import { Button, Overlay } from 'wm-taro-design';
 
 export default function Demo() {
-  const [show, setShow] = react.useState(false)
+  const [show, setShow] = react.useState(false);
+
   return (
     <View>
-      <Button type="primary" onClick={() => setShow(true)}>
+      <Button type='primary' onClick={() => setShow(true)}>
         嵌入内容
       </Button>
       <Overlay show={show} onClick={() => setShow(false)}>
-        <View className="wrapper">
-          <View className="block" />
+        <View className='wrapper'>
+          <View className='block' />
         </View>
       </Overlay>
     </View>
-  )
+  );
 }

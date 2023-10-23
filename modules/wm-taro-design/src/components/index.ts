@@ -17,3 +17,4 @@ export * from './row';
 export * from './cell';
 export * from './tag';
 export * from './cell-group';
+export * from './overlay';

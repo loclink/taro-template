@@ -9,6 +9,7 @@ import Toast from '../toast';
 import { ButtonProps } from 'types/button';
 import classNames from 'classnames';
 import './index.less';
+import { PREFIX } from '../wxs/bem';
 
 let index = 0;
 
@@ -41,7 +42,7 @@ export function Button(props: ButtonProps) {
   const [innerLoading, setInnerLoading] = useState<boolean | undefined>(false);
   const [compIndex] = useState<number>(++index);
 
-  const toastId = `wm-button-toast_${compIndex}`;
+  const toastId = `${PREFIX}-button-toast_${compIndex}`;
 
   useEffect(() => {
     setInnerLoading(loading);
@@ -94,7 +95,7 @@ export function Button(props: ButtonProps) {
             unclickable: disabled || innerLoading
           }
         ]),
-        { 'wm-hairline--surround': hairline },
+        { [PREFIX + '-hairline--surround']: hairline },
         className
       ])}
       style={utils.style([
@@ -107,7 +108,7 @@ export function Button(props: ButtonProps) {
     >
       <Toast id={toastId} />
       <TaroButton
-        className='wm-native-button'
+        className={`${PREFIX}-native-button`}
         disabled={disabled}
         onClick={disabled || innerLoading ? undefined : _click}
         {...others}
@@ -124,7 +125,7 @@ export function Button(props: ButtonProps) {
               plain
             })}
           ></Loading>
-          {loadingText && <View className='wm-button__loading-text'>{loadingText}</View>}
+          {loadingText && <View className={`${PREFIX}-button__loading-text`}>{loadingText}</View>}
         </View>
       ) : (
         <>
@@ -133,11 +134,11 @@ export function Button(props: ButtonProps) {
               size='1.2em'
               name={icon}
               classPrefix={classPrefix}
-              className='wm-button__icon'
+              className={`${PREFIX}-button__icon`}
               style='line-height: inherit;'
             ></Icon>
           )}
-          <View className='wm-button__text'>{children}</View>
+          <View className={`${PREFIX}-button__text`}>{children}</View>
         </>
       )}
     </View>

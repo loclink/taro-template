@@ -1,10 +1,10 @@
 import * as array from './array';
 import * as object from './object';
 
-const PREFIX = 'wm-';
+export const PREFIX = 'wm';
 
 function join(name: any, mods: any) {
-  name = PREFIX + name;
+  name = PREFIX + '-' + name;
   mods = mods.map(function (mod: any) {
     return name + '--' + mod;
   });

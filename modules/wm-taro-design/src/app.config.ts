@@ -11,7 +11,8 @@ export default defineAppConfig({
     'pages/tabbar/index',
     'pages/image/index',
     'pages/cell/index',
-    'pages/tag/index'
+    'pages/tag/index',
+    'pages/overlay/index'
   ],
   navigationStyle: 'custom',
   window: {

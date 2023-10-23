@@ -6,6 +6,7 @@ import { Icon } from '../icon';
 import * as computed from './wxs';
 import { CellProps } from 'types';
 import classNames from 'classnames';
+import { PREFIX } from '../wxs/bem';
 import './index.less';
 
 export function Cell(props: CellProps) {
@@ -57,19 +58,23 @@ export function Cell(props: CellProps) {
         ]),
         className
       )}
-      hoverClass='wm-cell--hover hover-class'
+      hoverClass={`${PREFIX}-cell--hover hover-class`}
       hoverStayTime={70}
       style={utils.style([style])}
       onClick={_click}
       {...others}
     >
-      {icon ? <Icon name={icon} className='wm-cell__left-icon-wrap wm-cell__left-icon'></Icon> : renderIcon}
+      {icon ? (
+        <Icon name={icon} className={`${PREFIX}-cell__left-icon-wrap ${PREFIX}-cell__left-icon`}></Icon>
+      ) : (
+        renderIcon
+      )}
       <View
         style={computed.titleStyle({
           titleWidth,
           titleStyle
         })}
-        className='wm-cell__title title-class'
+        className={`${PREFIX}-cell__title title-class`}
       >
         {title || title === 0 ? <>{title}</> : renderTitle}
         {(label || renderLabel) && (
