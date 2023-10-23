@@ -52,14 +52,6 @@ page {
 
 ::: $demo1 :::
 
-[object Promise]
-
-[object Promise]
-
-[object Promise]
-
-[object Promise]
-
 ### ConfigProviderProps [[详情]](https://codeup.aliyun.com/5f855dfb1858a17210466fd0/wuhang-meimeng-development/wm-taro-template/tree/master/modules/wm-taro-design/types/config-provider.d.ts)
 
 | 参数      | 说明                           | 类型                          | 默认值 | 必填    |
@@ -107,8 +99,8 @@ page {
 | --submit-bar-z-index       | ` 806;`   |
 | --overlay-z-index          | ` 10000;` |
 | --dropdown-z-index         | ` 1000;`  |
-| --popup-z-index            | ` 1010;`  |
-| --popup-close-icon-z-index | ` 1010;`  |
+| --popup-z-index            | ` 10000;` |
+| --popup-close-icon-z-index | ` 10000;` |
 | --notify-z-index           | ` 1500;`  |
 | --water-mark-z-index       | ` 2000;`  |
 

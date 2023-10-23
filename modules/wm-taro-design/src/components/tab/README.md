@@ -9,7 +9,7 @@
 在 Taro 文件中引入组件
 
 ```js
-import { Tab, Tabs } from 'wm-taro-design'
+import { Tab, Tabs } from '@antmjs/vantui'
 ```
 
 ## 代码演示
@@ -211,58 +211,6 @@ function Demo() {
   )
 }
 ```
-
-[object Promise]
-
-[object Promise]
-
-[object Promise]
-
-[object Promise]
-
-[object Promise]
-
-[object Promise]
-
-[object Promise]
-
-[object Promise]
-
-[object Promise]
-
-[object Promise]
-
-[object Promise]
-
-[object Promise]
-
-[object Promise]
-
-[object Promise]
-
-[object Promise]
-
-[object Promise]
-
-[object Promise]
-
-[object Promise]
-
-[object Promise]
-
-[object Promise]
-
-[object Promise]
-
-[object Promise]
-
-[object Promise]
-
-[object Promise]
-
-[object Promise]
-
-[object Promise]
 
 ### TabsProps [[详情]](https://codeup.aliyun.com/5f855dfb1858a17210466fd0/wuhang-meimeng-development/wm-taro-template/tree/master/modules/wm-taro-design/types/tab.d.ts)
 

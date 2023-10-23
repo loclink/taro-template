@@ -124,10 +124,10 @@ function getMenus() {
         //   path: 'col',
         //   title: 'Layout 布局'
         // },
-        // {
-        //   path: 'popup',
-        //   title: 'Popup 弹出层'
-        // },
+        {
+          path: 'popup',
+          title: 'Popup 弹出层'
+        },
         // {
         //   path: 'common',
         //   title: 'Style 内置样式'
@@ -135,20 +135,20 @@ function getMenus() {
         {
           path: 'toast',
           title: 'Toast 轻提示'
+        },
+        {
+          path: 'transition',
+          title: 'transition 动画'
         }
-        // {
-        //   path: 'transition',
-        //   title: 'transition 动画'
-        // }
       ]
     },
     {
       name: '表单组件',
       items: [
-        // {
-        //   path: 'calendar',
-        //   title: 'Calendar 日历'
-        // },
+        {
+          path: 'calendar',
+          title: 'Calendar 日历'
+        },
         // {
         //   path: 'cascader',
         //   title: 'Cascader 级联选择'
@@ -233,7 +233,7 @@ function getMenus() {
         {
           path: 'overlay',
           title: 'Overlay 遮罩层'
-        },
+        }
         // {
         //   path: 'share-sheet',
         //   title: 'ShareSheet 分享面板'
@@ -310,7 +310,7 @@ function getMenus() {
         {
           path: 'tag',
           title: 'Tag 标签'
-        },
+        }
         // {
         //   path: 'water-mark',
         //   title: 'WaterMark 水印'

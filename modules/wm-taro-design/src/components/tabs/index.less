@@ -1,6 +1,7 @@
-@import 'wm-taro-design/src/style/var.less';
+/* stylelint-disable no-descending-specificity */
+@import '../style/var.less';
 
-.wm-tabs {
+.van-tabs {
   position: relative;
   -webkit-tap-highlight-color: transparent;
 
@@ -18,7 +19,7 @@
         }
       }
 
-      .wm-tabs__nav {
+      .van-tabs__nav {
         &--complete {
           padding-right: 16px;
           padding-left: 16px;
@@ -61,7 +62,7 @@
       .theme(border, '@border-width-base solid @tabs-default-color');
       .theme(border-radius, '@border-radius-sm');
 
-      .wm-tab {
+      .van-tab {
         .theme(color, '@tabs-default-color');
         .theme(line-height, 'calc(@tabs-card-height - 2 * @border-width-base)');
         .theme(border-right, '@border-width-base solid @tabs-default-color');
@@ -70,7 +71,7 @@
           border-right: none;
         }
 
-        &.wm-tab--active {
+        &.van-tab--active {
           .theme(color, '@white');
           .theme(background-color, '@tabs-default-color');
         }
@@ -108,19 +109,19 @@
   }
 
   &--line {
-    .wm-tabs__wrap {
+    .van-tabs__wrap {
       .theme(height, '@tabs-line-height');
     }
   }
 
   &--card {
-    .wm-tabs__wrap {
+    .van-tabs__wrap {
       .theme(height, '@tabs-card-height');
     }
   }
 }
 
-.wm-tab {
+.van-tab {
   position: relative;
   flex: 1;
   box-sizing: border-box;
@@ -150,7 +151,7 @@
       transform: translateX(0) !important;
     }
 
-    .wm-info--dot {
+    .van-info--dot {
       border-radius: 100%;
       .theme(width, '@info-dot-size');
       .theme(height, '@info-dot-size');

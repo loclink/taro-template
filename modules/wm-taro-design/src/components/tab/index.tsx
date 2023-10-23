@@ -1,9 +1,7 @@
 import { useState, useEffect } from 'react';
 import { View } from '@tarojs/components';
 import * as utils from '../wxs/utils';
-import { TabProps } from 'types/tab';
-import './index.less';
-import classNames from 'classnames';
+import { TabProps } from 'types';
 
 export function Tab(
   props: TabProps & {
@@ -42,13 +40,14 @@ export function Tab(
 
   return (
     <View
-      className={classNames(
+      className={
+        ' ' +
         utils.bem('tab__pane', {
           active,
           inactive: !active
-        }),
-        className
-      )}
+        }) +
+        ` ${className || ''}`
+      }
       style={utils.style([active || animated ? '' : 'display: none;', style])}
       {...others}
     >

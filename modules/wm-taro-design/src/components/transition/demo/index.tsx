@@ -1,22 +1,22 @@
 /* eslint-disable */
 
-import { Component } from 'react'
-import DemoPage from 'taro-demo/src/components/demo-page/index'
-import DemoBlock from 'taro-demo/src/components/demo-block/index'
-import Demo1 from './demo1'
+import { Component } from 'react';
+import PageContainer from '@/components/page-container';
+import DemoBlock from '@/base-ui/demo-block/index';
+import Demo1 from './demo1';
 
 export default class Index extends Component {
   constructor(props) {
-    super(props)
+    super(props);
   }
-  state = { active: 0 }
+  state = { active: 0 };
   render() {
     return (
-      <DemoPage title="transition 动画" className="pages-transition-index">
-        <DemoBlock title="基础用法" padding>
+      <PageContainer title='transition 动画' className='pages-transition-index'>
+        <DemoBlock title='基础用法' padding>
           <Demo1 />
         </DemoBlock>
-      </DemoPage>
-    )
+      </PageContainer>
+    );
   }
 }

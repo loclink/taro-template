@@ -144,3 +144,5 @@ export function Button(props: ButtonProps) {
     </View>
   );
 }
+
+export default Button;

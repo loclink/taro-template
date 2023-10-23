@@ -4,6 +4,7 @@ import { FunctionComponent } from 'react';
 export interface OverlayProps extends ViewProps {
   /**
    * @description	是否挂载到根元素下
+   * @default true
    */
   isRootPortal?: boolean;
 

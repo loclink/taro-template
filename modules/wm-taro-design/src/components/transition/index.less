@@ -1,79 +1,81 @@
-.wm-transition {
+@import '../../style/var.less';
+
+.@{--css-prefix}-transition {
   transition-timing-function: ease;
 }
 
-.wm-fade-enter-active,
-.wm-fade-leave-active {
+.@{--css-prefix}-fade-enter-active,
+.@{--css-prefix}-fade-leave-active {
   transition-property: opacity;
 }
 
-.wm-fade-enter,
-.wm-fade-leave-to {
+.@{--css-prefix}-fade-enter,
+.@{--css-prefix}-fade-leave-to {
   opacity: 0;
 }
 
-.wm-fade-up-enter-active,
-.wm-fade-up-leave-active,
-.wm-fade-down-enter-active,
-.wm-fade-down-leave-active,
-.wm-fade-left-enter-active,
-.wm-fade-left-leave-active,
-.wm-fade-right-enter-active,
-.wm-fade-right-leave-active {
+.@{--css-prefix}-fade-up-enter-active,
+.@{--css-prefix}-fade-up-leave-active,
+.@{--css-prefix}-fade-down-enter-active,
+.@{--css-prefix}-fade-down-leave-active,
+.@{--css-prefix}-fade-left-enter-active,
+.@{--css-prefix}-fade-left-leave-active,
+.@{--css-prefix}-fade-right-enter-active,
+.@{--css-prefix}-fade-right-leave-active {
   transition-property: opacity, transform;
 }
 
-.wm-fade-up-enter,
-.wm-fade-up-leave-to {
+.@{--css-prefix}-fade-up-enter,
+.@{--css-prefix}-fade-up-leave-to {
   transform: translate3d(0, 100%, 0);
   opacity: 0;
 }
 
-.wm-fade-down-enter,
-.wm-fade-down-leave-to {
+.@{--css-prefix}-fade-down-enter,
+.@{--css-prefix}-fade-down-leave-to {
   transform: translate3d(0, -100%, 0);
   opacity: 0;
 }
 
-.wm-fade-left-enter,
-.wm-fade-left-leave-to {
+.@{--css-prefix}-fade-left-enter,
+.@{--css-prefix}-fade-left-leave-to {
   transform: translate3d(-100%, 0, 0);
   opacity: 0;
 }
 
-.wm-fade-right-enter,
-.wm-fade-right-leave-to {
+.@{--css-prefix}-fade-right-enter,
+.@{--css-prefix}-fade-right-leave-to {
   transform: translate3d(100%, 0, 0);
   opacity: 0;
 }
 
-.wm-slide-up-enter-active,
-.wm-slide-up-leave-active,
-.wm-slide-down-enter-active,
-.wm-slide-down-leave-active,
-.wm-slide-left-enter-active,
-.wm-slide-left-leave-active,
-.wm-slide-right-enter-active,
-.wm-slide-right-leave-active {
+.@{--css-prefix}-slide-up-enter-active,
+.@{--css-prefix}-slide-up-leave-active,
+.@{--css-prefix}-slide-down-enter-active,
+.@{--css-prefix}-slide-down-leave-active,
+.@{--css-prefix}-slide-left-enter-active,
+.@{--css-prefix}-slide-left-leave-active,
+.@{--css-prefix}-slide-right-enter-active,
+.@{--css-prefix}-slide-right-leave-active {
   transition-property: transform;
 }
 
-.wm-slide-up-enter,
-.wm-slide-up-leave-to {
+.@{--css-prefix}-slide-up-enter,
+.@{--css-prefix}-slide-up-leave-to {
   transform: translate3d(0, 100%, 0);
 }
 
-.wm-slide-down-enter,
-.wm-slide-down-leave-to {
+.@{--css-prefix}-slide-down-enter,
+.@{--css-prefix}-slide-down-leave-to {
   transform: translate3d(0, -100%, 0);
 }
 
-.wm-slide-left-enter,
-.wm-slide-left-leave-to {
+.@{--css-prefix}-slide-left-enter,
+.@{--css-prefix}-slide-left-leave-to {
   transform: translate3d(-100%, 0, 0);
 }
 
-.wm-slide-right-enter,
-.wm-slide-right-leave-to {
+.@{--css-prefix}-slide-right-enter,
+.@{--css-prefix}-slide-right-leave-to {
   transform: translate3d(100%, 0, 0);
 }

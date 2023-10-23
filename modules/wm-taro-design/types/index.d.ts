@@ -12,3 +12,7 @@ export * from './image';
 export * from './cell';
 export * from './tag';
 export * from './overlay';
+export * from './transition';
+export * from './popup';
+export * from './cascader';
+export * from './calendar';

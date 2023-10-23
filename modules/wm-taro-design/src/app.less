@@ -152,7 +152,7 @@ taro-button-core + taro-button-core {
 }
 
 .pages-popup-index {
-  .van-popup {
+  .@{--css-prefix}-popup {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -160,24 +160,27 @@ taro-button-core + taro-button-core {
     text-align: center;
   }
 
-  .van-popup--center {
+  .@{--css-prefix}-popup--center {
     width: 200px;
     height: 200px;
   }
 
-  .van-popup--top,
-  .van-popup--bottom {
+  .@{--css-prefix}-popup--top,
+  .@{--css-prefix}-popup--bottom {
     width: 100%;
     height: 30%;
   }
 
-  .van-popup--left,
-  .van-popup--right {
+  .@{--css-prefix}-popup--left,
+  .@{--css-prefix}-popup--right {
     width: 30%;
     height: 100%;
   }
 }
 
+.pages-tab-index {
+  background-color: #e2e0e0;
+}
 .pages-progress-index {
   .van-progress {
     margin-bottom: 50px;

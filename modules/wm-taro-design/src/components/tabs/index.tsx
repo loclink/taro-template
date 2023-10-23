@@ -9,8 +9,7 @@ import { Sticky } from '../sticky/index';
 import { getRect, getAllRect, requestAnimationFrame } from '../common/utils';
 import { Info } from '../info/index';
 import * as computed from './wxs';
-import { TabProps, TabsProps } from 'types/tab';
-import './index.less';
+import { TabProps, TabsProps } from 'types';
 
 const MIN_DISTANCE = 10;
 function getDirection(x: number, y: number) {
@@ -181,8 +180,8 @@ export function Tabs(props: TabsProps) {
     index = index ?? currentIndex;
     nextTick(() => {
       Promise.all([
-        getAllRect(null, `.tabs-com-index${indexRef.current} .wm-tab`),
-        getRect(null, `.tabs-com-index${indexRef.current} .wm-tabs__line`)
+        getAllRect(null, `.tabs-com-index${indexRef.current} .van-tab`),
+        getRect(null, `.tabs-com-index${indexRef.current} .van-tabs__line`)
       ]).then(([rects = [], lineRect]: any) => {
         if (rects && lineRect) {
           const rect = rects[index!];
@@ -227,8 +226,8 @@ export function Tabs(props: TabsProps) {
     }
     index = index ?? currentIndex;
     Promise.all([
-      getAllRect(null, `.tabs-com-index${indexRef.current} .wm-tab`),
-      getRect(null, `.tabs-com-index${indexRef.current} .wm-tabs__nav`)
+      getAllRect(null, `.tabs-com-index${indexRef.current} .van-tab`),
+      getRect(null, `.tabs-com-index${indexRef.current} .van-tabs__nav`)
     ]).then(([tabRects, navRect]: any) => {
       if (tabRects && navRect) {
         const tabRect = tabRects[index!];
@@ -420,7 +419,7 @@ export function Tabs(props: TabsProps) {
               scrollable
             }) +
             ' ' +
-            (type === 'line' && border ? 'wm-hairline--top-bottom' : '')
+            (type === 'line' && border ? 'van-hairline--top-bottom' : '')
           }
         >
           <View className={utils.bem('renderNavLeft' + indexRef.current)}>{renderNavLeft}</View>
@@ -447,7 +446,7 @@ export function Tabs(props: TabsProps) {
             >
               {type === 'line' && (
                 <View
-                  className='wm-tabs__line'
+                  className='van-tabs__line'
                   style={computed.lineStyle({
                     color,
                     lineOffsetLeft,
@@ -485,10 +484,10 @@ export function Tabs(props: TabsProps) {
                     })}
                     onClick={onTap}
                   >
-                    <View className={ellipsis ? 'wm-ellipsis' : ''} style={item.titleStyle}>
+                    <View className={ellipsis ? 'van-ellipsis' : ''} style={item.titleStyle}>
                       {item.title}
                       {(item.info !== null || item.dot) && (
-                        <Info info={item.info} dot={item.dot} className='wm-tab__title__info'></Info>
+                        <Info info={item.info} dot={item.dot} className='van-tab__title__info'></Info>
                       )}
                     </View>
                   </View>
@@ -500,7 +499,7 @@ export function Tabs(props: TabsProps) {
         </View>
       </Sticky>
       <View
-        className='wm-tabs__content'
+        className='van-tabs__content'
         onTouchStart={onTouchStart}
         onTouchMove={onTouchMove}
         onTouchEnd={onTouchEnd}
@@ -512,7 +511,7 @@ export function Tabs(props: TabsProps) {
               {
                 animated
               }
-            ]) + ' wm-tabs__track'
+            ]) + ' van-tabs__track'
           }
           style={computed.trackStyle({
             duration,
