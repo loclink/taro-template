@@ -9,13 +9,19 @@ export interface PageContainerProps extends ViewProps {
   title?: string;
 
   /**
+   * @description 是否显示返回按钮(在tabbar页面中始终为false)
+   * @default true
+   */
+  isShowBackIcon?: boolean;
+
+  /**
    * @description 是否启用纵向滚动
    * @default true
    */
   isScroll?: boolean;
 
   /**
-   * @description 是否开启底部安全距离
+   * @description 是否开启底部安全距离(开启后仅在存在安全距离的设备上生效)
    * @default true
    */
   isSafeArea?: boolean;

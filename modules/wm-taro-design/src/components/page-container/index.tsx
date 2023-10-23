@@ -7,7 +7,7 @@ import classNames from 'classnames';
 import './index.less';
 
 export const PageContainer = (props: PropsWithChildren<PageContainerProps>) => {
-  const { title, isScroll = true, navBarProps, className, isSafeArea = true } = props;
+  const { title, isScroll = true, navBarProps, className, isSafeArea = true, isShowBackIcon = true } = props;
   const [isTab, setIsTab] = useState(false);
   const config = useContext(PageContainer.Context);
   const homePagePath = config.homePage || `/${Taro.getApp()['config'].pages[0]}`;
@@ -46,14 +46,19 @@ export const PageContainer = (props: PropsWithChildren<PageContainerProps>) => {
     else return 'arrow-left';
   };
 
+  const handleRenderIcon = () => {
+    if (isShowBackIcon && !isTab) {
+      return <Icon color={navBarProps?.backIconColor} name={handleLeftIconName()} size={'23px'} />;
+    } else {
+      return null;
+    }
+  };
   return (
     <View className={classNames(['page-container', className])}>
       <NavBar
         style={{ backgroundColor: navBarProps?.isTransparent ? '#00000000' : '#ffffff' }}
         title={title}
-        renderLeft={
-          isTab ? null : <Icon color={navBarProps?.backIconColor} name={handleLeftIconName()} size={'23px'} />
-        }
+        renderLeft={handleRenderIcon()}
         onClickLeft={handleClickLeft}
         border={!!navBarProps?.border}
         {...navBarProps}
