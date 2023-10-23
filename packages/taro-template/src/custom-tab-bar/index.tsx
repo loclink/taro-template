@@ -15,8 +15,9 @@ const CustomTabbar: React.FC = () => {
     <View className='customTabbar'>
       <Tabbar active={current}>
         {data.map((value, index) => (
-          <TabbarItem key={index} onClick={() => handleClickTabbar(value.pagePath)}>
+          <TabbarItem className='tab-item' key={index} onClick={() => handleClickTabbar(value.pagePath)}>
             <Icon
+              className='tab-item-icon'
               name={value.iconPath}
               style={{
                 width: '48rpx',
@@ -26,6 +27,7 @@ const CustomTabbar: React.FC = () => {
               }}
             />
             <Icon
+              className='tab-item-icon'
               name={value.selectedIconPath}
               style={{
                 width: '48rpx',
@@ -34,7 +36,7 @@ const CustomTabbar: React.FC = () => {
                 position: current === index ? 'relative' : 'absolute'
               }}
             />
-            <Text>{value.text}</Text>
+            <Text className='tab-item-text'>{value.text}</Text>
           </TabbarItem>
         ))}
       </Tabbar>
