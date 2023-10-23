@@ -127,6 +127,14 @@ export class Loader {
   }
 
   loadPage(pageDirPath: string, pkg: IConfigPackage) {
+    // 忽略tabbar
+    if (
+      pkg.name === "main" &&
+      pageDirPath.split("/").reverse()[0] === "tabbar"
+    ) {
+      return;
+    }
+
     const index = this.root.pages.findIndex(
       (page) => page.dirPath === pageDirPath
     );

@@ -1,4 +1,4 @@
-import type { IPluginContext } from '@tarojs/service';
+import type { IPluginContext } from "@tarojs/service";
 /**
  * 命令行扩展
  */

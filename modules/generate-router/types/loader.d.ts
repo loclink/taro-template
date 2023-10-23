@@ -16,7 +16,7 @@ export declare class Loader {
     constructor(root: Plugin);
     loadConfigPages(dynamic?: boolean): void;
     loadPages(): void;
-    loadPage(pageDirPath: string, pkg: IConfigPackage): boolean;
+    loadPage(pageDirPath: string, pkg: IConfigPackage): boolean | undefined;
     loadRouteConfig(page: Page, configSourceFile?: SourceFile): void;
     loadMethod(page: Page): void;
 }

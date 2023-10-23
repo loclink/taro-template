@@ -16,11 +16,11 @@ function getConfigValue(config, key) {
 function handleGen(ctx) {
     return new Promise((resolve) => {
         const { sourcePath } = ctx.paths;
-        const appConfigPath = path.join(ctx.paths.sourcePath, 'app.config.ts');
-        const pagesPath = path.join(sourcePath, './pages');
-        const pagesSubPath = path.join(sourcePath, './pages-sub');
-        const tabbarPath = path.join(sourcePath, './pages/tabbar');
-        const configPath = path.join(sourcePath, 'config.ts');
+        const appConfigPath = path.join(ctx.paths.sourcePath, "app.config.ts");
+        const pagesPath = path.join(sourcePath, "./pages");
+        const pagesSubPath = path.join(sourcePath, "./pages-sub");
+        const tabbarPath = path.join(sourcePath, "./pages/tabbar");
+        const configPath = path.join(sourcePath, "config.ts");
         let appConfigObj = {};
         let configObj = {};
         const project = new ts_morph_1.Project();
@@ -28,9 +28,9 @@ function handleGen(ctx) {
         const sourceFile = project.addSourceFileAtPath(appConfigPath);
         // 读取app.config.ts
         sourceFile.forEachDescendant((node) => {
-            if (node.getKindName() === 'CallExpression') {
+            if (node.getKindName() === "CallExpression") {
                 const callExpr = node;
-                if (callExpr.getExpression().getText() === 'defineAppConfig') {
+                if (callExpr.getExpression().getText() === "defineAppConfig") {
                     const configStr = callExpr.getArguments()[0].getText();
                     appConfigObj = eval(`(${configStr})`);
                 }
@@ -38,7 +38,7 @@ function handleGen(ctx) {
         });
         // 拿到homePage
         const configCodeStr = fs.readFileSync(configPath).toString();
-        configObj = { homePage: getConfigValue(configCodeStr, 'homePage') };
+        configObj = { homePage: getConfigValue(configCodeStr, "homePage") };
         // 生成tabbar
         const tabbarPaths = (0, generate_tabbar_1.generateTabbar)(tabbarPath);
         // 生成主包页面
@@ -48,12 +48,15 @@ function handleGen(ctx) {
         // set最终结果
         appConfigObj.pages = pagesPathArr;
         appConfigObj.subPackages = pagesSubPathArr;
-        appConfigObj.tabBar = tabbarPaths;
+        if (tabbarPaths.list.length)
+            appConfigObj.tabBar = tabbarPaths;
+        else
+            delete appConfigObj.tabBar;
         // 处理首页路径，将首页路径置顶
         if (configObj === null || configObj === void 0 ? void 0 : configObj.homePage) {
-            const page = appConfigObj.pages.find((item) => { var _a; return (_a = configObj.homePage) === null || _a === void 0 ? void 0 : _a.includes(item || ''); });
+            const page = appConfigObj.pages.find((item) => { var _a; return (_a = configObj.homePage) === null || _a === void 0 ? void 0 : _a.includes(item || ""); });
             if (page) {
-                appConfigObj.pages = appConfigObj.pages.filter((item) => { var _a; return !((_a = configObj.homePage) === null || _a === void 0 ? void 0 : _a.includes(item || '')); });
+                appConfigObj.pages = appConfigObj.pages.filter((item) => { var _a; return !((_a = configObj.homePage) === null || _a === void 0 ? void 0 : _a.includes(item || "")); });
                 appConfigObj.pages.unshift(page);
             }
         }
@@ -61,23 +64,23 @@ function handleGen(ctx) {
         const finalText = `export default defineAppConfig(${(0, utils_1.stringify)(appConfigObj)});\n`;
         fs.writeFileSync(appConfigPath, finalText);
         resolve();
-        console.log(ctx.helper.chalk.green('✨ 已自动注册路径至app.config.ts'));
+        console.log(ctx.helper.chalk.green("✨ 已自动注册路径至app.config.ts"));
     });
 }
 /**
  * 命令行扩展
  */
 exports.default = (ctx) => {
-    if (process.env.NODE_ENV === 'production')
+    if (process.env.NODE_ENV === "production")
         return;
     chokidar
         .watch([
-        path.join(ctx.paths.sourcePath, 'pages/**/index.tsx'),
-        path.join(ctx.paths.sourcePath, 'pages-sub/*/*/index.tsx'),
+        path.join(ctx.paths.sourcePath, "pages/**/index.tsx"),
+        path.join(ctx.paths.sourcePath, "pages-sub/*/*/index.tsx"),
     ], { ignoreInitial: true })
-        .on('add', () => handleGen(ctx))
-        .on('ready', () => handleGen(ctx))
-        .on('unlinkDir', () => handleGen(ctx));
+        .on("add", () => handleGen(ctx))
+        .on("ready", () => handleGen(ctx))
+        .on("unlinkDir", () => handleGen(ctx));
     ctx.onBuildFinish(() => {
         // handleGen(paths);
     });

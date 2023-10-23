@@ -7,7 +7,7 @@ const loader_1 = require("./loader");
 const fs = require("fs-extra");
 class Plugin {
     constructor(ctx, config) {
-        var _a, _b;
+        var _a;
         this.ctx = ctx;
         this.config = config;
         this.pages = [];
@@ -15,7 +15,7 @@ class Plugin {
         this.paths = this.ctx.paths;
         this.config.packages = (_a = this.config.packages) !== null && _a !== void 0 ? _a : [];
         this.getSubConfig();
-        this.config.ignore = (_b = this.config.ignore) !== null && _b !== void 0 ? _b : [".DS_Store"];
+        this.config.ignore = [".DS_Store", "tabbar"];
         this.isWatch = !!(this.ctx.runOpts.options.isWatch || this.ctx.runOpts.options.watch);
         this.loader = new loader_1.Loader(this);
         this.generator = new generator_1.Generator(this);
@@ -54,7 +54,7 @@ class Plugin {
         return pathArr;
     }
     getSubConfig() {
-        this.config.ignore = ["tabbar"];
+        // this.config.ignore = ["tabbar"];
         this.config.packages = [];
         if (this.config.packages.findIndex((pkg) => pkg.name === "main") === -1) {
             this.config.packages.push({
@@ -103,6 +103,7 @@ class Plugin {
         };
         for (const pkg of this.config.packages) {
             const onChange = (value) => {
+                // 兼容windows
                 value = path.normalize(value).replace(/\\/g, "/");
                 if (value.endsWith("route.config.ts")) {
                     value = value.replace("/route.config.ts", "");

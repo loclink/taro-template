@@ -27,7 +27,7 @@ export class Plugin {
 
     this.getSubConfig();
 
-    this.config.ignore = this.config.ignore ?? [".DS_Store"];
+    this.config.ignore = [".DS_Store", "tabbar"];
 
     this.isWatch = !!(
       this.ctx.runOpts.options.isWatch || this.ctx.runOpts.options.watch
@@ -78,7 +78,7 @@ export class Plugin {
   }
 
   getSubConfig() {
-    this.config.ignore = ["tabbar"];
+    // this.config.ignore = ["tabbar"];
     this.config.packages = [];
     if (this.config.packages.findIndex((pkg) => pkg.name === "main") === -1) {
       this.config.packages.push({
@@ -131,6 +131,7 @@ export class Plugin {
 
     for (const pkg of this.config.packages) {
       const onChange = (value: string) => {
+        // 兼容windows
         value = path.normalize(value).replace(/\\/g, "/");
         if (value.endsWith("route.config.ts")) {
           value = value.replace("/route.config.ts", "");

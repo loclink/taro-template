@@ -1,5 +1,6 @@
 import * as fs from "fs-extra";
 import * as path from "path";
+
 export const generateTabbar = (tabbarPath) => {
   if (!fs.pathExistsSync(tabbarPath))
     return {

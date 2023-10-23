@@ -90,6 +90,11 @@ class Loader {
     }
     loadPage(pageDirPath, pkg) {
         var _a, _b, _c;
+        // 忽略tabbar
+        if (pkg.name === "main" &&
+            pageDirPath.split("/").reverse()[0] === "tabbar") {
+            return;
+        }
         const index = this.root.pages.findIndex((page) => page.dirPath === pageDirPath);
         const isExist = fs.existsSync(pageDirPath);
         if (isExist) {
