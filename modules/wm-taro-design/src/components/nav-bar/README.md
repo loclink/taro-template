@@ -24,23 +24,24 @@ import { NavBar } from 'wm-taro-design'
 
 ### NavBarProps [[详情]](https://codeup.aliyun.com/5f855dfb1858a17210466fd0/wuhang-meimeng-development/wm-taro-template/tree/master/modules/wm-taro-design/types/nav-bar.d.ts)
 
-| 参数             | 说明                                           | 类型                                                                                                     | 默认值 | 必填    |
-| ---------------- | ---------------------------------------------- | -------------------------------------------------------------------------------------------------------- | ------ | ------- |
-| title            | 标题                                           | _&nbsp;&nbsp;ReactNode<br/>_                                                                             | -      | `false` |
-| fixed            | 是否开启固定定位，开启后将脱离文档流不占据高度 | _&nbsp;&nbsp;boolean<br/>_                                                                               | -      | `false` |
-| placeholder      | -                                              | _&nbsp;&nbsp;boolean<br/>_                                                                               | -      | `false` |
-| leftText         | -                                              | _&nbsp;&nbsp;ReactNode<br/>_                                                                             | -      | `false` |
-| rightText        | -                                              | _&nbsp;&nbsp;ReactNode<br/>_                                                                             | -      | `false` |
-| style            | -                                              | _&nbsp;&nbsp;CSSProperties<br/>_                                                                         | -      | `false` |
-| leftArrow        | -                                              | _&nbsp;&nbsp;boolean<br/>_                                                                               | -      | `false` |
-| border           | -                                              | _&nbsp;&nbsp;boolean<br/>_                                                                               | -      | `false` |
-| zIndex           | -                                              | _&nbsp;&nbsp;number<br/>_                                                                                | -      | `false` |
-| safeAreaInsetTop | -                                              | _&nbsp;&nbsp;boolean<br/>_                                                                               | -      | `false` |
-| renderTitle      | -                                              | _&nbsp;&nbsp;ReactNode<br/>_                                                                             | -      | `false` |
-| renderLeft       | -                                              | _&nbsp;&nbsp;ReactNode<br/>_                                                                             | -      | `false` |
-| renderRight      | -                                              | _&nbsp;&nbsp;ReactNode<br/>_                                                                             | -      | `false` |
-| onClickLeft      | -                                              | _&nbsp;&nbsp;(<br/>&nbsp;&nbsp;&nbsp;&nbsp;e:&nbsp;ITouchEvent<br/>&nbsp;&nbsp;)&nbsp;=>&nbsp;void<br/>_ | -      | `false` |
-| onClickRight     | -                                              | _&nbsp;&nbsp;(<br/>&nbsp;&nbsp;&nbsp;&nbsp;e:&nbsp;ITouchEvent<br/>&nbsp;&nbsp;)&nbsp;=>&nbsp;void<br/>_ | -      | `false` |
+| 参数             | 说明                                                                      | 类型                                                                                                     | 默认值                                       | 必填    |
+| ---------------- | ------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | -------------------------------------------- | ------- |
+| title            | 标题                                                                      | _&nbsp;&nbsp;ReactNode<br/>_                                                                             | -                                            | `false` |
+| fixed            | 是否开启固定定位，开启后将脱离文档流不占据高度                            | _&nbsp;&nbsp;boolean<br/>_                                                                               | -                                            | `false` |
+| height           | navbar 高度，单位 px（不包含状态栏 statusBar 高度），通常情况下不建议修改 | _&nbsp;&nbsp;number<br/>_                                                                                | 根据设备的胶囊高度和状态栏高度计算动态计算值 | `false` |
+| placeholder      | -                                                                         | _&nbsp;&nbsp;boolean<br/>_                                                                               | -                                            | `false` |
+| leftText         | -                                                                         | _&nbsp;&nbsp;ReactNode<br/>_                                                                             | -                                            | `false` |
+| rightText        | -                                                                         | _&nbsp;&nbsp;ReactNode<br/>_                                                                             | -                                            | `false` |
+| style            | -                                                                         | _&nbsp;&nbsp;CSSProperties<br/>_                                                                         | -                                            | `false` |
+| leftArrow        | -                                                                         | _&nbsp;&nbsp;boolean<br/>_                                                                               | -                                            | `false` |
+| border           | -                                                                         | _&nbsp;&nbsp;boolean<br/>_                                                                               | -                                            | `false` |
+| zIndex           | -                                                                         | _&nbsp;&nbsp;number<br/>_                                                                                | -                                            | `false` |
+| safeAreaInsetTop | -                                                                         | _&nbsp;&nbsp;boolean<br/>_                                                                               | -                                            | `false` |
+| renderTitle      | -                                                                         | _&nbsp;&nbsp;ReactNode<br/>_                                                                             | -                                            | `false` |
+| renderLeft       | -                                                                         | _&nbsp;&nbsp;ReactNode<br/>_                                                                             | -                                            | `false` |
+| renderRight      | -                                                                         | _&nbsp;&nbsp;ReactNode<br/>_                                                                             | -                                            | `false` |
+| onClickLeft      | -                                                                         | _&nbsp;&nbsp;(<br/>&nbsp;&nbsp;&nbsp;&nbsp;e:&nbsp;ITouchEvent<br/>&nbsp;&nbsp;)&nbsp;=>&nbsp;void<br/>_ | -                                            | `false` |
+| onClickRight     | -                                                                         | _&nbsp;&nbsp;(<br/>&nbsp;&nbsp;&nbsp;&nbsp;e:&nbsp;ITouchEvent<br/>&nbsp;&nbsp;)&nbsp;=>&nbsp;void<br/>_ | -                                            | `false` |
 
 ### 样式变量
 

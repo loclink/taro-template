@@ -1,11 +1,12 @@
 import { CSSProperties, useMemo } from 'react';
 import { View } from '@tarojs/components';
 import classNames from 'classnames';
-import { getSystemInfoSync } from '../common/utils';
+import { getMenuButtonBoundingClientRect, getSystemInfoSync } from '../common/utils';
 import * as utils from '../wxs/utils';
 import { Icon } from '../icon';
 import { NavBarProps } from 'types';
 import './index.less';
+import { PREFIX } from '../wxs/bem';
 
 export function NavBar(props: NavBarProps) {
   const {
@@ -25,23 +26,25 @@ export function NavBar(props: NavBarProps) {
     onClickRight,
     style,
     className,
+    height,
     ...others
   } = props;
 
+  const { statusBarHeight: _statusBarHeight } = getSystemInfoSync();
+  const menuButtonInfo = getMenuButtonBoundingClientRect();
+
   const statusBarHeight = useMemo(() => {
-    const { statusBarHeight: _statusBarHeight } = getSystemInfoSync();
-    if (Number.isNaN(_statusBarHeight)) {
-      return 22;
-    }
+    if (Number.isNaN(_statusBarHeight)) return 22;
     return _statusBarHeight;
   }, []);
+  const navBarHeight = (menuButtonInfo.top - statusBarHeight) * 2 + menuButtonInfo.height;
 
   const getNavBarStyle = useMemo<CSSProperties>(() => {
     return {
       zIndex,
-      height: `50px`,
       paddingTop: safeAreaInsetTop ? statusBarHeight + 'px' : 0,
-      ...style
+      ...style,
+      height: `${height || navBarHeight}px`
     };
   }, [zIndex, statusBarHeight, safeAreaInsetTop, style]);
 
@@ -53,13 +56,13 @@ export function NavBar(props: NavBarProps) {
           utils.bem('nav-bar', {
             fixed
           }),
-          { 'wm-hairline--bottom': border },
+          { [`${PREFIX}-hairline--bottom`]: border },
           className
         ])}
         style={getNavBarStyle}
         {...others}
       >
-        <View className='wm-nav-bar__content'>
+        <View className={`${PREFIX}-nav-bar__content`}>
           <View className='wm-nav-bar__left' onClick={onClickLeft}>
             {leftArrow || leftText ? (
               <>
