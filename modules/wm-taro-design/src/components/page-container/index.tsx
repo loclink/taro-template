@@ -7,7 +7,15 @@ import classNames from 'classnames';
 import './index.less';
 
 export const PageContainer = (props: PropsWithChildren<PageContainerProps>) => {
-  const { title, isScroll = true, navBarProps, className, isSafeArea = true, isShowBackIcon = true } = props;
+  const {
+    title,
+    isScroll = true,
+    navBarProps,
+    className,
+    isSafeArea = true,
+    isShowBackIcon = true,
+    scrollViewProps
+  } = props;
   const [isTab, setIsTab] = useState(false);
   const config = useContext(PageContainer.Context);
   const homePagePath = config.homePage || `/${Taro.getApp()['config'].pages[0]}`;
@@ -64,7 +72,7 @@ export const PageContainer = (props: PropsWithChildren<PageContainerProps>) => {
         {...navBarProps}
       />
       <View className='contentWrapper'>
-        <ScrollView className='content' scrollY={isScroll}>
+        <ScrollView className='content' {...scrollViewProps} scrollY={isScroll}>
           {props.children}
         </ScrollView>
       </View>

@@ -1,4 +1,4 @@
-import { ViewProps } from '@tarojs/components';
+import { ScrollViewProps, ViewProps } from '@tarojs/components';
 import { NavBarProps } from './nav-bar';
 import { FunctionComponent, PropsWithChildren } from 'react';
 
@@ -25,6 +25,11 @@ export interface PageContainerProps extends ViewProps {
    * @default true
    */
   isSafeArea?: boolean;
+
+  /**
+   * @description 滚动视图的props
+   */
+  scrollViewProps?: ScrollViewProps;
 
   /**
    * @description Navbar组件参数
