@@ -47,8 +47,15 @@ export interface PageContainerProps extends ViewProps {
   };
 }
 
-interface pageContainerProps {
+export interface pageContainerProps {
+  /**
+   * @description 注入页面全局配置的context
+   */
   Context: React.Context<any>;
+
+  /**
+   * @description NavBar整体高度常量
+   */
   NavBarHeight: number;
 }
 
