@@ -61,9 +61,13 @@ export function Overlay(props: OverlayProps) {
   }, [show]);
 
   return (
-    <RootPortal enable={isRootPortal}>
-      {innerShow ? <OverlayInner setOuterShow={setInnerShow} {...props} /> : <></>}
-    </RootPortal>
+    <>
+      {isRootPortal ? (
+        <RootPortal enable>{innerShow ? <OverlayInner setOuterShow={setInnerShow} {...props} /> : null}</RootPortal>
+      ) : innerShow ? (
+        <OverlayInner setOuterShow={setInnerShow} {...props} />
+      ) : null}
+    </>
   );
 }
 

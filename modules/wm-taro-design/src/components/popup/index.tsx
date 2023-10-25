@@ -122,7 +122,7 @@ export function Popup(props: PopupProps) {
     closeOnClickOverlay = true,
     onClickOverlay,
     onClose,
-    isRootPortal
+    isRootPortal = true
   } = props;
   const [innerShow, setInnerShow] = useState(false);
   useEffect(() => {
@@ -138,12 +138,13 @@ export function Popup(props: PopupProps) {
     }
   }, [closeOnClickOverlay, onClickOverlay, onClose]);
 
-  return (
-    <RootPortal enable={isRootPortal}>
+  const renderContent = () => {
+    return (
       <View>
         <View>
           {overlay && (
             <Overlay
+              isRootPortal={false}
               show={show}
               zIndex={zIndex}
               style={overlayStyle}
@@ -155,8 +156,10 @@ export function Popup(props: PopupProps) {
         </View>
         <View>{innerShow ? <PopupInner setOuterShow={setInnerShow} {...props} /> : <></>}</View>
       </View>
-    </RootPortal>
-  );
+    );
+  };
+
+  return <>{isRootPortal ? <RootPortal enable>{renderContent()}</RootPortal> : renderContent()}</>;
 }
 
 export default Popup;
