@@ -6,8 +6,8 @@ hero:
   actions:
     - text: 开发指南
       link: /guide
-    - text: World
-      link: /
+    - text: 配置
+      link: /configure
 features:
   - title: 简单 🤩
     description: 开箱即用，无需复杂配置，专注业务开发

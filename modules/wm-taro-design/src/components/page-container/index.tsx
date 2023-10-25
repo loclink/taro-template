@@ -5,6 +5,7 @@ import Taro, { getCurrentPages, navigateBack } from '@tarojs/taro';
 import { PageContainerProps } from 'types';
 import classNames from 'classnames';
 import './index.less';
+import { getMenuButtonBoundingClientRect, getSystemInfoSync } from '../common/utils';
 
 export const PageContainer = (props: PropsWithChildren<PageContainerProps>) => {
   const {
@@ -14,7 +15,8 @@ export const PageContainer = (props: PropsWithChildren<PageContainerProps>) => {
     className,
     isSafeArea = true,
     isShowBackIcon = true,
-    scrollViewProps
+    scrollViewProps,
+    renderFooter
   } = props;
   const [isTab, setIsTab] = useState(false);
   const config = useContext(PageContainer.Context);
@@ -78,12 +80,19 @@ export const PageContainer = (props: PropsWithChildren<PageContainerProps>) => {
       </View>
 
       {/* <EasyScroll className="content">{props.children}</EasyScroll> */}
+
+      <View className='page-content-footer'>{renderFooter}</View>
+
       {isTab && <View className='tabbarSpace' />}
       {isSafeArea && <View className='safeArea' />}
     </View>
   );
 };
+const { statusBarHeight: _statusBarHeight } = getSystemInfoSync();
 
+const menuButtonInfo = getMenuButtonBoundingClientRect();
+const statusBarHeight = Number.isNaN(_statusBarHeight) ? 22 : _statusBarHeight;
 PageContainer.Context = React.createContext<any>({});
+PageContainer.NavBarHeight = (menuButtonInfo.top - statusBarHeight) * 2 + menuButtonInfo.height + statusBarHeight;
 
 export default PageContainer;

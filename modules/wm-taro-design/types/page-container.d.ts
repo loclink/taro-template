@@ -1,6 +1,6 @@
 import { ScrollViewProps, ViewProps } from '@tarojs/components';
-import { NavBarProps } from './nav-bar';
 import { FunctionComponent, PropsWithChildren } from 'react';
+import { NavBarProps } from './nav-bar';
 
 export interface PageContainerProps extends ViewProps {
   /**
@@ -32,6 +32,10 @@ export interface PageContainerProps extends ViewProps {
   scrollViewProps?: ScrollViewProps;
 
   /**
+   * @description 自定义底部内容渲染
+   */
+  renderFooter?: React.ReactNode;
+  /**
    * @description Navbar组件参数
    */
   navBarProps?: NavBarProps & {
@@ -45,6 +49,7 @@ export interface PageContainerProps extends ViewProps {
 
 interface pageContainerProps {
   Context: React.Context<any>;
+  NavBarHeight: number;
 }
 
 /**
