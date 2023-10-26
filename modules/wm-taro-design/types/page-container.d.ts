@@ -39,9 +39,6 @@ export interface PageContainerProps extends ViewProps {
    * @description Navbar组件参数
    */
   navBarProps?: NavBarProps & {
-    /**
-     * @description 背景色
-     */
     backIconColor?: string;
     isTransparent?: boolean;
   };
