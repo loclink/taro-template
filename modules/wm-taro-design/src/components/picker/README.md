@@ -44,12 +44,11 @@ import { Picker } from 'wm-taro-design'
 
 ::: $demo6 :::
 
-### 结合popup使用
+### 结合 popup 使用
 
 ::: $demo7 :::
 
-
-### PickerProps [[详情]](https://codeup.aliyun.com/5f855dfb1858a17210466fd0/wuhang-meimeng-development/wm-taro-design/blob/master/packages/taro-design/types/picker.d.ts)
+### PickerProps [[详情]](https://codeup.aliyun.com/5f855dfb1858a17210466fd0/wuhang-meimeng-development/wm-taro-template/tree/master/modules/wm-taro-design/types/picker.d.ts)
 
 | 参数              | 说明                                                               | 类型                                                                                                            | 默认值 | 必填    |
 | ----------------- | ------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------- | ------ | ------- |
@@ -68,21 +67,21 @@ import { Picker } from 'wm-taro-design'
 | onConfirm         | 确认触发方法                                                       | _&nbsp;&nbsp;(<br/>&nbsp;&nbsp;&nbsp;&nbsp;e:&nbsp;PickerEvents<br/>&nbsp;&nbsp;)&nbsp;=>&nbsp;void<br/>_       | -      | `false` |
 | showToolbar       | 是否显示顶部栏                                                     | _&nbsp;&nbsp;boolean<br/>_                                                                                      | false  | `false` |
 
-### 事件 onConfirm 和 onCancel [[详情]](https://codeup.aliyun.com/5f855dfb1858a17210466fd0/wuhang-meimeng-development/wm-taro-design/blob/master/packages/taro-design/types/picker.d.ts)
+### 事件 onConfirm 和 onCancel [[详情]](https://codeup.aliyun.com/5f855dfb1858a17210466fd0/wuhang-meimeng-development/wm-taro-template/tree/master/modules/wm-taro-design/types/picker.d.ts)
 
 继承了 Taro 的 ITouchEvent 类型
 | 参数 | 说明 | 类型 |
 | --- | --- | --- |
 | detail | 返回选项对应的值和选项对应的下标 | _&nbsp;&nbsp;{<br/>&nbsp;&nbsp;&nbsp;&nbsp;value:&nbsp;any<br/>&nbsp;&nbsp;&nbsp;&nbsp;index:<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&brvbar;&nbsp;number<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&brvbar;&nbsp;number[]<br/>&nbsp;&nbsp;}<br/>_ |
 
-### 触发事件 onChange [[详情]](https://codeup.aliyun.com/5f855dfb1858a17210466fd0/wuhang-meimeng-development/wm-taro-design/blob/master/packages/taro-design/types/picker.d.ts)
+### 触发事件 onChange [[详情]](https://codeup.aliyun.com/5f855dfb1858a17210466fd0/wuhang-meimeng-development/wm-taro-template/tree/master/modules/wm-taro-design/types/picker.d.ts)
 
 继承了 Taro 的 ITouchEvent 类型
 | 参数 | 说明 | 类型 |
 | --- | --- | --- |
 | detail | 返回选项对应的值、picker 实例和多列返回当前第多少列、单列返回选项对应值 | _&nbsp;&nbsp;{<br/>&nbsp;&nbsp;&nbsp;&nbsp;value:&nbsp;any<br/>&nbsp;&nbsp;&nbsp;&nbsp;picker:&nbsp;IPickerInstance<br/>&nbsp;&nbsp;&nbsp;&nbsp;index:&nbsp;number<br/>&nbsp;&nbsp;}<br/>_ |
 
-### 组件实例 [[详情]](https://codeup.aliyun.com/5f855dfb1858a17210466fd0/wuhang-meimeng-development/wm-taro-design/blob/master/packages/taro-design/types/picker.d.ts)
+### 组件实例 [[详情]](https://codeup.aliyun.com/5f855dfb1858a17210466fd0/wuhang-meimeng-development/wm-taro-template/tree/master/modules/wm-taro-design/types/picker.d.ts)
 
 通过 ref 获取到的方法如下
 | 方法 | 说明 | 类型 |
@@ -99,7 +98,7 @@ import { Picker } from 'wm-taro-design'
 
 ### 样式变量
 
-组件提供了下列 CSS 变量，可用于自定义样式，使用方法请参考[ConfigProvider 组件](#/config-provider)
+组件提供了下列 CSS 变量，可用于自定义样式
 
 | 名称                                | 默认值                       |
 | ----------------------------------- | ---------------------------- |

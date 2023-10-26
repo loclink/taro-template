@@ -2,6 +2,9 @@ import { defineConfig } from 'dumi';
 
 export default defineConfig({
   title: 'WmTaroTemplate',
+  resolve: {
+    codeBlockMode: 'passive',
+  },
   themeConfig: {
     name: 'WmTaro',
     lastUpdated: true,

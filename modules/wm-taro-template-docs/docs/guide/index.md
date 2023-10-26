@@ -12,7 +12,8 @@ order: 1
 
 - 搭建基于 Taro 3.6.17 + React + Typescript + less 的基本架构
 - 搭建 [WmTaroDesign](http://wm-taro-design.develop.meimob.com/#/home) 基础组件库
-- 搭建集成于 Taro 的工具链，以及更方便更灵活的 Taro 路由工具库
+- 搭建集成于 Taro 的工具链，让重复性极高的路由配置过程变成纯自动。
+- 搭建了专为 Taro 服务的高级路由库 [wm-taro-router](/router)
 - 搭建了公司常用的工具库: [wm-kit](http://frontdoc.develop.meimob.com/)
 - 开发了专为公司业务定制的通用高级组件
 
@@ -35,75 +36,3 @@ order: 1
 4. 更加方便的 Taro 工具链，一键生成页面级组件，及相关配置，自动为项目注册页面路由。
 5. 自定义 tabbar，提供完全可自定义样式的底部 tabbar。
 
-## 项目目录结构
-
-项目开始前你需要先了解每个目录的作用，方便你更好的开发和维护项目。
-
-<Tree>
-  <ul>
-    <li>
-      modules
-      <small>工具库和公共模块文件夹</small>
-      <ul>
-      </ul>
-    </li>
-    <li>
-      packages
-      <small>用于存放前端项目包</small>
-      <ul>
-        <li>
-          taro-template
-          <small>Taro项目模板源码包</small>
-          <ul>
-            <li>
-              src
-              <small>项目核心业务存放于此文件夹</small>
-              <ul>
-                <li>
-                  assets
-                  <small>静态资源文件夹，用于存放图片或其他静态资源</small>
-                </li>
-                 <li>
-                  components
-                  <small>用于存放公共组件</small>
-                </li>
-                 <li>
-                  custom-tab-bar
-                  <small>自定义tabbar，一般情况下不需要更改和变动</small>
-                </li>
-                <li>
-                  pages
-                  <small>主包页面存放于此，除tabbar文件夹以外，其余页面必须都使用一级目录路径</small>
-                  <ul>
-                    <li>
-                      tabbar
-                      <small>用于存放tabbar页面，如：pages/tabbar/home/index.tsx 其余页面则在pages下以一级目录形式创建，如：pages/auth/index.tsx </small>
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  pages-sub
-                  <small>分包页面存放于此，所有分包页面都以二级目录存放，如：pages-sub/home/goods-list/index.tsx</small>
-                </li>
-                <li>
-                  request
-                  <small>网络请求代码存放于此文件夹，如swagger-ui工具自动生成的代码将存放于此，以及拦截器代码也将存放于此</small>
-                </li>
-              </ul>
-            </li>
-          </ul>
-        </li>
-      </ul>
-    </li>
-    <li>
-      .editorconfig
-      <small>代码内容规范配置文件</small>
-    </li>
-    <li>
-      package.json
-      <small>项目描述</small>
-    </li>
-    <li>pnpm-workspace.yaml</li>
-
-  </ul>
-</Tree>
