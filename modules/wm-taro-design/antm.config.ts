@@ -173,10 +173,10 @@ function getMenus() {
         //   path: 'form-render',
         //   title: 'FormRender 表单渲染器'
         // },
-        // {
-        //   path: 'picker',
-        //   title: 'Picker 选择器'
-        // },
+        {
+          path: 'picker',
+          title: 'Picker 选择器'
+        },
         // {
         //   path: 'radio',
         //   title: 'Radio 单选框'

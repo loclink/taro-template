@@ -58,7 +58,7 @@ export const PageContainer = (props: PropsWithChildren<PageContainerProps>) => {
 
   const handleRenderIcon = () => {
     if (isShowBackIcon && !isTab) {
-      return <Icon color={navBarProps?.backIconColor} name={handleLeftIconName()} size={'23px'} />;
+      return <Icon color={navBarProps?.backIconColor} name={handleLeftIconName()} size='23px' />;
     } else {
       return null;
     }

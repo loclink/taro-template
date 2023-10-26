@@ -16,3 +16,5 @@ export * from './transition';
 export * from './popup';
 export * from './cascader';
 export * from './calendar';
+export * from './picker';
+export * from './picker-column';

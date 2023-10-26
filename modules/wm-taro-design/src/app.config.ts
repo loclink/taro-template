@@ -17,7 +17,8 @@ export default defineAppConfig({
     'pages/transition/index',
     'pages/popup/index',
     'pages/calendar/index',
-    'pages/cascader/index'
+    'pages/cascader/index',
+    'pages/picker/index'
   ],
   navigationStyle: 'custom',
   window: {
