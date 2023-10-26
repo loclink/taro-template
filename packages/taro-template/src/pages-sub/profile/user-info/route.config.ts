@@ -9,4 +9,3 @@ export const Ext = {};
 
 // 定义该页面返回的数据的类型
 export type BackData = {};
-

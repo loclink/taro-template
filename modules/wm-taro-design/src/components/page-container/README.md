@@ -30,8 +30,7 @@ import { PageContainer } from 'wm-taro-design';
 
 ### pageContainerProps [[详情]](https://codeup.aliyun.com/5f855dfb1858a17210466fd0/wuhang-meimeng-development/wm-taro-template/tree/master/modules/wm-taro-design/types/page-container.d.ts)
 
-背景色
-| 参数 | 说明 | 类型 | 默认值 | 必填 |
-| --- | --- | --- | --- | --- |
-| Context | 注入页面全局配置的 context | _&nbsp;&nbsp;React.Context<any><br/>_ | - | `true` |
-| NavBarHeight | NavBar 整体高度常量 | _&nbsp;&nbsp;number<br/>_ | - | `true` |
+| 参数         | 说明                       | 类型                                  | 默认值 | 必填   |
+| ------------ | -------------------------- | ------------------------------------- | ------ | ------ |
+| Context      | 注入页面全局配置的 context | _&nbsp;&nbsp;React.Context<any><br/>_ | -      | `true` |
+| NavBarHeight | NavBar 整体高度常量        | _&nbsp;&nbsp;number<br/>_             | -      | `true` |

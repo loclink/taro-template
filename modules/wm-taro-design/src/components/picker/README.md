@@ -53,7 +53,7 @@ import { Picker } from 'wm-taro-design'
 | 参数              | 说明                                                               | 类型                                                                                                            | 默认值 | 必填    |
 | ----------------- | ------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------- | ------ | ------- |
 | valueKey          | 选项为对象的时候，文字对应的 key                                   | _&nbsp;&nbsp;string<br/>_                                                                                       | text   | `false` |
-| toolbarPosition   | 顶部栏位置，可选值为 bottom                                        | _&nbsp;&nbsp;string<br/>_                                                                                       | top    | `false` |
+| toolbarPosition   | 顶部栏位置，可选值为 bottom                                        | _&nbsp;&nbsp;"top"&nbsp;&brvbar;&nbsp;"bottom"<br/>_                                                            | top    | `false` |
 | defaultIndex      | 单列选择器的默认选中项索引,多列选择器请参考下方的 Columns 配置     | _&nbsp;&nbsp;number<br/>_                                                                                       | 0      | `false` |
 | columns           | 每一项数据，可为字符或者对象，对象默认展示值是 valueKey 设置的 key | _&nbsp;&nbsp;any[]<br/>_                                                                                        | []     | `false` |
 | title             | 顶部栏标题                                                         | _&nbsp;&nbsp;ReactNode<br/>_                                                                                    | ''     | `false` |
