@@ -9,7 +9,7 @@ function tabClass(active: any, ellipsis: any) {
   }
 
   if (ellipsis) {
-    classes.push('van-ellipsis')
+    classes.push('wm-ellipsis')
   }
 
   return classes.join(' ')

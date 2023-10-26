@@ -484,7 +484,7 @@ export function Tabs(props: TabsProps) {
                     })}
                     onClick={onTap}
                   >
-                    <View className={ellipsis ? 'van-ellipsis' : ''} style={item.titleStyle}>
+                    <View className={ellipsis ? 'wm-ellipsis' : ''} style={item.titleStyle}>
                       {item.title}
                       {(item.info !== null || item.dot) && (
                         <Info info={item.info} dot={item.dot} className='van-tab__title__info'></Info>

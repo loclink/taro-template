@@ -36,7 +36,8 @@ export function NavBar(props: NavBarProps) {
   const statusBarHeight = useMemo(() => {
     if (Number.isNaN(_statusBarHeight)) return 22;
     return _statusBarHeight;
-  }, []);
+  }, [_statusBarHeight]);
+
   const navBarHeight = (menuButtonInfo.top - statusBarHeight) * 2 + menuButtonInfo.height;
 
   const getNavBarStyle = useMemo<CSSProperties>(() => {
@@ -77,7 +78,7 @@ export function NavBar(props: NavBarProps) {
               renderLeft
             )}
           </View>
-          <View className='wm-nav-bar__title wm-nav-bar__title-h5  title-class van-ellipsis'>
+          <View className='wm-nav-bar__title wm-nav-bar__title-h5  title-class wm-ellipsis'>
             {title ? <>{title}</> : renderTitle}
           </View>
           <View className='wm-nav-bar__right' onClick={onClickRight}>

@@ -212,7 +212,7 @@ function Index(props: PickerColumnProps & { index: number }, ref: any): JSX.Elem
                 key={`picker-column__item${index}`}
                 style={{ height: itemHeight + 'px' }}
                 className={
-                  'van-ellipsis ' +
+                  'wm-ellipsis ' +
                   utils.bem('picker-column__item', {
                     disabled: option && option.disabled,
                     selected: index === currentIndex

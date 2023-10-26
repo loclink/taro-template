@@ -1,6 +1,6 @@
 import { View } from '@tarojs/components';
 import { useState } from 'react';
-import { Button, Cell, Picker, PickerChangeEvents, PickerEvents, Popup } from 'wm-taro-design';
+import { Cell, Picker, PickerEvents, Popup } from 'wm-taro-design';
 
 const columns = [
   {

@@ -5,7 +5,7 @@ export default function Demo() {
   return (
     <>
       <View
-        className="van-ellipsis"
+        className="wm-ellipsis"
         style={{ width: '200px', marginBottom: '20px' }}
       >
         这是一段宽度限制 250px 的文字，后面的内容会省略。
