@@ -76,7 +76,6 @@
     "wm-taro-design": "workspace:*"
   },
   "devDependencies": {
-    "doc-tool": "workspace:*",
     "@babel/core": "^7.8.0",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.5",
     "@tarojs/cli": "3.6.17",
@@ -90,6 +89,7 @@
     "@typescript-eslint/eslint-plugin": "^6.2.0",
     "@typescript-eslint/parser": "^6.2.0",
     "babel-preset-taro": "3.6.17",
+    "doc-tool": "workspace:*",
     "eslint": "^8.12.0",
     "eslint-config-taro": "3.6.17",
     "eslint-plugin-import": "^2.12.0",

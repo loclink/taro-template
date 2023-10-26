@@ -27,3 +27,11 @@ import { PageContainer } from 'wm-taro-design';
 | scrollViewProps | 滚动视图的 props                                         | _&nbsp;&nbsp;ScrollViewProps<br/>_                                                                                                                                              | -      | `false` |
 | renderFooter    | 自定义底部内容渲染                                       | _&nbsp;&nbsp;React.ReactNode<br/>_                                                                                                                                              | -      | `false` |
 | navBarProps     | Navbar 组件参数                                          | _&nbsp;&nbsp;NavBarProps&nbsp;&&nbsp;{<br/>&nbsp;&nbsp;&nbsp;&nbsp;backIconColor?:&nbsp;string<br/>&nbsp;&nbsp;&nbsp;&nbsp;isTransparent?:&nbsp;boolean<br/>&nbsp;&nbsp;}<br/>_ | -      | `false` |
+
+### pageContainerProps [[详情]](https://codeup.aliyun.com/5f855dfb1858a17210466fd0/wuhang-meimeng-development/wm-taro-template/tree/master/modules/wm-taro-design/types/page-container.d.ts)
+
+背景色
+| 参数 | 说明 | 类型 | 默认值 | 必填 |
+| --- | --- | --- | --- | --- |
+| Context | 注入页面全局配置的 context | _&nbsp;&nbsp;React.Context<any><br/>_ | - | `true` |
+| NavBarHeight | NavBar 整体高度常量 | _&nbsp;&nbsp;number<br/>_ | - | `true` |
