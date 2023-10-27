@@ -52,8 +52,8 @@ class Generator {
                 store.set(page.packageName, pages);
             }
             if ((_a = page.method) === null || _a === void 0 ? void 0 : _a.type) {
-                page.method.type = (_b = page.method) === null || _b === void 0 ? void 0 : _b.type.replace(/([A-Za-z]:\\\\(?:[^\\\\]*\\\\)*[^\\/:*?"<>|\r\n]*)/g, (match) => {
-                    return path.normalize(match).replace(/\\\\/g, "/");
+                page.method.type = (_b = page.method) === null || _b === void 0 ? void 0 : _b.type.replace(/([A-Za-z]:\\(?:[^\\]*\\)*[^\/:*?"<>|\r\n]*)/g, (match) => {
+                    return path.normalize(match).replace(/\\/g, "/");
                 });
             }
             pages.push(page);

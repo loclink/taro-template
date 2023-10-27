@@ -85,9 +85,9 @@ export class Generator {
 
       if (page.method?.type) {
         page.method.type = page.method?.type.replace(
-          /([A-Za-z]:\\\\(?:[^\\\\]*\\\\)*[^\\/:*?"<>|\r\n]*)/g,
+          /([A-Za-z]:\\(?:[^\\]*\\)*[^\/:*?"<>|\r\n]*)/g,
           (match) => {
-            return path.normalize(match).replace(/\\\\/g, "/");
+            return path.normalize(match).replace(/\\/g, "/");
           }
         );
       }
