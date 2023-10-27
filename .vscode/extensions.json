@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "clinyong.vscode-css-modules",
+    "dbaeumer.vscode-eslint",
+    "kisstkondoros.vscode-gutter-preview",
+    "esbenp.prettier-vscode",
+    "dsznajder.es7-react-js-snippets"
+  ]
+}
