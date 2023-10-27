@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { View } from '@tarojs/components';
 import * as utils from '../wxs/utils';
 import { TabProps } from 'types';
+import './index.less';
 
 export function Tab(
   props: TabProps & {

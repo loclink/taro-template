@@ -1,7 +1,6 @@
 /* eslint-disable */
 
 import { Component } from 'react';
-import DemoPage from '@/base-ui/demo-page/index';
 import DemoBlock from '@/base-ui/demo-block/index';
 import Demo1 from './demo1';
 import Demo2 from './demo2';
@@ -12,6 +11,7 @@ import Demo6 from './demo6';
 import Demo7 from './demo7';
 import Demo8 from './demo8';
 import Demo9 from './demo9';
+import PageContainer from '@/components/page-container';
 
 export default class Index extends Component {
   constructor(props) {
@@ -20,7 +20,7 @@ export default class Index extends Component {
   state = { active: 0 };
   render() {
     return (
-      <DemoPage title='Tab 标签页' className='pages-tab-index'>
+      <PageContainer title='Tab 标签页' className='pages-tab-index'>
         <DemoBlock title='粘性布局'>
           <Demo1 />
         </DemoBlock>
@@ -56,7 +56,7 @@ export default class Index extends Component {
         <DemoBlock title='滑动切换'>
           <Demo9 />
         </DemoBlock>
-      </DemoPage>
+      </PageContainer>
     );
   }
 }

@@ -9,7 +9,7 @@
 在 Taro 文件中引入组件
 
 ```js
-import { Tab, Tabs } from '@antmjs/vantui'
+import { Tab, Tabs } from 'wm-taro-design'
 ```
 
 ## 代码演示
@@ -212,7 +212,7 @@ function Demo() {
 }
 ```
 
-### TabsProps [[详情]](https://codeup.aliyun.com/5f855dfb1858a17210466fd0/wuhang-meimeng-development/wm-taro-template/tree/master/modules/wm-taro-design/types/tab.d.ts)
+### TabsProps [[详情]](https://codeup.aliyun.com/5f855dfb1858a17210466fd0/wuhang-meimeng-development/wm-taro-design/blob/master/packages/taro-design/types/tab.d.ts)
 
 | 参数               | 说明 | 类型                                                                                                                                                                                                                                                                                                                                                                                                              | 默认值 | 必填    |
 | ------------------ | ---- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ | ------- |
@@ -242,7 +242,7 @@ function Demo() {
 | onChange           | -    | _&nbsp;&nbsp;(<br/>&nbsp;&nbsp;&nbsp;&nbsp;event:&nbsp;eventDetail<br/>&nbsp;&nbsp;)&nbsp;=>&nbsp;void<br/>_                                                                                                                                                                                                                                                                                                      | -      | `false` |
 | onDisabled         | -    | _&nbsp;&nbsp;(<br/>&nbsp;&nbsp;&nbsp;&nbsp;event:&nbsp;eventDetail<br/>&nbsp;&nbsp;)&nbsp;=>&nbsp;void<br/>_                                                                                                                                                                                                                                                                                                      | -      | `false` |
 
-### TabProps [[详情]](https://codeup.aliyun.com/5f855dfb1858a17210466fd0/wuhang-meimeng-development/wm-taro-template/tree/master/modules/wm-taro-design/types/tab.d.ts)
+### TabProps [[详情]](https://codeup.aliyun.com/5f855dfb1858a17210466fd0/wuhang-meimeng-development/wm-taro-design/blob/master/packages/taro-design/types/tab.d.ts)
 
 | 参数       | 说明 | 类型                                                | 默认值 | 必填    |
 | ---------- | ---- | --------------------------------------------------- | ------ | ------- |
@@ -256,7 +256,7 @@ function Demo() {
 
 ### 样式变量
 
-组件提供了下列 CSS 变量，可用于自定义样式
+组件提供了下列 CSS 变量，可用于自定义样式，使用方法请参考[ConfigProvider 组件](#/config-provider)
 
 | 名称                      | 默认值            |
 | ------------------------- | ----------------- |

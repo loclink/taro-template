@@ -7,6 +7,7 @@ import { usePageScroll } from './../mixins/page-scroll';
 import * as computed from './wxs';
 import { StickyProps } from 'types/sticky';
 import './index.less';
+
 export function Sticky(props: StickyProps) {
   const indexRef = useRef(`${+new Date()}${Math.ceil(Math.random() * 10000)}`);
   const [state, setState] = useState({ height: 0, fixed: false, transform: 0 });

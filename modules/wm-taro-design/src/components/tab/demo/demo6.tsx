@@ -1,11 +1,11 @@
-import { Tabs, Tab, Toast } from 'wm-taro-design';
+import { Tabs, Tab } from 'wm-taro-design'
 
 export default function Demo() {
   return (
-    <Tabs type='card'>
-      <Tab title='标签 1'>内容 1</Tab>
-      <Tab title='标签 2'>内容 2</Tab>
-      <Tab title='标签 3'>内容 3</Tab>
+    <Tabs type="card">
+      <Tab title="标签 1">内容 1</Tab>
+      <Tab title="标签 2">内容 2</Tab>
+      <Tab title="标签 3">内容 3</Tab>
     </Tabs>
-  );
+  )
 }

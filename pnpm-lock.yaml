@@ -15,9 +15,6 @@ importers:
       commitizen:
         specifier: ^4.2.4
         version: registry.npmmirror.com/commitizen@4.3.0
-      concurrently:
-        specifier: ^8.2.1
-        version: registry.npmmirror.com/concurrently@8.2.2
       cross-env:
         specifier: ^7.0.3
         version: registry.npmmirror.com/cross-env@7.0.3
@@ -10085,24 +10082,6 @@ packages:
       typedarray: registry.npmmirror.com/typedarray@0.0.6
     dev: true
 
-  registry.npmmirror.com/concurrently@8.2.2:
-    resolution: {integrity: sha512-1dP4gpXFhei8IOtlXRE/T/4H88ElHgTiUzh71YUmtjTEHMSRS2Z/fgOxHSxxusGHogsRfxNq1vyAwxSC+EVyDg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/concurrently/-/concurrently-8.2.2.tgz}
-    name: concurrently
-    version: 8.2.2
-    engines: {node: ^14.13.0 || >=16.0.0}
-    hasBin: true
-    dependencies:
-      chalk: registry.npmmirror.com/chalk@4.1.2
-      date-fns: registry.npmmirror.com/date-fns@2.30.0
-      lodash: registry.npmmirror.com/lodash@4.17.21
-      rxjs: registry.npmmirror.com/rxjs@7.8.1
-      shell-quote: registry.npmmirror.com/shell-quote@1.8.1
-      spawn-command: registry.npmmirror.com/spawn-command@0.0.2
-      supports-color: registry.npmmirror.com/supports-color@8.1.1
-      tree-kill: registry.npmmirror.com/tree-kill@1.2.2
-      yargs: registry.npmmirror.com/yargs@17.7.2
-    dev: true
-
   registry.npmmirror.com/config-chain@1.1.13:
     resolution: {integrity: sha512-qj+f8APARXHrM0hraqXYb2/bOVSV4PvJQlNZ/DVj0QrmNM2q2euizkeuVckQ57J+W0mRH6Hvi+k50M4Jul2VRQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/config-chain/-/config-chain-1.1.13.tgz}
     name: config-chain
@@ -11239,15 +11218,6 @@ packages:
     dependencies:
       image-size: registry.npmmirror.com/image-size@0.8.3
       mimer: registry.npmmirror.com/mimer@1.1.0
-    dev: true
-
-  registry.npmmirror.com/date-fns@2.30.0:
-    resolution: {integrity: sha512-fnULvOpxnC5/Vg3NCiWelDsLiUc9bRwAPs/+LfTLNvetFCtCTN+yQz15C/fs4AwX1R9K5GLtLfn8QW+dWisaAw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/date-fns/-/date-fns-2.30.0.tgz}
-    name: date-fns
-    version: 2.30.0
-    engines: {node: '>=0.11'}
-    dependencies:
-      '@babel/runtime': registry.npmmirror.com/@babel/runtime@7.23.2
     dev: true
 
   registry.npmmirror.com/dayjs@1.11.10:
@@ -24306,6 +24276,7 @@ packages:
     resolution: {integrity: sha512-6j1W9l1iAs/4xYBI1SYOVZyFcCis9b4KCLQ8fgAGG07QvzaRLVVRQvAy85yNmmZSjYjg4MWh4gNvlPujU/5LpA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/shell-quote/-/shell-quote-1.8.1.tgz}
     name: shell-quote
     version: 1.8.1
+    dev: false
 
   registry.npmmirror.com/shortid@2.2.16:
     resolution: {integrity: sha512-Ugt+GIZqvGXCIItnsL+lvFJOiN7RYqlGy7QE41O3YC1xbNSeDGIRO7xg2JJXIAj1cAGnOeC1r7/T9pgrtQbv4g==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/shortid/-/shortid-2.2.16.tgz}
@@ -24620,12 +24591,6 @@ packages:
     resolution: {integrity: sha512-PEGlAwrG8yXGXRjW32fGbg66JAlOAwbObuqVoJpv/mRgoWDQfgH1wDPvtzWyUSNAXBGSk8h755YDbbcEy3SH2Q==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/space-separated-tokens/-/space-separated-tokens-2.0.2.tgz}
     name: space-separated-tokens
     version: 2.0.2
-    dev: true
-
-  registry.npmmirror.com/spawn-command@0.0.2:
-    resolution: {integrity: sha512-zC8zGoGkmc8J9ndvml8Xksr1Amk9qBujgbF0JAIWO7kXr43w0h/0GJNM/Vustixu+YE8N/MTrQ7N31FvHUACxQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/spawn-command/-/spawn-command-0.0.2.tgz}
-    name: spawn-command
-    version: 0.0.2
     dev: true
 
   registry.npmmirror.com/spdx-correct@3.2.0:
@@ -25975,13 +25940,6 @@ packages:
     name: traverse
     version: 0.6.7
     dev: false
-
-  registry.npmmirror.com/tree-kill@1.2.2:
-    resolution: {integrity: sha512-L0Orpi8qGpRG//Nd+H90vFB+3iHnue1zSSGmNOOCh1GLJ7rUKVwV2HvijphGQS2UmhUZewS9VgvxYIdgr+fG1A==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/tree-kill/-/tree-kill-1.2.2.tgz}
-    name: tree-kill
-    version: 1.2.2
-    hasBin: true
-    dev: true
 
   registry.npmmirror.com/trim-lines@3.0.1:
     resolution: {integrity: sha512-kRj8B+YHZCc9kQYdWfJB2/oUl9rA99qbowYYBtr4ui4mZyAQ2JpvVBd/6U2YloATfqBhBTSMhTpgBHtU0Mf3Rg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/trim-lines/-/trim-lines-3.0.1.tgz}

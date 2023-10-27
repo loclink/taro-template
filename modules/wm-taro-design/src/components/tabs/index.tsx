@@ -10,6 +10,7 @@ import { getRect, getAllRect, requestAnimationFrame } from '../common/utils';
 import { Info } from '../info/index';
 import * as computed from './wxs';
 import { TabProps, TabsProps } from 'types';
+import './index.less';
 
 const MIN_DISTANCE = 10;
 function getDirection(x: number, y: number) {
@@ -180,8 +181,8 @@ export function Tabs(props: TabsProps) {
     index = index ?? currentIndex;
     nextTick(() => {
       Promise.all([
-        getAllRect(null, `.tabs-com-index${indexRef.current} .van-tab`),
-        getRect(null, `.tabs-com-index${indexRef.current} .van-tabs__line`)
+        getAllRect(null, `.tabs-com-index${indexRef.current} .wm-tab`),
+        getRect(null, `.tabs-com-index${indexRef.current} .wm-tabs__line`)
       ]).then(([rects = [], lineRect]: any) => {
         if (rects && lineRect) {
           const rect = rects[index!];
@@ -226,8 +227,8 @@ export function Tabs(props: TabsProps) {
     }
     index = index ?? currentIndex;
     Promise.all([
-      getAllRect(null, `.tabs-com-index${indexRef.current} .van-tab`),
-      getRect(null, `.tabs-com-index${indexRef.current} .van-tabs__nav`)
+      getAllRect(null, `.tabs-com-index${indexRef.current} .wm-tab`),
+      getRect(null, `.tabs-com-index${indexRef.current} .wm-tabs__nav`)
     ]).then(([tabRects, navRect]: any) => {
       if (tabRects && navRect) {
         const tabRect = tabRects[index!];
@@ -286,6 +287,8 @@ export function Tabs(props: TabsProps) {
 
   const onTouchStart = function (event: any) {
     if (!swipeable) return;
+    console.log('adasdasdas');
+
     ref.current.swiping = true;
     touchStart(event);
   };
@@ -412,94 +415,92 @@ export function Tabs(props: TabsProps) {
       style={style}
       {...others}
     >
-      <Sticky disabled={!sticky} zIndex={zIndex} offsetTop={offsetTop} container={container} onScroll={onScroll}>
-        <View
-          className={
-            utils.bem('tabs__wrap', {
-              scrollable
-            }) +
-            ' ' +
-            (type === 'line' && border ? 'van-hairline--top-bottom' : '')
-          }
-        >
-          <View className={utils.bem('renderNavLeft' + indexRef.current)}>{renderNavLeft}</View>
-          <ScrollView
-            scrollX={scrollable}
-            scrollWithAnimation={scrollWithAnimation}
-            scrollLeft={scrollLeft}
-            className={utils.bem('tabs__scroll', [type])}
-            style={{
-              width: scrollWidth,
-              borderColor: color
-            }}
-          >
-            <View
-              className={
-                utils.bem('tabs__nav', [
-                  type,
-                  {
-                    complete: !ellipsis
-                  }
-                ]) + ' nav-class'
-              }
-              style={computed.navStyle(color, type)}
-            >
-              {type === 'line' && (
-                <View
-                  className='van-tabs__line'
-                  style={computed.lineStyle({
-                    color,
-                    lineOffsetLeft,
-                    lineHeight,
-                    skipTransition,
-                    duration,
-                    lineWidth
-                  })}
-                ></View>
-              )}
-              {tabs.map((item: any, index: any) => {
-                return (
-                  <View
-                    key={index}
-                    data-index={index}
-                    className={
-                      computed.tabClass(index === currentIndex, ellipsis) +
-                      ' ' +
-                      utils.bem('tab', {
-                        active: index === currentIndex,
-                        disabled: item.disabled,
-                        complete: !ellipsis
-                      })
-                    }
-                    style={computed.tabStyle({
-                      active: index === currentIndex,
-                      ellipsis,
-                      color,
-                      type,
-                      disabled: item.disabled,
-                      titleActiveColor,
-                      titleInactiveColor,
-                      swipeThreshold,
-                      scrollable
-                    })}
-                    onClick={onTap}
-                  >
-                    <View className={ellipsis ? 'wm-ellipsis' : ''} style={item.titleStyle}>
-                      {item.title}
-                      {(item.info !== null || item.dot) && (
-                        <Info info={item.info} dot={item.dot} className='van-tab__title__info'></Info>
-                      )}
-                    </View>
-                  </View>
-                );
-              })}
-            </View>
-          </ScrollView>
-          <View className={utils.bem('renderNavRight' + indexRef.current)}>{renderNavRight}</View>
-        </View>
-      </Sticky>
       <View
-        className='van-tabs__content'
+        className={
+          utils.bem('tabs__wrap', {
+            scrollable
+          }) +
+          ' ' +
+          (type === 'line' && border ? 'wm-hairline--top-bottom' : '')
+        }
+      >
+        <View className={utils.bem('renderNavLeft' + indexRef.current)}>{renderNavLeft}</View>
+        <ScrollView
+          scrollX={scrollable}
+          scrollWithAnimation={scrollWithAnimation}
+          // scrollLeft={scrollLeft}
+          className={utils.bem('tabs__scroll', [type])}
+          style={{
+            width: scrollWidth,
+            borderColor: color
+          }}
+        >
+          <View
+            className={
+              utils.bem('tabs__nav', [
+                type,
+                {
+                  complete: !ellipsis
+                }
+              ]) + ' nav-class'
+            }
+            style={computed.navStyle(color, type)}
+          >
+            {type === 'line' && (
+              <View
+                className='wm-tabs__line'
+                style={computed.lineStyle({
+                  color,
+                  lineOffsetLeft,
+                  lineHeight,
+                  skipTransition,
+                  duration,
+                  lineWidth
+                })}
+              ></View>
+            )}
+            {tabs.map((item: any, index: any) => {
+              return (
+                <View
+                  key={index}
+                  data-index={index}
+                  className={
+                    computed.tabClass(index === currentIndex, ellipsis) +
+                    ' ' +
+                    utils.bem('tab', {
+                      active: index === currentIndex,
+                      disabled: item.disabled,
+                      complete: !ellipsis
+                    })
+                  }
+                  style={computed.tabStyle({
+                    active: index === currentIndex,
+                    ellipsis,
+                    color,
+                    type,
+                    disabled: item.disabled,
+                    titleActiveColor,
+                    titleInactiveColor,
+                    swipeThreshold,
+                    scrollable
+                  })}
+                  onClick={onTap}
+                >
+                  <View className={ellipsis ? 'wm-ellipsis' : ''} style={item.titleStyle}>
+                    {item.title}
+                    {(item.info !== null || item.dot) && (
+                      <Info info={item.info} dot={item.dot} className='wm-tab__title__info'></Info>
+                    )}
+                  </View>
+                </View>
+              );
+            })}
+          </View>
+        </ScrollView>
+        <View className={utils.bem('renderNavRight' + indexRef.current)}>{renderNavRight}</View>
+      </View>
+      <View
+        className='wm-tabs__content'
         onTouchStart={onTouchStart}
         onTouchMove={onTouchMove}
         onTouchEnd={onTouchEnd}
@@ -511,7 +512,7 @@ export function Tabs(props: TabsProps) {
               {
                 animated
               }
-            ]) + ' van-tabs__track'
+            ]) + ' wm-tabs__track'
           }
           style={computed.trackStyle({
             duration,
