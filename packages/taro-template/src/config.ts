@@ -10,8 +10,8 @@ export default {
   silentAuthorizationUrl: '/wechat/auth/wx-token',
   loginUrl: '/pages/auth/index',
   apiUrl: {
-    dev: 'http://wanghui-shouhou.f.meimob.com',
-    pro: 'http://wanghui-shouhou.f.meimob.com'
+    dev: '',
+    pro: ''
   },
   router: Router,
   printLog: true,
