@@ -9,8 +9,12 @@ export default {
   silentAuthorization: true,
   silentAuthorizationUrl: '/wechat/auth/wx-token',
   loginUrl: '/pages/auth/index',
-  apiUrl: 'http://wanghui-shouhou.f.meimob.com',
+  apiUrl: {
+    dev: 'http://wanghui-shouhou.f.meimob.com',
+    pro: 'http://wanghui-shouhou.f.meimob.com'
+  },
   router: Router,
+  printLog: true,
   tabbar: [
     {
       text: '首页',

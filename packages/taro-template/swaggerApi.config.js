@@ -12,7 +12,7 @@ module.exports = {
     projects: [
       {
         name: '',
-        url: ''
+        url: 'http://127.0.0.1:4523/export/openapi?projectId=2832185&version=3.0'
       }
     ]
   }

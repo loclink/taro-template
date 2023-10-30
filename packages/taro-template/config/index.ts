@@ -2,6 +2,16 @@ import { defineConfig, type UserConfigExport } from '@tarojs/cli';
 import TsconfigPathsPlugin from 'tsconfig-paths-webpack-plugin';
 import devConfig from './dev';
 import prodConfig from './prod';
+import path from 'path';
+import type { CIOptions } from '@tarojs/plugin-mini-ci';
+import projectConfig from '../project.config.json';
+
+const CIPluginOpt: CIOptions = {
+  weapp: {
+    appid: projectConfig.appid,
+    privateKeyPath: path.resolve(__dirname, '../private.appid.key')
+  }
+};
 
 // https://taro-docs.jd.com/docs/next/config#defineconfig-辅助函数
 export default defineConfig(async (merge) => {
@@ -18,7 +28,12 @@ export default defineConfig(async (merge) => {
 
     sourceRoot: 'src',
     outputRoot: 'dist',
-    plugins: ['tarojs-plugin-generate-router', 'tarojs-plugin-generate-tools', 'tarojs-plugin-generate-config'],
+    plugins: [
+      ['@tarojs/plugin-mini-ci', CIPluginOpt],
+      'tarojs-plugin-generate-router',
+      'tarojs-plugin-generate-tools',
+      'tarojs-plugin-generate-config'
+    ],
     defineConstants: {},
     copy: {
       patterns: [],

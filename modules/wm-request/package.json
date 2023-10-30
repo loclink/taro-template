@@ -1,0 +1,13 @@
+{
+  "name": "wm-request",
+  "version": "1.0.0",
+  "description": "武汉美萌请求库",
+  "files": [
+    "src"
+  ],
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "@tarojs/taro": "3.6.17"
+  }
+}
