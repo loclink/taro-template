@@ -8,6 +8,6 @@
   "author": "",
   "license": "ISC",
   "peerDependencies": {
-    "@tarojs/taro": "3.6.17"
+    "@tarojs/taro": "3.6.18"
   }
 }

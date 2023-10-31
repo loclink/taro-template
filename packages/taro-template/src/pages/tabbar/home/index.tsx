@@ -34,9 +34,5 @@ export default Home;
  * 参考: https://docs.taro.zone/docs/page-config#配置项列表
  */
 definePageConfig({
-  disableScroll: true,
-  // 使用富文本组件需要在这里注册原生组件
-  usingComponents: {
-    wxparse: '../../../components/rich-text/wxparse/index'
-  }
+  disableScroll: true
 });

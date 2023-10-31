@@ -214,7 +214,7 @@ importers:
     dependencies:
       '@tarojs/taro':
         specifier: 3.6.17
-        version: registry.npmmirror.com/@tarojs/taro@3.6.17(@types/react@18.2.32)(postcss@8.4.31)
+        version: registry.npmmirror.com/@tarojs/taro@3.6.17(postcss@8.4.31)
       ali-oss:
         specifier: ^6.17.1
         version: registry.npmmirror.com/ali-oss@6.18.1
@@ -230,7 +230,7 @@ importers:
     dependencies:
       '@tarojs/taro':
         specifier: 3.6.17
-        version: registry.npmmirror.com/@tarojs/taro@3.6.17(@types/react@18.2.32)(postcss@8.4.31)
+        version: registry.npmmirror.com/@tarojs/taro@3.6.17(postcss@8.4.31)
 
   modules/wm-taro-design:
     dependencies:
@@ -238,47 +238,47 @@ importers:
         specifier: ^7.21.5
         version: registry.npmmirror.com/@babel/runtime@7.23.2
       '@tarojs/components':
-        specifier: 3.6.17
-        version: registry.npmmirror.com/@tarojs/components@3.6.17(@types/react@18.2.32)(postcss@8.4.31)(react@18.2.0)
+        specifier: 3.6.18
+        version: registry.npmmirror.com/@tarojs/components@3.6.18(@types/react@18.2.32)(postcss@8.4.31)(react@18.2.0)
       '@tarojs/helper':
-        specifier: 3.6.17
-        version: registry.npmmirror.com/@tarojs/helper@3.6.17
+        specifier: 3.6.18
+        version: registry.npmmirror.com/@tarojs/helper@3.6.18
       '@tarojs/plugin-framework-react':
-        specifier: 3.6.17
-        version: registry.npmmirror.com/@tarojs/plugin-framework-react@3.6.17(@pmmmwh/react-refresh-webpack-plugin@0.5.11)(@types/react@18.2.32)(postcss@8.4.31)(react-refresh@0.11.0)(react@18.2.0)
+        specifier: 3.6.18
+        version: registry.npmmirror.com/@tarojs/plugin-framework-react@3.6.18(@pmmmwh/react-refresh-webpack-plugin@0.5.11)(@types/react@18.2.32)(postcss@8.4.31)(react-refresh@0.11.0)(react@18.2.0)
       '@tarojs/plugin-platform-alipay':
-        specifier: 3.6.17
-        version: registry.npmmirror.com/@tarojs/plugin-platform-alipay@3.6.17(@types/react@18.2.32)(postcss@8.4.31)(react@18.2.0)
+        specifier: 3.6.18
+        version: registry.npmmirror.com/@tarojs/plugin-platform-alipay@3.6.18(@types/react@18.2.32)(postcss@8.4.31)(react@18.2.0)
       '@tarojs/plugin-platform-h5':
-        specifier: 3.6.17
-        version: registry.npmmirror.com/@tarojs/plugin-platform-h5@3.6.17(@types/react@18.2.32)(postcss@8.4.31)
+        specifier: 3.6.18
+        version: registry.npmmirror.com/@tarojs/plugin-platform-h5@3.6.18(@types/react@18.2.32)(postcss@8.4.31)
       '@tarojs/plugin-platform-jd':
-        specifier: 3.6.17
-        version: registry.npmmirror.com/@tarojs/plugin-platform-jd@3.6.17(@types/react@18.2.32)(postcss@8.4.31)
+        specifier: 3.6.18
+        version: registry.npmmirror.com/@tarojs/plugin-platform-jd@3.6.18(@types/react@18.2.32)(postcss@8.4.31)
       '@tarojs/plugin-platform-qq':
-        specifier: 3.6.17
-        version: registry.npmmirror.com/@tarojs/plugin-platform-qq@3.6.17(@types/react@18.2.32)(postcss@8.4.31)
+        specifier: 3.6.18
+        version: registry.npmmirror.com/@tarojs/plugin-platform-qq@3.6.18(@types/react@18.2.32)(postcss@8.4.31)
       '@tarojs/plugin-platform-swan':
-        specifier: 3.6.17
-        version: registry.npmmirror.com/@tarojs/plugin-platform-swan@3.6.17(@types/react@18.2.32)(postcss@8.4.31)
+        specifier: 3.6.18
+        version: registry.npmmirror.com/@tarojs/plugin-platform-swan@3.6.18(@types/react@18.2.32)(postcss@8.4.31)
       '@tarojs/plugin-platform-tt':
-        specifier: 3.6.17
-        version: registry.npmmirror.com/@tarojs/plugin-platform-tt@3.6.17(@types/react@18.2.32)(postcss@8.4.31)
+        specifier: 3.6.18
+        version: registry.npmmirror.com/@tarojs/plugin-platform-tt@3.6.18(@types/react@18.2.32)(postcss@8.4.31)
       '@tarojs/plugin-platform-weapp':
-        specifier: 3.6.17
-        version: registry.npmmirror.com/@tarojs/plugin-platform-weapp@3.6.17(@types/react@18.2.32)(postcss@8.4.31)
+        specifier: 3.6.18
+        version: registry.npmmirror.com/@tarojs/plugin-platform-weapp@3.6.18(@types/react@18.2.32)(postcss@8.4.31)
       '@tarojs/react':
-        specifier: 3.6.17
-        version: registry.npmmirror.com/@tarojs/react@3.6.17(react@18.2.0)
+        specifier: 3.6.18
+        version: registry.npmmirror.com/@tarojs/react@3.6.18(react@18.2.0)
       '@tarojs/runtime':
-        specifier: 3.6.17
-        version: registry.npmmirror.com/@tarojs/runtime@3.6.17
+        specifier: 3.6.18
+        version: registry.npmmirror.com/@tarojs/runtime@3.6.18
       '@tarojs/shared':
-        specifier: 3.6.17
-        version: registry.npmmirror.com/@tarojs/shared@3.6.17
+        specifier: 3.6.18
+        version: registry.npmmirror.com/@tarojs/shared@3.6.18
       '@tarojs/taro':
-        specifier: 3.6.17
-        version: registry.npmmirror.com/@tarojs/taro@3.6.17(@types/react@18.2.32)(postcss@8.4.31)
+        specifier: 3.6.18
+        version: registry.npmmirror.com/@tarojs/taro@3.6.18(@types/react@18.2.32)(postcss@8.4.31)
       '@vant/area-data':
         specifier: ^1.5.0
         version: registry.npmmirror.com/@vant/area-data@1.5.0
@@ -314,17 +314,17 @@ importers:
         specifier: ^0.5.5
         version: registry.npmmirror.com/@pmmmwh/react-refresh-webpack-plugin@0.5.11(react-refresh@0.11.0)(webpack@5.78.0)
       '@tarojs/cli':
-        specifier: 3.6.17
-        version: registry.npmmirror.com/@tarojs/cli@3.6.17(@types/react@18.2.32)(postcss@8.4.31)
+        specifier: 3.6.18
+        version: registry.npmmirror.com/@tarojs/cli@3.6.18(@types/react@18.2.32)(postcss@8.4.31)
       '@tarojs/taro-loader':
-        specifier: 3.6.17
-        version: registry.npmmirror.com/@tarojs/taro-loader@3.6.17(@types/react@18.2.32)(postcss@8.4.31)
+        specifier: 3.6.18
+        version: registry.npmmirror.com/@tarojs/taro-loader@3.6.18(@types/react@18.2.32)(postcss@8.4.31)
       '@tarojs/test-utils-react':
         specifier: ^0.1.1
-        version: registry.npmmirror.com/@tarojs/test-utils-react@0.1.1(@babel/core@7.23.2)(@tarojs/components@3.6.17)(@tarojs/helper@3.6.17)(@tarojs/plugin-framework-react@3.6.17)(@tarojs/plugin-platform-h5@3.6.17)(@tarojs/react@3.6.17)(@tarojs/runtime@3.6.17)(@tarojs/shared@3.6.17)(react-dom@18.2.0)(react@18.2.0)
+        version: registry.npmmirror.com/@tarojs/test-utils-react@0.1.1(@babel/core@7.23.2)(@tarojs/components@3.6.18)(@tarojs/helper@3.6.18)(@tarojs/plugin-framework-react@3.6.18)(@tarojs/plugin-platform-h5@3.6.18)(@tarojs/react@3.6.18)(@tarojs/runtime@3.6.18)(@tarojs/shared@3.6.18)(react-dom@18.2.0)(react@18.2.0)
       '@tarojs/webpack5-runner':
-        specifier: 3.6.17
-        version: registry.npmmirror.com/@tarojs/webpack5-runner@3.6.17(@babel/core@7.23.2)(@swc/core@1.3.23)(@types/react@18.2.32)(postcss@8.4.31)(prettier@2.8.8)(react-dom@18.2.0)(react@18.2.0)(typescript@5.2.2)(webpack@5.78.0)
+        specifier: 3.6.18
+        version: registry.npmmirror.com/@tarojs/webpack5-runner@3.6.18(@babel/core@7.23.2)(@swc/core@1.3.23)(@types/react@18.2.32)(postcss@8.4.31)(prettier@2.8.8)(react-dom@18.2.0)(react@18.2.0)(typescript@5.2.2)(webpack@5.78.0)
       '@types/jest':
         specifier: ^29.3.1
         version: registry.npmmirror.com/@types/jest@29.5.6
@@ -344,8 +344,8 @@ importers:
         specifier: ^6.2.0
         version: registry.npmmirror.com/@typescript-eslint/parser@6.9.0(eslint@8.52.0)(typescript@5.2.2)
       babel-preset-taro:
-        specifier: 3.6.17
-        version: registry.npmmirror.com/babel-preset-taro@3.6.17(@babel/core@7.23.2)
+        specifier: 3.6.18
+        version: registry.npmmirror.com/babel-preset-taro@3.6.18(@babel/core@7.23.2)
       doc-tool:
         specifier: workspace:*
         version: link:../doc-tool
@@ -353,8 +353,8 @@ importers:
         specifier: ^8.12.0
         version: registry.npmmirror.com/eslint@8.52.0
       eslint-config-taro:
-        specifier: 3.6.17
-        version: registry.npmmirror.com/eslint-config-taro@3.6.17(@babel/core@7.23.2)(eslint@8.52.0)(typescript@5.2.2)
+        specifier: 3.6.18
+        version: registry.npmmirror.com/eslint-config-taro@3.6.18(@babel/core@7.23.2)(eslint@8.52.0)(typescript@5.2.2)
       eslint-plugin-import:
         specifier: ^2.12.0
         version: registry.npmmirror.com/eslint-plugin-import@2.29.0(@typescript-eslint/parser@6.9.0)(eslint@8.52.0)
@@ -429,47 +429,47 @@ importers:
         specifier: ^7.21.5
         version: registry.npmmirror.com/@babel/runtime@7.23.2
       '@tarojs/components':
-        specifier: 3.6.17
-        version: registry.npmmirror.com/@tarojs/components@3.6.17(@types/react@18.2.32)(postcss@8.4.31)(react@18.2.0)
+        specifier: 3.6.18
+        version: registry.npmmirror.com/@tarojs/components@3.6.18(@types/react@18.2.32)(postcss@8.4.31)(react@18.2.0)
       '@tarojs/helper':
-        specifier: 3.6.17
-        version: registry.npmmirror.com/@tarojs/helper@3.6.17
+        specifier: 3.6.18
+        version: registry.npmmirror.com/@tarojs/helper@3.6.18
       '@tarojs/plugin-framework-react':
-        specifier: 3.6.17
-        version: registry.npmmirror.com/@tarojs/plugin-framework-react@3.6.17(@pmmmwh/react-refresh-webpack-plugin@0.5.11)(@types/react@18.2.32)(postcss@8.4.31)(react-refresh@0.11.0)(react@18.2.0)
+        specifier: 3.6.18
+        version: registry.npmmirror.com/@tarojs/plugin-framework-react@3.6.18(@pmmmwh/react-refresh-webpack-plugin@0.5.11)(@types/react@18.2.32)(postcss@8.4.31)(react-refresh@0.11.0)(react@18.2.0)
       '@tarojs/plugin-platform-alipay':
-        specifier: 3.6.17
-        version: registry.npmmirror.com/@tarojs/plugin-platform-alipay@3.6.17(@types/react@18.2.32)(postcss@8.4.31)(react@18.2.0)
+        specifier: 3.6.18
+        version: registry.npmmirror.com/@tarojs/plugin-platform-alipay@3.6.18(@types/react@18.2.32)(postcss@8.4.31)(react@18.2.0)
       '@tarojs/plugin-platform-h5':
-        specifier: 3.6.17
-        version: registry.npmmirror.com/@tarojs/plugin-platform-h5@3.6.17(@types/react@18.2.32)(postcss@8.4.31)
+        specifier: 3.6.18
+        version: registry.npmmirror.com/@tarojs/plugin-platform-h5@3.6.18(@types/react@18.2.32)(postcss@8.4.31)
       '@tarojs/plugin-platform-jd':
-        specifier: 3.6.17
-        version: registry.npmmirror.com/@tarojs/plugin-platform-jd@3.6.17(@types/react@18.2.32)(postcss@8.4.31)
+        specifier: 3.6.18
+        version: registry.npmmirror.com/@tarojs/plugin-platform-jd@3.6.18(@types/react@18.2.32)(postcss@8.4.31)
       '@tarojs/plugin-platform-qq':
-        specifier: 3.6.17
-        version: registry.npmmirror.com/@tarojs/plugin-platform-qq@3.6.17(@types/react@18.2.32)(postcss@8.4.31)
+        specifier: 3.6.18
+        version: registry.npmmirror.com/@tarojs/plugin-platform-qq@3.6.18(@types/react@18.2.32)(postcss@8.4.31)
       '@tarojs/plugin-platform-swan':
-        specifier: 3.6.17
-        version: registry.npmmirror.com/@tarojs/plugin-platform-swan@3.6.17(@types/react@18.2.32)(postcss@8.4.31)
+        specifier: 3.6.18
+        version: registry.npmmirror.com/@tarojs/plugin-platform-swan@3.6.18(@types/react@18.2.32)(postcss@8.4.31)
       '@tarojs/plugin-platform-tt':
-        specifier: 3.6.17
-        version: registry.npmmirror.com/@tarojs/plugin-platform-tt@3.6.17(@types/react@18.2.32)(postcss@8.4.31)
+        specifier: 3.6.18
+        version: registry.npmmirror.com/@tarojs/plugin-platform-tt@3.6.18(@types/react@18.2.32)(postcss@8.4.31)
       '@tarojs/plugin-platform-weapp':
-        specifier: 3.6.17
-        version: registry.npmmirror.com/@tarojs/plugin-platform-weapp@3.6.17(@types/react@18.2.32)(postcss@8.4.31)
+        specifier: 3.6.18
+        version: registry.npmmirror.com/@tarojs/plugin-platform-weapp@3.6.18(@types/react@18.2.32)(postcss@8.4.31)
       '@tarojs/react':
-        specifier: 3.6.17
-        version: registry.npmmirror.com/@tarojs/react@3.6.17(react@18.2.0)
+        specifier: 3.6.18
+        version: registry.npmmirror.com/@tarojs/react@3.6.18(react@18.2.0)
       '@tarojs/runtime':
-        specifier: 3.6.17
-        version: registry.npmmirror.com/@tarojs/runtime@3.6.17
+        specifier: 3.6.18
+        version: registry.npmmirror.com/@tarojs/runtime@3.6.18
       '@tarojs/shared':
-        specifier: 3.6.17
-        version: registry.npmmirror.com/@tarojs/shared@3.6.17
+        specifier: 3.6.18
+        version: registry.npmmirror.com/@tarojs/shared@3.6.18
       '@tarojs/taro':
-        specifier: 3.6.17
-        version: registry.npmmirror.com/@tarojs/taro@3.6.17(@types/react@18.2.32)(postcss@8.4.31)
+        specifier: 3.6.18
+        version: registry.npmmirror.com/@tarojs/taro@3.6.18(@types/react@18.2.32)(postcss@8.4.31)
       jotai:
         specifier: ^2.4.3
         version: registry.npmmirror.com/jotai@2.5.0(@types/react@18.2.32)(react@18.2.0)
@@ -505,20 +505,20 @@ importers:
         specifier: ^0.5.5
         version: registry.npmmirror.com/@pmmmwh/react-refresh-webpack-plugin@0.5.11(react-refresh@0.11.0)(webpack@5.78.0)
       '@tarojs/cli':
-        specifier: 3.6.17
-        version: registry.npmmirror.com/@tarojs/cli@3.6.17(@types/react@18.2.32)(postcss@8.4.31)
+        specifier: 3.6.18
+        version: registry.npmmirror.com/@tarojs/cli@3.6.18(@types/react@18.2.32)(postcss@8.4.31)
       '@tarojs/plugin-mini-ci':
-        specifier: ^3.6.18
+        specifier: 3.6.18
         version: registry.npmmirror.com/@tarojs/plugin-mini-ci@3.6.18(@types/react@18.2.32)(postcss@8.4.31)
       '@tarojs/taro-loader':
-        specifier: 3.6.17
-        version: registry.npmmirror.com/@tarojs/taro-loader@3.6.17(@types/react@18.2.32)(postcss@8.4.31)
+        specifier: 3.6.18
+        version: registry.npmmirror.com/@tarojs/taro-loader@3.6.18(@types/react@18.2.32)(postcss@8.4.31)
       '@tarojs/test-utils-react':
         specifier: ^0.1.1
-        version: registry.npmmirror.com/@tarojs/test-utils-react@0.1.1(@babel/core@7.23.2)(@tarojs/components@3.6.17)(@tarojs/helper@3.6.17)(@tarojs/plugin-framework-react@3.6.17)(@tarojs/plugin-platform-h5@3.6.17)(@tarojs/react@3.6.17)(@tarojs/runtime@3.6.17)(@tarojs/shared@3.6.17)(react-dom@18.2.0)(react@18.2.0)
+        version: registry.npmmirror.com/@tarojs/test-utils-react@0.1.1(@babel/core@7.23.2)(@tarojs/components@3.6.18)(@tarojs/helper@3.6.18)(@tarojs/plugin-framework-react@3.6.18)(@tarojs/plugin-platform-h5@3.6.18)(@tarojs/react@3.6.18)(@tarojs/runtime@3.6.18)(@tarojs/shared@3.6.18)(react-dom@18.2.0)(react@18.2.0)
       '@tarojs/webpack5-runner':
-        specifier: 3.6.17
-        version: registry.npmmirror.com/@tarojs/webpack5-runner@3.6.17(@babel/core@7.23.2)(@swc/core@1.3.23)(@types/react@18.2.32)(postcss@8.4.31)(prettier@2.8.8)(react-dom@18.2.0)(react@18.2.0)(typescript@5.2.2)(webpack@5.78.0)
+        specifier: 3.6.18
+        version: registry.npmmirror.com/@tarojs/webpack5-runner@3.6.18(@babel/core@7.23.2)(@swc/core@1.3.23)(@types/react@18.2.32)(postcss@8.4.31)(prettier@2.8.8)(react-dom@18.2.0)(react@18.2.0)(typescript@5.2.2)(webpack@5.78.0)
       '@types/jest':
         specifier: ^29.3.1
         version: registry.npmmirror.com/@types/jest@29.5.6
@@ -541,14 +541,14 @@ importers:
         specifier: ^1.13.8
         version: registry.npmmirror.com/babel-plugin-import@1.13.8
       babel-preset-taro:
-        specifier: 3.6.17
-        version: registry.npmmirror.com/babel-preset-taro@3.6.17(@babel/core@7.23.2)
+        specifier: 3.6.18
+        version: registry.npmmirror.com/babel-preset-taro@3.6.18(@babel/core@7.23.2)
       eslint:
         specifier: ^8.12.0
         version: registry.npmmirror.com/eslint@8.52.0
       eslint-config-taro:
-        specifier: 3.6.17
-        version: registry.npmmirror.com/eslint-config-taro@3.6.17(@babel/core@7.23.2)(eslint@8.52.0)(typescript@5.2.2)
+        specifier: 3.6.18
+        version: registry.npmmirror.com/eslint-config-taro@3.6.18(@babel/core@7.23.2)(eslint@8.52.0)(typescript@5.2.2)
       eslint-plugin-import:
         specifier: ^2.12.0
         version: registry.npmmirror.com/eslint-plugin-import@2.29.0(@typescript-eslint/parser@6.9.0)(eslint@8.52.0)
@@ -7547,6 +7547,7 @@ packages:
       '@babel/runtime': registry.npmmirror.com/@babel/runtime@7.23.2
       '@tarojs/runtime': registry.npmmirror.com/@tarojs/runtime@3.6.17
       '@tarojs/shared': registry.npmmirror.com/@tarojs/shared@3.6.17
+    dev: false
 
   registry.npmmirror.com/@tarojs/api@3.6.18:
     resolution: {integrity: sha512-deQga4zzgOpZeXoqKLWU4Gn1qrLMnK2y1uOKEXz50ZgR9Uw/Qh2V49lxRY5w0YzYpqaZ29lh0KIxW8jXDiXM0w==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@tarojs/api/-/api-3.6.18.tgz}
@@ -7557,18 +7558,18 @@ packages:
       '@tarojs/runtime': registry.npmmirror.com/@tarojs/runtime@3.6.18
       '@tarojs/shared': registry.npmmirror.com/@tarojs/shared@3.6.18
 
-  registry.npmmirror.com/@tarojs/cli@3.6.17(@types/react@18.2.32)(postcss@8.4.31):
-    resolution: {integrity: sha512-1NJWJ+uJd2pxAKrZshEUmITtxbe4OhYK5Pk/JNcpBqEFIXPf2gy764ql8eZX51T5CC96mN0Y1b7kZA5+iTRDxA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@tarojs/cli/-/cli-3.6.17.tgz}
-    id: registry.npmmirror.com/@tarojs/cli/3.6.17
+  registry.npmmirror.com/@tarojs/cli@3.6.18(@types/react@18.2.32)(postcss@8.4.31):
+    resolution: {integrity: sha512-Vm73dap6hdH93xP7hZva6QtdrkOUuz6ciFArUfx1S9hSHQRGsLuKA19qHSDqAc3wFBlVzsB45A7VraLFTVmO8w==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@tarojs/cli/-/cli-3.6.18.tgz}
+    id: registry.npmmirror.com/@tarojs/cli/3.6.18
     name: '@tarojs/cli'
-    version: 3.6.17
+    version: 3.6.18
     engines: {node: '>=12'}
     hasBin: true
     dependencies:
-      '@tarojs/helper': registry.npmmirror.com/@tarojs/helper@3.6.17
+      '@tarojs/helper': registry.npmmirror.com/@tarojs/helper@3.6.18
       '@tarojs/plugin-doctor': registry.npmmirror.com/@tarojs/plugin-doctor@0.0.11
-      '@tarojs/service': registry.npmmirror.com/@tarojs/service@3.6.17(@types/react@18.2.32)(postcss@8.4.31)
-      '@tarojs/shared': registry.npmmirror.com/@tarojs/shared@3.6.17
+      '@tarojs/service': registry.npmmirror.com/@tarojs/service@3.6.18(@types/react@18.2.32)(postcss@8.4.31)
+      '@tarojs/shared': registry.npmmirror.com/@tarojs/shared@3.6.18
       adm-zip: registry.npmmirror.com/adm-zip@0.4.16
       cli-highlight: registry.npmmirror.com/cli-highlight@2.1.11
       download-git-repo: registry.npmmirror.com/download-git-repo@2.0.0
@@ -7597,11 +7598,11 @@ packages:
       - vue
     dev: true
 
-  registry.npmmirror.com/@tarojs/components-advanced@3.6.17(@types/react@18.2.32)(react@18.2.0):
-    resolution: {integrity: sha512-19Rkh5RUDkiHuseY/A6/pX5OB4NwtE5OpSBijZetzFpkSbLDOcgHg71Kse4wLFDf9q6H606SFv39K1s2Lsbuow==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@tarojs/components-advanced/-/components-advanced-3.6.17.tgz}
-    id: registry.npmmirror.com/@tarojs/components-advanced/3.6.17
+  registry.npmmirror.com/@tarojs/components-advanced@3.6.18(@types/react@18.2.32)(react@18.2.0):
+    resolution: {integrity: sha512-6TOPjwe/DhjBSxOzXyVQerovJ2Wn7vMXHWZAeo2BxFFa8DCyeQBs75eoruQEHrBajdkMRJre+4CGGTgsHhPrHg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@tarojs/components-advanced/-/components-advanced-3.6.18.tgz}
+    id: registry.npmmirror.com/@tarojs/components-advanced/3.6.18
     name: '@tarojs/components-advanced'
-    version: 3.6.17
+    version: 3.6.18
     peerDependencies:
       react: '>=17'
       vue: '*'
@@ -7611,10 +7612,10 @@ packages:
       vue:
         optional: true
     dependencies:
-      '@tarojs/components': registry.npmmirror.com/@tarojs/components@3.6.17(@types/react@18.2.32)(postcss@8.4.31)(react@18.2.0)
-      '@tarojs/runtime': registry.npmmirror.com/@tarojs/runtime@3.6.17
-      '@tarojs/shared': registry.npmmirror.com/@tarojs/shared@3.6.17
-      '@tarojs/taro': registry.npmmirror.com/@tarojs/taro@3.6.17(@types/react@18.2.32)(postcss@8.4.31)
+      '@tarojs/components': registry.npmmirror.com/@tarojs/components@3.6.18(@types/react@18.2.32)(postcss@8.4.31)(react@18.2.0)
+      '@tarojs/runtime': registry.npmmirror.com/@tarojs/runtime@3.6.18
+      '@tarojs/shared': registry.npmmirror.com/@tarojs/shared@3.6.18
+      '@tarojs/taro': registry.npmmirror.com/@tarojs/taro@3.6.18(@types/react@18.2.32)(postcss@8.4.31)
       classnames: registry.npmmirror.com/classnames@2.3.2
       csstype: registry.npmmirror.com/csstype@3.1.2
       memoize-one: registry.npmmirror.com/memoize-one@6.0.0
@@ -7626,15 +7627,15 @@ packages:
       - '@types/webpack'
       - '@types/webpack-dev-server'
 
-  registry.npmmirror.com/@tarojs/components-react@3.6.17(@types/react@18.2.32)(postcss@8.4.31):
-    resolution: {integrity: sha512-oNEfILzDcd1ljRU1BkNa602L3w7bOUu79tS8XC/8qzkiitG/1sdwkuuMF/UE7sdPpmEL6h2TbGt44WViFcf0AA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@tarojs/components-react/-/components-react-3.6.17.tgz}
-    id: registry.npmmirror.com/@tarojs/components-react/3.6.17
+  registry.npmmirror.com/@tarojs/components-react@3.6.18(@types/react@18.2.32)(postcss@8.4.31):
+    resolution: {integrity: sha512-3QPGpxXd6jYfxh8GgaIYxkzfYF49Aqd7c445+AJROKEc6BECGCbMI2ivEyUtdsyCKLI0JcyohrTn0TNlUc6Vhw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@tarojs/components-react/-/components-react-3.6.18.tgz}
+    id: registry.npmmirror.com/@tarojs/components-react/3.6.18
     name: '@tarojs/components-react'
-    version: 3.6.17
+    version: 3.6.18
     dependencies:
       '@babel/runtime': registry.npmmirror.com/@babel/runtime@7.23.2
-      '@tarojs/components': registry.npmmirror.com/@tarojs/components@3.6.17(@types/react@18.2.32)(postcss@8.4.31)(react@18.2.0)
-      '@tarojs/taro': registry.npmmirror.com/@tarojs/taro@3.6.17(@types/react@18.2.32)(postcss@8.4.31)
+      '@tarojs/components': registry.npmmirror.com/@tarojs/components@3.6.18(@types/react@18.2.32)(postcss@8.4.31)(react@18.2.0)
+      '@tarojs/taro': registry.npmmirror.com/@tarojs/taro@3.6.18(@types/react@18.2.32)(postcss@8.4.31)
       classnames: registry.npmmirror.com/classnames@2.3.2
       intersection-observer: registry.npmmirror.com/intersection-observer@0.7.0
       resolve-pathname: registry.npmmirror.com/resolve-pathname@3.0.0
@@ -7648,11 +7649,11 @@ packages:
       - postcss
       - vue
 
-  registry.npmmirror.com/@tarojs/components@3.6.17(@types/react@18.2.32)(postcss@8.4.31)(react@18.2.0):
-    resolution: {integrity: sha512-VlqPIiFJR8yXizY1sknT/EzrQqyZlsS5mjPNV/sFkBoUMkl4Sa1qQ0ExiweywQ/U7dpU5p4cSl5Zb1q9H6FpwQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@tarojs/components/-/components-3.6.17.tgz}
-    id: registry.npmmirror.com/@tarojs/components/3.6.17
+  registry.npmmirror.com/@tarojs/components@3.6.18(@types/react@18.2.32)(postcss@8.4.31)(react@18.2.0):
+    resolution: {integrity: sha512-qygrUZWPK0oy8/bZEEW/W0tteoGfdIf7HngxBIG8gdkw607+MYK3ft582KnAbKby7WGYbk9BUciBb5v1VlSAwA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@tarojs/components/-/components-3.6.18.tgz}
+    id: registry.npmmirror.com/@tarojs/components/3.6.18
     name: '@tarojs/components'
-    version: 3.6.17
+    version: 3.6.18
     peerDependencies:
       '@types/react': '*'
       '@types/react-native': '*'
@@ -7666,9 +7667,9 @@ packages:
         optional: true
     dependencies:
       '@stencil/core': registry.npmmirror.com/@stencil/core@2.22.3
-      '@tarojs/components-advanced': registry.npmmirror.com/@tarojs/components-advanced@3.6.17(@types/react@18.2.32)(react@18.2.0)
-      '@tarojs/router': registry.npmmirror.com/@tarojs/router@3.6.17(@types/react@18.2.32)(postcss@8.4.31)
-      '@tarojs/taro': registry.npmmirror.com/@tarojs/taro@3.6.17(@types/react@18.2.32)(postcss@8.4.31)
+      '@tarojs/components-advanced': registry.npmmirror.com/@tarojs/components-advanced@3.6.18(@types/react@18.2.32)(react@18.2.0)
+      '@tarojs/router': registry.npmmirror.com/@tarojs/router@3.6.18(@types/react@18.2.32)(postcss@8.4.31)
+      '@tarojs/taro': registry.npmmirror.com/@tarojs/taro@3.6.18(@types/react@18.2.32)(postcss@8.4.31)
       '@types/react': registry.npmmirror.com/@types/react@18.2.32
       classnames: registry.npmmirror.com/classnames@2.3.2
       hls.js: registry.npmmirror.com/hls.js@1.4.12
@@ -7716,6 +7717,7 @@ packages:
       yauzl: registry.npmmirror.com/yauzl@2.10.0
     transitivePeerDependencies:
       - supports-color
+    dev: true
 
   registry.npmmirror.com/@tarojs/helper@3.6.18:
     resolution: {integrity: sha512-nq74W65q+Fa4FKqeBCZ0CUOjGsv8IQ/H3x5iI8SWm1bbfVXvIy/5j5EIJYFbXEo0BHYdaq3vs+l7rSrb1LUjbg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@tarojs/helper/-/helper-3.6.18.tgz}
@@ -7900,11 +7902,11 @@ packages:
       - supports-color
     dev: true
 
-  registry.npmmirror.com/@tarojs/plugin-framework-react@3.6.17(@pmmmwh/react-refresh-webpack-plugin@0.5.11)(@types/react@18.2.32)(postcss@8.4.31)(react-refresh@0.11.0)(react@18.2.0):
-    resolution: {integrity: sha512-0w+ADICnsQ0IbfDspFmPQYfu1YHGMPohnjiGhHoMceEtJTHHNNMPK5u77rEjTwzil9ZNSM8D6W82Tk7yfCpyiw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@tarojs/plugin-framework-react/-/plugin-framework-react-3.6.17.tgz}
-    id: registry.npmmirror.com/@tarojs/plugin-framework-react/3.6.17
+  registry.npmmirror.com/@tarojs/plugin-framework-react@3.6.18(@pmmmwh/react-refresh-webpack-plugin@0.5.11)(@types/react@18.2.32)(postcss@8.4.31)(react-refresh@0.11.0)(react@18.2.0):
+    resolution: {integrity: sha512-SBmyfYDu4Ehj7kXX4LdrD/EZO3qPqEo0usiatj6KEMFv7VR/LxUUvyHs2hkdVpFYniVNBeHskuob8WuE5aLPqw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@tarojs/plugin-framework-react/-/plugin-framework-react-3.6.18.tgz}
+    id: registry.npmmirror.com/@tarojs/plugin-framework-react/3.6.18
     name: '@tarojs/plugin-framework-react'
-    version: 3.6.17
+    version: 3.6.18
     peerDependencies:
       '@pmmmwh/react-refresh-webpack-plugin': '*'
       '@prefresh/webpack': '*'
@@ -7924,10 +7926,10 @@ packages:
         optional: true
     dependencies:
       '@pmmmwh/react-refresh-webpack-plugin': registry.npmmirror.com/@pmmmwh/react-refresh-webpack-plugin@0.5.11(react-refresh@0.11.0)(webpack@5.78.0)
-      '@tarojs/helper': registry.npmmirror.com/@tarojs/helper@3.6.17
-      '@tarojs/runtime': registry.npmmirror.com/@tarojs/runtime@3.6.17
-      '@tarojs/service': registry.npmmirror.com/@tarojs/service@3.6.17(@types/react@18.2.32)(postcss@8.4.31)
-      '@tarojs/shared': registry.npmmirror.com/@tarojs/shared@3.6.17
+      '@tarojs/helper': registry.npmmirror.com/@tarojs/helper@3.6.18
+      '@tarojs/runtime': registry.npmmirror.com/@tarojs/runtime@3.6.18
+      '@tarojs/service': registry.npmmirror.com/@tarojs/service@3.6.18(@types/react@18.2.32)(postcss@8.4.31)
+      '@tarojs/shared': registry.npmmirror.com/@tarojs/shared@3.6.18
       acorn: registry.npmmirror.com/acorn@8.10.0
       acorn-walk: registry.npmmirror.com/acorn-walk@8.2.0
       lodash: registry.npmmirror.com/lodash@4.17.21
@@ -7978,15 +7980,15 @@ packages:
       - vue
     dev: true
 
-  registry.npmmirror.com/@tarojs/plugin-platform-alipay@3.6.17(@types/react@18.2.32)(postcss@8.4.31)(react@18.2.0):
-    resolution: {integrity: sha512-/NzdtvlXt/hgIBX8nsx9x/8I9yBCj4xHjqJGl8EW3I3DXLu3WhyBMuqmmjep5nO7DQ+/TZQyJI/6bBhaEJgzjQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@tarojs/plugin-platform-alipay/-/plugin-platform-alipay-3.6.17.tgz}
-    id: registry.npmmirror.com/@tarojs/plugin-platform-alipay/3.6.17
+  registry.npmmirror.com/@tarojs/plugin-platform-alipay@3.6.18(@types/react@18.2.32)(postcss@8.4.31)(react@18.2.0):
+    resolution: {integrity: sha512-GlDtbJJFmjKLq/B0VdV95LsfzylAqOVc6I7ib3qe9e4ZrL+PdGIlfm1R5w7rSfAsmbxwj1WxBvmY7PBBqqqjhg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@tarojs/plugin-platform-alipay/-/plugin-platform-alipay-3.6.18.tgz}
+    id: registry.npmmirror.com/@tarojs/plugin-platform-alipay/3.6.18
     name: '@tarojs/plugin-platform-alipay'
-    version: 3.6.17
+    version: 3.6.18
     dependencies:
-      '@tarojs/components': registry.npmmirror.com/@tarojs/components@3.6.17(@types/react@18.2.32)(postcss@8.4.31)(react@18.2.0)
-      '@tarojs/service': registry.npmmirror.com/@tarojs/service@3.6.17(@types/react@18.2.32)(postcss@8.4.31)
-      '@tarojs/shared': registry.npmmirror.com/@tarojs/shared@3.6.17
+      '@tarojs/components': registry.npmmirror.com/@tarojs/components@3.6.18(@types/react@18.2.32)(postcss@8.4.31)(react@18.2.0)
+      '@tarojs/service': registry.npmmirror.com/@tarojs/service@3.6.18(@types/react@18.2.32)(postcss@8.4.31)
+      '@tarojs/shared': registry.npmmirror.com/@tarojs/shared@3.6.18
     transitivePeerDependencies:
       - '@types/react'
       - '@types/react-native'
@@ -7997,19 +7999,19 @@ packages:
       - supports-color
       - vue
 
-  registry.npmmirror.com/@tarojs/plugin-platform-h5@3.6.17(@types/react@18.2.32)(postcss@8.4.31):
-    resolution: {integrity: sha512-o5SwuzeNvdFmTyngZ+cqeuxJzkvA0uXKBAV74ox88ZKoDJewGQ/LXYZnVPb0Ej3/HvOxE7x9RCvDTf96a89B5Q==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@tarojs/plugin-platform-h5/-/plugin-platform-h5-3.6.17.tgz}
-    id: registry.npmmirror.com/@tarojs/plugin-platform-h5/3.6.17
+  registry.npmmirror.com/@tarojs/plugin-platform-h5@3.6.18(@types/react@18.2.32)(postcss@8.4.31):
+    resolution: {integrity: sha512-APgjNyLBLbhUAM4x/os2RnHKQdLygzZojLS6m0qah/9rNo8RoGVinN/j6i8d2DIdrxEViY5kD4aexzw0qdQl+g==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@tarojs/plugin-platform-h5/-/plugin-platform-h5-3.6.18.tgz}
+    id: registry.npmmirror.com/@tarojs/plugin-platform-h5/3.6.18
     name: '@tarojs/plugin-platform-h5'
-    version: 3.6.17
+    version: 3.6.18
     dependencies:
-      '@tarojs/components': registry.npmmirror.com/@tarojs/components@3.6.17(@types/react@18.2.32)(postcss@8.4.31)(react@18.2.0)
-      '@tarojs/components-react': registry.npmmirror.com/@tarojs/components-react@3.6.17(@types/react@18.2.32)(postcss@8.4.31)
-      '@tarojs/router': registry.npmmirror.com/@tarojs/router@3.6.17(@types/react@18.2.32)(postcss@8.4.31)
-      '@tarojs/service': registry.npmmirror.com/@tarojs/service@3.6.17(@types/react@18.2.32)(postcss@8.4.31)
-      '@tarojs/shared': registry.npmmirror.com/@tarojs/shared@3.6.17
-      '@tarojs/taro-h5': registry.npmmirror.com/@tarojs/taro-h5@3.6.17(@types/react@18.2.32)(postcss@8.4.31)
-      babel-plugin-transform-taroapi: registry.npmmirror.com/babel-plugin-transform-taroapi@3.6.17
+      '@tarojs/components': registry.npmmirror.com/@tarojs/components@3.6.18(@types/react@18.2.32)(postcss@8.4.31)(react@18.2.0)
+      '@tarojs/components-react': registry.npmmirror.com/@tarojs/components-react@3.6.18(@types/react@18.2.32)(postcss@8.4.31)
+      '@tarojs/router': registry.npmmirror.com/@tarojs/router@3.6.18(@types/react@18.2.32)(postcss@8.4.31)
+      '@tarojs/service': registry.npmmirror.com/@tarojs/service@3.6.18(@types/react@18.2.32)(postcss@8.4.31)
+      '@tarojs/shared': registry.npmmirror.com/@tarojs/shared@3.6.18
+      '@tarojs/taro-h5': registry.npmmirror.com/@tarojs/taro-h5@3.6.18(@types/react@18.2.32)(postcss@8.4.31)
+      babel-plugin-transform-taroapi: registry.npmmirror.com/babel-plugin-transform-taroapi@3.6.18
       change-case: registry.npmmirror.com/change-case@4.1.2
       lodash-es: registry.npmmirror.com/lodash-es@4.17.21
       resolve: registry.npmmirror.com/resolve@1.22.8
@@ -8022,14 +8024,14 @@ packages:
       - supports-color
       - vue
 
-  registry.npmmirror.com/@tarojs/plugin-platform-jd@3.6.17(@types/react@18.2.32)(postcss@8.4.31):
-    resolution: {integrity: sha512-CaZ4rrsMzp2sMAonqfb0iHsfxLqyhqsFsnzeqZzgoGOpyG47gXquQEuCPnXkWMZoXiWcBPymhBb0C3gj+yQYug==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@tarojs/plugin-platform-jd/-/plugin-platform-jd-3.6.17.tgz}
-    id: registry.npmmirror.com/@tarojs/plugin-platform-jd/3.6.17
+  registry.npmmirror.com/@tarojs/plugin-platform-jd@3.6.18(@types/react@18.2.32)(postcss@8.4.31):
+    resolution: {integrity: sha512-jBX07do4/BMqtmrR1ttCYwh3LGbrVmprJvRdD6if52sHkESMa1jfQZN/foyjd4lIbwDzfdGBNiQoyDV2bhMtmw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@tarojs/plugin-platform-jd/-/plugin-platform-jd-3.6.18.tgz}
+    id: registry.npmmirror.com/@tarojs/plugin-platform-jd/3.6.18
     name: '@tarojs/plugin-platform-jd'
-    version: 3.6.17
+    version: 3.6.18
     dependencies:
-      '@tarojs/service': registry.npmmirror.com/@tarojs/service@3.6.17(@types/react@18.2.32)(postcss@8.4.31)
-      '@tarojs/shared': registry.npmmirror.com/@tarojs/shared@3.6.17
+      '@tarojs/service': registry.npmmirror.com/@tarojs/service@3.6.18(@types/react@18.2.32)(postcss@8.4.31)
+      '@tarojs/shared': registry.npmmirror.com/@tarojs/shared@3.6.18
     transitivePeerDependencies:
       - '@types/react'
       - '@types/webpack'
@@ -8038,15 +8040,15 @@ packages:
       - supports-color
       - vue
 
-  registry.npmmirror.com/@tarojs/plugin-platform-qq@3.6.17(@types/react@18.2.32)(postcss@8.4.31):
-    resolution: {integrity: sha512-VzDg+FU+gijEqdlwqc1lOpa9F9F5H5kWrTIB0grl4Y79bRpXeNK4coxyrSfBQvRuQs7EbRUs8andu3FlqCCeIA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@tarojs/plugin-platform-qq/-/plugin-platform-qq-3.6.17.tgz}
-    id: registry.npmmirror.com/@tarojs/plugin-platform-qq/3.6.17
+  registry.npmmirror.com/@tarojs/plugin-platform-qq@3.6.18(@types/react@18.2.32)(postcss@8.4.31):
+    resolution: {integrity: sha512-DTy9teQDfFs1bPVfMwP1tGkhmYcIJHCzco7+XezShDi+hNybu+ysmoUO9uHAS66Q2uFq2QlxAH3LZpS6Ml+vIA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@tarojs/plugin-platform-qq/-/plugin-platform-qq-3.6.18.tgz}
+    id: registry.npmmirror.com/@tarojs/plugin-platform-qq/3.6.18
     name: '@tarojs/plugin-platform-qq'
-    version: 3.6.17
+    version: 3.6.18
     dependencies:
-      '@tarojs/plugin-platform-weapp': registry.npmmirror.com/@tarojs/plugin-platform-weapp@3.6.17(@types/react@18.2.32)(postcss@8.4.31)
-      '@tarojs/service': registry.npmmirror.com/@tarojs/service@3.6.17(@types/react@18.2.32)(postcss@8.4.31)
-      '@tarojs/shared': registry.npmmirror.com/@tarojs/shared@3.6.17
+      '@tarojs/plugin-platform-weapp': registry.npmmirror.com/@tarojs/plugin-platform-weapp@3.6.18(@types/react@18.2.32)(postcss@8.4.31)
+      '@tarojs/service': registry.npmmirror.com/@tarojs/service@3.6.18(@types/react@18.2.32)(postcss@8.4.31)
+      '@tarojs/shared': registry.npmmirror.com/@tarojs/shared@3.6.18
     transitivePeerDependencies:
       - '@types/react'
       - '@types/react-native'
@@ -8056,15 +8058,15 @@ packages:
       - supports-color
       - vue
 
-  registry.npmmirror.com/@tarojs/plugin-platform-swan@3.6.17(@types/react@18.2.32)(postcss@8.4.31):
-    resolution: {integrity: sha512-mtK8wC+UbHOROiBHd7ZQCR1lLVKbZSkaWaBmH+HhMwIFnWeBrsm1jDzonCkdXSy/PYBlZrCVbWJIdZtsOABZUA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@tarojs/plugin-platform-swan/-/plugin-platform-swan-3.6.17.tgz}
-    id: registry.npmmirror.com/@tarojs/plugin-platform-swan/3.6.17
+  registry.npmmirror.com/@tarojs/plugin-platform-swan@3.6.18(@types/react@18.2.32)(postcss@8.4.31):
+    resolution: {integrity: sha512-09Eb3qjlMMBcFaqjE+y5m0sXCqy3rCPmuWNvlc7IKF+JuoHWLSbcEqj4oOq/DN1KGCeIzZAU4zWUIHMN/cn8vw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@tarojs/plugin-platform-swan/-/plugin-platform-swan-3.6.18.tgz}
+    id: registry.npmmirror.com/@tarojs/plugin-platform-swan/3.6.18
     name: '@tarojs/plugin-platform-swan'
-    version: 3.6.17
+    version: 3.6.18
     dependencies:
-      '@tarojs/components': registry.npmmirror.com/@tarojs/components@3.6.17(@types/react@18.2.32)(postcss@8.4.31)(react@18.2.0)
-      '@tarojs/service': registry.npmmirror.com/@tarojs/service@3.6.17(@types/react@18.2.32)(postcss@8.4.31)
-      '@tarojs/shared': registry.npmmirror.com/@tarojs/shared@3.6.17
+      '@tarojs/components': registry.npmmirror.com/@tarojs/components@3.6.18(@types/react@18.2.32)(postcss@8.4.31)(react@18.2.0)
+      '@tarojs/service': registry.npmmirror.com/@tarojs/service@3.6.18(@types/react@18.2.32)(postcss@8.4.31)
+      '@tarojs/shared': registry.npmmirror.com/@tarojs/shared@3.6.18
     transitivePeerDependencies:
       - '@types/react'
       - '@types/react-native'
@@ -8074,15 +8076,15 @@ packages:
       - supports-color
       - vue
 
-  registry.npmmirror.com/@tarojs/plugin-platform-tt@3.6.17(@types/react@18.2.32)(postcss@8.4.31):
-    resolution: {integrity: sha512-6PbLCfWhnFgwvxbhs2LwLk6IfU4biLtIxK8649e6bo2t3MHqAAVq8Pw1NbZFkiyhO83+0tByIt+GcOplyxw+Yw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@tarojs/plugin-platform-tt/-/plugin-platform-tt-3.6.17.tgz}
-    id: registry.npmmirror.com/@tarojs/plugin-platform-tt/3.6.17
+  registry.npmmirror.com/@tarojs/plugin-platform-tt@3.6.18(@types/react@18.2.32)(postcss@8.4.31):
+    resolution: {integrity: sha512-3sSshP47AvOrkF/I7XbPB5SDKK1veearIBRY48mbyNcel+ch//8D4SGOpvI3BKOu2ubYsV8ZDdXswMk7jqGIQA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@tarojs/plugin-platform-tt/-/plugin-platform-tt-3.6.18.tgz}
+    id: registry.npmmirror.com/@tarojs/plugin-platform-tt/3.6.18
     name: '@tarojs/plugin-platform-tt'
-    version: 3.6.17
+    version: 3.6.18
     dependencies:
-      '@tarojs/components': registry.npmmirror.com/@tarojs/components@3.6.17(@types/react@18.2.32)(postcss@8.4.31)(react@18.2.0)
-      '@tarojs/service': registry.npmmirror.com/@tarojs/service@3.6.17(@types/react@18.2.32)(postcss@8.4.31)
-      '@tarojs/shared': registry.npmmirror.com/@tarojs/shared@3.6.17
+      '@tarojs/components': registry.npmmirror.com/@tarojs/components@3.6.18(@types/react@18.2.32)(postcss@8.4.31)(react@18.2.0)
+      '@tarojs/service': registry.npmmirror.com/@tarojs/service@3.6.18(@types/react@18.2.32)(postcss@8.4.31)
+      '@tarojs/shared': registry.npmmirror.com/@tarojs/shared@3.6.18
     transitivePeerDependencies:
       - '@types/react'
       - '@types/react-native'
@@ -8092,15 +8094,15 @@ packages:
       - supports-color
       - vue
 
-  registry.npmmirror.com/@tarojs/plugin-platform-weapp@3.6.17(@types/react@18.2.32)(postcss@8.4.31):
-    resolution: {integrity: sha512-C6kxbLiHV15xbRm2YkkLXZbsz3+ejqSbQainstBk25qPX2r4W0FcMUD8ifm7AWbpEUFR7rnHQ5f1FgdfK8A0+w==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@tarojs/plugin-platform-weapp/-/plugin-platform-weapp-3.6.17.tgz}
-    id: registry.npmmirror.com/@tarojs/plugin-platform-weapp/3.6.17
+  registry.npmmirror.com/@tarojs/plugin-platform-weapp@3.6.18(@types/react@18.2.32)(postcss@8.4.31):
+    resolution: {integrity: sha512-GoXR1/rHMbboadstoQXQvo8k6ssQQoNeD3+ccygEgYWD1CFynjB7+QoBdTPzahpvgKnLrAbjKmn6hrlaC+pKpg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@tarojs/plugin-platform-weapp/-/plugin-platform-weapp-3.6.18.tgz}
+    id: registry.npmmirror.com/@tarojs/plugin-platform-weapp/3.6.18
     name: '@tarojs/plugin-platform-weapp'
-    version: 3.6.17
+    version: 3.6.18
     dependencies:
-      '@tarojs/components': registry.npmmirror.com/@tarojs/components@3.6.17(@types/react@18.2.32)(postcss@8.4.31)(react@18.2.0)
-      '@tarojs/service': registry.npmmirror.com/@tarojs/service@3.6.17(@types/react@18.2.32)(postcss@8.4.31)
-      '@tarojs/shared': registry.npmmirror.com/@tarojs/shared@3.6.17
+      '@tarojs/components': registry.npmmirror.com/@tarojs/components@3.6.18(@types/react@18.2.32)(postcss@8.4.31)(react@18.2.0)
+      '@tarojs/service': registry.npmmirror.com/@tarojs/service@3.6.18(@types/react@18.2.32)(postcss@8.4.31)
+      '@tarojs/shared': registry.npmmirror.com/@tarojs/shared@3.6.18
     transitivePeerDependencies:
       - '@types/react'
       - '@types/react-native'
@@ -8110,26 +8112,26 @@ packages:
       - supports-color
       - vue
 
-  registry.npmmirror.com/@tarojs/react@3.6.17(react@18.2.0):
-    resolution: {integrity: sha512-Ssmw5gdY1HZ7PKFIqg/XHzwX4K/7CzC0vymBmvWTS5Iq0Uk3n56eGjvwcjurX4iZC3e+LcYB+WDWN2vLsxI1Vw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@tarojs/react/-/react-3.6.17.tgz}
-    id: registry.npmmirror.com/@tarojs/react/3.6.17
+  registry.npmmirror.com/@tarojs/react@3.6.18(react@18.2.0):
+    resolution: {integrity: sha512-zTAFNp1zLdegG8wE70G4Ni/CKu0YYXgp5nMJEjD2126Kf126PvFNvaGhzopkaZwlWGwyqAObGBcL9WH3zsSsjw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@tarojs/react/-/react-3.6.18.tgz}
+    id: registry.npmmirror.com/@tarojs/react/3.6.18
     name: '@tarojs/react'
-    version: 3.6.17
+    version: 3.6.18
     dependencies:
-      '@tarojs/runtime': registry.npmmirror.com/@tarojs/runtime@3.6.17
-      '@tarojs/shared': registry.npmmirror.com/@tarojs/shared@3.6.17
+      '@tarojs/runtime': registry.npmmirror.com/@tarojs/runtime@3.6.18
+      '@tarojs/shared': registry.npmmirror.com/@tarojs/shared@3.6.18
       react-reconciler: registry.npmmirror.com/react-reconciler@0.27.0(react@18.2.0)
     transitivePeerDependencies:
       - react
 
-  registry.npmmirror.com/@tarojs/router@3.6.17(@types/react@18.2.32)(postcss@8.4.31):
-    resolution: {integrity: sha512-2H/A5SDyGx7Bsa17obHiDAevwwhsbKCHp+0+vNY/VHhZTRRvd2MAmizEJQZWZDcUkz2XACFV00yHiQRZX4tetA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@tarojs/router/-/router-3.6.17.tgz}
-    id: registry.npmmirror.com/@tarojs/router/3.6.17
+  registry.npmmirror.com/@tarojs/router@3.6.18(@types/react@18.2.32)(postcss@8.4.31):
+    resolution: {integrity: sha512-J1DVjdPv1uW0ZmiJ2NkdL58LMWm7Q3Xn/fTuPRo5BnMQn26GP11T4PiJUn8Zb3bUBPSs5qidzrYTxWiY0QHCbQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@tarojs/router/-/router-3.6.18.tgz}
+    id: registry.npmmirror.com/@tarojs/router/3.6.18
     name: '@tarojs/router'
-    version: 3.6.17
+    version: 3.6.18
     dependencies:
-      '@tarojs/runtime': registry.npmmirror.com/@tarojs/runtime@3.6.17
-      '@tarojs/taro': registry.npmmirror.com/@tarojs/taro@3.6.17(@types/react@18.2.32)(postcss@8.4.31)
+      '@tarojs/runtime': registry.npmmirror.com/@tarojs/runtime@3.6.18
+      '@tarojs/taro': registry.npmmirror.com/@tarojs/taro@3.6.18(@types/react@18.2.32)(postcss@8.4.31)
       dingtalk-jsapi: registry.npmmirror.com/dingtalk-jsapi@2.15.4
       history: registry.npmmirror.com/history@5.3.0
       mobile-detect: registry.npmmirror.com/mobile-detect@1.4.5
@@ -8142,12 +8144,12 @@ packages:
       - postcss
       - vue
 
-  registry.npmmirror.com/@tarojs/runner-utils@3.6.17:
-    resolution: {integrity: sha512-MI3Gvs/CNLApiYn0sse+vY+TJzPWtlfNJa29E+He9xuwQigj9P8AHfIOdoBnX1a6urMRl8DXVuoicpgsccWgMg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@tarojs/runner-utils/-/runner-utils-3.6.17.tgz}
+  registry.npmmirror.com/@tarojs/runner-utils@3.6.18:
+    resolution: {integrity: sha512-Nvs96XIHLt6eJtfcgITd6rbZyA34FkT4LlLrbUO1qi0/zNH0i8HXar4Q8X8w6FQPhVVyw7y34mFlK2D0mdcBUg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@tarojs/runner-utils/-/runner-utils-3.6.18.tgz}
     name: '@tarojs/runner-utils'
-    version: 3.6.17
+    version: 3.6.18
     dependencies:
-      '@tarojs/helper': registry.npmmirror.com/@tarojs/helper@3.6.17
+      '@tarojs/helper': registry.npmmirror.com/@tarojs/helper@3.6.18
       scss-bundle: registry.npmmirror.com/scss-bundle@3.1.2
     transitivePeerDependencies:
       - supports-color
@@ -8160,6 +8162,7 @@ packages:
     dependencies:
       '@tarojs/shared': registry.npmmirror.com/@tarojs/shared@3.6.17
       lodash-es: registry.npmmirror.com/lodash-es@4.17.21
+    dev: false
 
   registry.npmmirror.com/@tarojs/runtime@3.6.18:
     resolution: {integrity: sha512-94xzXGITo/aFc8xvw2C8Rul7rqaIb23VMgE5dMS2hiH2anyBBS8HIyzHyKHNms6uo26P8MO4dMndmh6Jjm3bVw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@tarojs/runtime/-/runtime-3.6.18.tgz}
@@ -8168,29 +8171,6 @@ packages:
     dependencies:
       '@tarojs/shared': registry.npmmirror.com/@tarojs/shared@3.6.18
       lodash-es: registry.npmmirror.com/lodash-es@4.17.21
-
-  registry.npmmirror.com/@tarojs/service@3.6.17(@types/react@18.2.32)(postcss@8.4.31):
-    resolution: {integrity: sha512-FcuV36HpmUIEtMoN8wx7afiexx8vX9uMcRxoOHjOYzRe7UOO5jeNmHsDnqXEdmt+py3EYQN6iSx1e49LBoPilQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@tarojs/service/-/service-3.6.17.tgz}
-    id: registry.npmmirror.com/@tarojs/service/3.6.17
-    name: '@tarojs/service'
-    version: 3.6.17
-    dependencies:
-      '@tarojs/helper': registry.npmmirror.com/@tarojs/helper@3.6.17
-      '@tarojs/shared': registry.npmmirror.com/@tarojs/shared@3.6.17
-      '@tarojs/taro': registry.npmmirror.com/@tarojs/taro@3.6.17(@types/react@18.2.32)(postcss@8.4.31)
-      joi: registry.npmmirror.com/joi@17.11.0
-      lodash: registry.npmmirror.com/lodash@4.17.21
-      ora: registry.npmmirror.com/ora@5.4.1
-      resolve: registry.npmmirror.com/resolve@1.22.8
-      tapable: registry.npmmirror.com/tapable@1.1.3
-      webpack-merge: registry.npmmirror.com/webpack-merge@4.2.2
-    transitivePeerDependencies:
-      - '@types/react'
-      - '@types/webpack'
-      - '@types/webpack-dev-server'
-      - postcss
-      - supports-color
-      - vue
 
   registry.npmmirror.com/@tarojs/service@3.6.18(@types/react@18.2.32)(postcss@8.4.31):
     resolution: {integrity: sha512-8WN/CFOZCUFDa//yzxGxFCrX6plGr7FiNUQpNnxTmhTCS23bPXGMyuHgwDkane4m+V78HOf7ITRL6anV5OTCJw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@tarojs/service/-/service-3.6.18.tgz}
@@ -8219,23 +8199,24 @@ packages:
     resolution: {integrity: sha512-rWumnlh3OsL2p2Nby4N2OIKep6awR5n4hqxLQq7/QPdoSedNsndWZ/Q5zyE2bIHgpYMgytYEB48Sk6Tm+/+rPw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@tarojs/shared/-/shared-3.6.17.tgz}
     name: '@tarojs/shared'
     version: 3.6.17
+    dev: false
 
   registry.npmmirror.com/@tarojs/shared@3.6.18:
     resolution: {integrity: sha512-lJtjAK0Ol/SVu65VsMzsqOwfWrShYRBZgp4WLHrA6dJU0fqTvNklXWyDix22S2hkv0LlbRPgWlJbp5k3IkQsZA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@tarojs/shared/-/shared-3.6.18.tgz}
     name: '@tarojs/shared'
     version: 3.6.18
 
-  registry.npmmirror.com/@tarojs/taro-h5@3.6.17(@types/react@18.2.32)(postcss@8.4.31):
-    resolution: {integrity: sha512-om7UWwY34uNfxOgOorQDXUMK9p2Qq4LPgzuY1plWoLYvI0UlFgKkRf4tuU3FnWK7If3Mqf3YgOTgpyD9aMa1cA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@tarojs/taro-h5/-/taro-h5-3.6.17.tgz}
-    id: registry.npmmirror.com/@tarojs/taro-h5/3.6.17
+  registry.npmmirror.com/@tarojs/taro-h5@3.6.18(@types/react@18.2.32)(postcss@8.4.31):
+    resolution: {integrity: sha512-MSn3GN/bHSaHDqgZ6dnseZ+GBsmGE/N8DDjPTgRWXYJSgT7fFQKhQgJT+hqO5Hq9ju188jht/klXCaWgg3K4Tw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@tarojs/taro-h5/-/taro-h5-3.6.18.tgz}
+    id: registry.npmmirror.com/@tarojs/taro-h5/3.6.18
     name: '@tarojs/taro-h5'
-    version: 3.6.17
+    version: 3.6.18
     dependencies:
-      '@tarojs/api': registry.npmmirror.com/@tarojs/api@3.6.17
-      '@tarojs/components': registry.npmmirror.com/@tarojs/components@3.6.17(@types/react@18.2.32)(postcss@8.4.31)(react@18.2.0)
-      '@tarojs/router': registry.npmmirror.com/@tarojs/router@3.6.17(@types/react@18.2.32)(postcss@8.4.31)
-      '@tarojs/runtime': registry.npmmirror.com/@tarojs/runtime@3.6.17
-      '@tarojs/shared': registry.npmmirror.com/@tarojs/shared@3.6.17
+      '@tarojs/api': registry.npmmirror.com/@tarojs/api@3.6.18
+      '@tarojs/components': registry.npmmirror.com/@tarojs/components@3.6.18(@types/react@18.2.32)(postcss@8.4.31)(react@18.2.0)
+      '@tarojs/router': registry.npmmirror.com/@tarojs/router@3.6.18(@types/react@18.2.32)(postcss@8.4.31)
+      '@tarojs/runtime': registry.npmmirror.com/@tarojs/runtime@3.6.18
+      '@tarojs/shared': registry.npmmirror.com/@tarojs/shared@3.6.18
       abortcontroller-polyfill: registry.npmmirror.com/abortcontroller-polyfill@1.7.5
       base64-js: registry.npmmirror.com/base64-js@1.5.1
       ics: registry.npmmirror.com/ics@3.5.0
@@ -8252,14 +8233,14 @@ packages:
       - postcss
       - vue
 
-  registry.npmmirror.com/@tarojs/taro-loader@3.6.17(@types/react@18.2.32)(postcss@8.4.31):
-    resolution: {integrity: sha512-L+ZcBYR4xpbiXzmR8bwlKG+BrNDpvqnyA+f+re8Fddvp+LV3zjNVK4wlQ7JJFtGRKiedzX1dgi1eekntNM6Uwg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@tarojs/taro-loader/-/taro-loader-3.6.17.tgz}
-    id: registry.npmmirror.com/@tarojs/taro-loader/3.6.17
+  registry.npmmirror.com/@tarojs/taro-loader@3.6.18(@types/react@18.2.32)(postcss@8.4.31):
+    resolution: {integrity: sha512-i56wYuen2vLzmvOpIO7vX5ZgGeVR5tRaePot+Uygw/iNEDWqPIYiHfjBX3BFM560LW89q3grAhga1MvjqDQW6w==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@tarojs/taro-loader/-/taro-loader-3.6.18.tgz}
+    id: registry.npmmirror.com/@tarojs/taro-loader/3.6.18
     name: '@tarojs/taro-loader'
-    version: 3.6.17
+    version: 3.6.18
     dependencies:
-      '@tarojs/helper': registry.npmmirror.com/@tarojs/helper@3.6.17
-      '@tarojs/taro': registry.npmmirror.com/@tarojs/taro@3.6.17(@types/react@18.2.32)(postcss@8.4.31)
+      '@tarojs/helper': registry.npmmirror.com/@tarojs/helper@3.6.18
+      '@tarojs/taro': registry.npmmirror.com/@tarojs/taro@3.6.18(@types/react@18.2.32)(postcss@8.4.31)
       loader-utils: registry.npmmirror.com/loader-utils@1.4.2
     transitivePeerDependencies:
       - '@types/react'
@@ -8270,7 +8251,7 @@ packages:
       - vue
     dev: true
 
-  registry.npmmirror.com/@tarojs/taro@3.6.17(@types/react@18.2.32)(postcss@8.4.31):
+  registry.npmmirror.com/@tarojs/taro@3.6.17(postcss@8.4.31):
     resolution: {integrity: sha512-qcKal6SsFguG3hb/8I4cn5qT60wyqmcohv48ZDg6GFnRSJbmidxcVfyWyGIZgQdJW2QBlyivQNp9w1K9n31I8g==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@tarojs/taro/-/taro-3.6.17.tgz}
     id: registry.npmmirror.com/@tarojs/taro/3.6.17
     name: '@tarojs/taro'
@@ -8295,8 +8276,8 @@ packages:
     dependencies:
       '@tarojs/api': registry.npmmirror.com/@tarojs/api@3.6.17
       '@tarojs/runtime': registry.npmmirror.com/@tarojs/runtime@3.6.17
-      '@types/react': registry.npmmirror.com/@types/react@18.2.32
       postcss: registry.npmmirror.com/postcss@8.4.31
+    dev: false
 
   registry.npmmirror.com/@tarojs/taro@3.6.18(@types/react@18.2.32)(postcss@8.4.31):
     resolution: {integrity: sha512-G1BBQcd5YwXPFdX+FtAM4/PnnFKWOBFeVTJY1Y+Lp2urUg2biX5UWAInz6q1lrEVxTXB+/7pu0tXurLtFz02BA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@tarojs/taro/-/taro-3.6.18.tgz}
@@ -8340,7 +8321,7 @@ packages:
       - supports-color
     dev: true
 
-  registry.npmmirror.com/@tarojs/test-utils-react@0.1.1(@babel/core@7.23.2)(@tarojs/components@3.6.17)(@tarojs/helper@3.6.17)(@tarojs/plugin-framework-react@3.6.17)(@tarojs/plugin-platform-h5@3.6.17)(@tarojs/react@3.6.17)(@tarojs/runtime@3.6.17)(@tarojs/shared@3.6.17)(react-dom@18.2.0)(react@18.2.0):
+  registry.npmmirror.com/@tarojs/test-utils-react@0.1.1(@babel/core@7.23.2)(@tarojs/components@3.6.18)(@tarojs/helper@3.6.18)(@tarojs/plugin-framework-react@3.6.18)(@tarojs/plugin-platform-h5@3.6.18)(@tarojs/react@3.6.18)(@tarojs/runtime@3.6.18)(@tarojs/shared@3.6.18)(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-8F+jqQCe3P37FqWl/Fmy5elH/1LsfSQsZMLWp5II27EdjBUfmXr95EjZ4DJjPJkbfuM4Z9LefjXVk3nghRRdqg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@tarojs/test-utils-react/-/test-utils-react-0.1.1.tgz}
     id: registry.npmmirror.com/@tarojs/test-utils-react/0.1.1
     name: '@tarojs/test-utils-react'
@@ -8357,13 +8338,13 @@ packages:
       react-dom: ^18.0.0
     dependencies:
       '@babel/runtime': registry.npmmirror.com/@babel/runtime@7.23.2
-      '@tarojs/components': registry.npmmirror.com/@tarojs/components@3.6.17(@types/react@18.2.32)(postcss@8.4.31)(react@18.2.0)
-      '@tarojs/helper': registry.npmmirror.com/@tarojs/helper@3.6.17
-      '@tarojs/plugin-framework-react': registry.npmmirror.com/@tarojs/plugin-framework-react@3.6.17(@pmmmwh/react-refresh-webpack-plugin@0.5.11)(@types/react@18.2.32)(postcss@8.4.31)(react-refresh@0.11.0)(react@18.2.0)
-      '@tarojs/plugin-platform-h5': registry.npmmirror.com/@tarojs/plugin-platform-h5@3.6.17(@types/react@18.2.32)(postcss@8.4.31)
-      '@tarojs/react': registry.npmmirror.com/@tarojs/react@3.6.17(react@18.2.0)
-      '@tarojs/runtime': registry.npmmirror.com/@tarojs/runtime@3.6.17
-      '@tarojs/shared': registry.npmmirror.com/@tarojs/shared@3.6.17
+      '@tarojs/components': registry.npmmirror.com/@tarojs/components@3.6.18(@types/react@18.2.32)(postcss@8.4.31)(react@18.2.0)
+      '@tarojs/helper': registry.npmmirror.com/@tarojs/helper@3.6.18
+      '@tarojs/plugin-framework-react': registry.npmmirror.com/@tarojs/plugin-framework-react@3.6.18(@pmmmwh/react-refresh-webpack-plugin@0.5.11)(@types/react@18.2.32)(postcss@8.4.31)(react-refresh@0.11.0)(react@18.2.0)
+      '@tarojs/plugin-platform-h5': registry.npmmirror.com/@tarojs/plugin-platform-h5@3.6.18(@types/react@18.2.32)(postcss@8.4.31)
+      '@tarojs/react': registry.npmmirror.com/@tarojs/react@3.6.18(react@18.2.0)
+      '@tarojs/runtime': registry.npmmirror.com/@tarojs/runtime@3.6.18
+      '@tarojs/shared': registry.npmmirror.com/@tarojs/shared@3.6.18
       '@tarojs/test-utils-dom': registry.npmmirror.com/@tarojs/test-utils-dom@0.1.1(@babel/core@7.23.2)
       '@tarojs/test-utils-shared': registry.npmmirror.com/@tarojs/test-utils-shared@0.1.1(@babel/core@7.23.2)
       babel-jest: registry.npmmirror.com/babel-jest@29.7.0(@babel/core@7.23.2)
@@ -8389,17 +8370,17 @@ packages:
       - supports-color
     dev: true
 
-  registry.npmmirror.com/@tarojs/webpack5-prebundle@3.6.17(@types/react@18.2.32)(postcss@8.4.31)(webpack@5.78.0):
-    resolution: {integrity: sha512-taJse3Wlyafy/scjPSSAjhyFTA2C8NWoKHGslD/6Z4OFETUa10E1VTQwBer5zFPshpGdQG0ZcS8SWSNxTibWNg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@tarojs/webpack5-prebundle/-/webpack5-prebundle-3.6.17.tgz}
-    id: registry.npmmirror.com/@tarojs/webpack5-prebundle/3.6.17
+  registry.npmmirror.com/@tarojs/webpack5-prebundle@3.6.18(@types/react@18.2.32)(postcss@8.4.31)(webpack@5.78.0):
+    resolution: {integrity: sha512-pA0qOqagC96ISqIznjqaNLllib5fCidSX79C2HZiJ1uYx0+Lh9aEk7vURE7KgPeqscVR5bQA+SLa0FRReHj1CQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@tarojs/webpack5-prebundle/-/webpack5-prebundle-3.6.18.tgz}
+    id: registry.npmmirror.com/@tarojs/webpack5-prebundle/3.6.18
     name: '@tarojs/webpack5-prebundle'
-    version: 3.6.17
+    version: 3.6.18
     peerDependencies:
       webpack: ^5.78.0
     dependencies:
-      '@tarojs/helper': registry.npmmirror.com/@tarojs/helper@3.6.17
-      '@tarojs/shared': registry.npmmirror.com/@tarojs/shared@3.6.17
-      '@tarojs/taro': registry.npmmirror.com/@tarojs/taro@3.6.17(@types/react@18.2.32)(postcss@8.4.31)
+      '@tarojs/helper': registry.npmmirror.com/@tarojs/helper@3.6.18
+      '@tarojs/shared': registry.npmmirror.com/@tarojs/shared@3.6.18
+      '@tarojs/taro': registry.npmmirror.com/@tarojs/taro@3.6.18(@types/react@18.2.32)(postcss@8.4.31)
       enhanced-resolve: registry.npmmirror.com/enhanced-resolve@5.15.0
       es-module-lexer: registry.npmmirror.com/es-module-lexer@0.10.5
       lodash: registry.npmmirror.com/lodash@4.17.21
@@ -8415,29 +8396,29 @@ packages:
       - vue
     dev: true
 
-  registry.npmmirror.com/@tarojs/webpack5-runner@3.6.17(@babel/core@7.23.2)(@swc/core@1.3.23)(@types/react@18.2.32)(postcss@8.4.31)(prettier@2.8.8)(react-dom@18.2.0)(react@18.2.0)(typescript@5.2.2)(webpack@5.78.0):
-    resolution: {integrity: sha512-Xd+T7InXcjkbZne2ahya1y3+/dhnM36NiP/9WR0ZMWXoaB8HUitWHqt5ZFaS/i91zWeAroCyqdov9yV6RHKGjw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@tarojs/webpack5-runner/-/webpack5-runner-3.6.17.tgz}
-    id: registry.npmmirror.com/@tarojs/webpack5-runner/3.6.17
+  registry.npmmirror.com/@tarojs/webpack5-runner@3.6.18(@babel/core@7.23.2)(@swc/core@1.3.23)(@types/react@18.2.32)(postcss@8.4.31)(prettier@2.8.8)(react-dom@18.2.0)(react@18.2.0)(typescript@5.2.2)(webpack@5.78.0):
+    resolution: {integrity: sha512-BYt178vICazDRtNCXMZlmHq4EPWCkSfopIfMsyy/VgtU4Bc6ioRr5ebOxHaM9ACC79yqmtSZ6WUGFUF6XKEVcg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@tarojs/webpack5-runner/-/webpack5-runner-3.6.18.tgz}
+    id: registry.npmmirror.com/@tarojs/webpack5-runner/3.6.18
     name: '@tarojs/webpack5-runner'
-    version: 3.6.17
+    version: 3.6.18
     peerDependencies:
       postcss: ^8.4.18
       webpack: ^5.78.0
     dependencies:
       '@parcel/css': registry.npmmirror.com/@parcel/css@1.14.0
-      '@tarojs/helper': registry.npmmirror.com/@tarojs/helper@3.6.17
-      '@tarojs/plugin-platform-alipay': registry.npmmirror.com/@tarojs/plugin-platform-alipay@3.6.17(@types/react@18.2.32)(postcss@8.4.31)(react@18.2.0)
-      '@tarojs/plugin-platform-jd': registry.npmmirror.com/@tarojs/plugin-platform-jd@3.6.17(@types/react@18.2.32)(postcss@8.4.31)
-      '@tarojs/plugin-platform-qq': registry.npmmirror.com/@tarojs/plugin-platform-qq@3.6.17(@types/react@18.2.32)(postcss@8.4.31)
-      '@tarojs/plugin-platform-swan': registry.npmmirror.com/@tarojs/plugin-platform-swan@3.6.17(@types/react@18.2.32)(postcss@8.4.31)
-      '@tarojs/plugin-platform-tt': registry.npmmirror.com/@tarojs/plugin-platform-tt@3.6.17(@types/react@18.2.32)(postcss@8.4.31)
-      '@tarojs/plugin-platform-weapp': registry.npmmirror.com/@tarojs/plugin-platform-weapp@3.6.17(@types/react@18.2.32)(postcss@8.4.31)
-      '@tarojs/runner-utils': registry.npmmirror.com/@tarojs/runner-utils@3.6.17
-      '@tarojs/runtime': registry.npmmirror.com/@tarojs/runtime@3.6.17
-      '@tarojs/shared': registry.npmmirror.com/@tarojs/shared@3.6.17
-      '@tarojs/taro': registry.npmmirror.com/@tarojs/taro@3.6.17(@types/react@18.2.32)(postcss@8.4.31)
-      '@tarojs/taro-loader': registry.npmmirror.com/@tarojs/taro-loader@3.6.17(@types/react@18.2.32)(postcss@8.4.31)
-      '@tarojs/webpack5-prebundle': registry.npmmirror.com/@tarojs/webpack5-prebundle@3.6.17(@types/react@18.2.32)(postcss@8.4.31)(webpack@5.78.0)
+      '@tarojs/helper': registry.npmmirror.com/@tarojs/helper@3.6.18
+      '@tarojs/plugin-platform-alipay': registry.npmmirror.com/@tarojs/plugin-platform-alipay@3.6.18(@types/react@18.2.32)(postcss@8.4.31)(react@18.2.0)
+      '@tarojs/plugin-platform-jd': registry.npmmirror.com/@tarojs/plugin-platform-jd@3.6.18(@types/react@18.2.32)(postcss@8.4.31)
+      '@tarojs/plugin-platform-qq': registry.npmmirror.com/@tarojs/plugin-platform-qq@3.6.18(@types/react@18.2.32)(postcss@8.4.31)
+      '@tarojs/plugin-platform-swan': registry.npmmirror.com/@tarojs/plugin-platform-swan@3.6.18(@types/react@18.2.32)(postcss@8.4.31)
+      '@tarojs/plugin-platform-tt': registry.npmmirror.com/@tarojs/plugin-platform-tt@3.6.18(@types/react@18.2.32)(postcss@8.4.31)
+      '@tarojs/plugin-platform-weapp': registry.npmmirror.com/@tarojs/plugin-platform-weapp@3.6.18(@types/react@18.2.32)(postcss@8.4.31)
+      '@tarojs/runner-utils': registry.npmmirror.com/@tarojs/runner-utils@3.6.18
+      '@tarojs/runtime': registry.npmmirror.com/@tarojs/runtime@3.6.18
+      '@tarojs/shared': registry.npmmirror.com/@tarojs/shared@3.6.18
+      '@tarojs/taro': registry.npmmirror.com/@tarojs/taro@3.6.18(@types/react@18.2.32)(postcss@8.4.31)
+      '@tarojs/taro-loader': registry.npmmirror.com/@tarojs/taro-loader@3.6.18(@types/react@18.2.32)(postcss@8.4.31)
+      '@tarojs/webpack5-prebundle': registry.npmmirror.com/@tarojs/webpack5-prebundle@3.6.18(@types/react@18.2.32)(postcss@8.4.31)(webpack@5.78.0)
       acorn-walk: registry.npmmirror.com/acorn-walk@8.2.0
       autoprefixer: registry.npmmirror.com/autoprefixer@9.8.8
       babel-loader: registry.npmmirror.com/babel-loader@8.2.1(@babel/core@7.23.2)(webpack@5.78.0)
@@ -8463,11 +8444,11 @@ packages:
       mkdirp: registry.npmmirror.com/mkdirp@1.0.4
       ora: registry.npmmirror.com/ora@5.4.1
       postcss: registry.npmmirror.com/postcss@8.4.31
-      postcss-html-transform: registry.npmmirror.com/postcss-html-transform@3.6.17(postcss@8.4.31)
+      postcss-html-transform: registry.npmmirror.com/postcss-html-transform@3.6.18(postcss@8.4.31)
       postcss-import: registry.npmmirror.com/postcss-import@14.1.0(postcss@8.4.31)
       postcss-loader: registry.npmmirror.com/postcss-loader@7.3.3(postcss@8.4.31)(typescript@5.2.2)(webpack@5.78.0)
-      postcss-plugin-constparse: registry.npmmirror.com/postcss-plugin-constparse@3.6.17(postcss@8.4.31)
-      postcss-pxtransform: registry.npmmirror.com/postcss-pxtransform@3.6.17(postcss@8.4.31)
+      postcss-plugin-constparse: registry.npmmirror.com/postcss-plugin-constparse@3.6.18(postcss@8.4.31)
+      postcss-pxtransform: registry.npmmirror.com/postcss-pxtransform@3.6.18(postcss@8.4.31)
       postcss-url: registry.npmmirror.com/postcss-url@10.1.3(postcss@8.4.31)
       regenerator-runtime: registry.npmmirror.com/regenerator-runtime@0.11.1
       resolve: registry.npmmirror.com/resolve@1.22.8
@@ -9113,7 +9094,7 @@ packages:
     version: 1.45.0
     deprecated: This is a stub types definition. sass provides its own type definitions, so you do not need this installed.
     dependencies:
-      sass: registry.npmmirror.com/sass@1.50.0
+      sass: registry.npmmirror.com/sass@1.69.4
     dev: true
 
   registry.npmmirror.com/@types/sax@1.2.6:
@@ -12257,10 +12238,10 @@ packages:
       babel-types: registry.npmmirror.com/babel-types@6.26.0
     dev: true
 
-  registry.npmmirror.com/babel-plugin-transform-taroapi@3.6.17:
-    resolution: {integrity: sha512-CG18t+QPnLZbDOBZE/Sh9O76b+tn6sbpAtgqyqptP4rIxkGMmVLmjZ2ZrsIIZmlLbm9lEc/XdBNSxYiL0OUtJw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/babel-plugin-transform-taroapi/-/babel-plugin-transform-taroapi-3.6.17.tgz}
+  registry.npmmirror.com/babel-plugin-transform-taroapi@3.6.18:
+    resolution: {integrity: sha512-gW8zVaQFTpNoUU9FGM4gdraPz7BpCKN9CBKPVrDSdPRQNBxmbXo9AW+U5wWZKch50IUgyyE91SymO5n5XKb+Dw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/babel-plugin-transform-taroapi/-/babel-plugin-transform-taroapi-3.6.18.tgz}
     name: babel-plugin-transform-taroapi
-    version: 3.6.17
+    version: 3.6.18
     dependencies:
       lodash: registry.npmmirror.com/lodash@4.17.21
 
@@ -12386,11 +12367,11 @@ packages:
       - supports-color
     dev: true
 
-  registry.npmmirror.com/babel-preset-taro@3.6.17(@babel/core@7.23.2):
-    resolution: {integrity: sha512-4roPjEBVzmfl9IqElEa2B9eutLicTt19/zdogaPqcGekJivNXYqNVojOFLimW4xenipdOBssTrOpbx2Pjx/0/w==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/babel-preset-taro/-/babel-preset-taro-3.6.17.tgz}
-    id: registry.npmmirror.com/babel-preset-taro/3.6.17
+  registry.npmmirror.com/babel-preset-taro@3.6.18(@babel/core@7.23.2):
+    resolution: {integrity: sha512-vMH7VkN7J5+BRVy+e/KCF0paQZPkX7o1+ZfoRJjZqotzUr2VAkmXCgTXagjHl2OYysHotr2maFXme9aM2iLf7Q==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/babel-preset-taro/-/babel-preset-taro-3.6.18.tgz}
+    id: registry.npmmirror.com/babel-preset-taro/3.6.18
     name: babel-preset-taro
-    version: 3.6.17
+    version: 3.6.18
     peerDependencies:
       '@babel/core': '*'
     dependencies:
@@ -12404,8 +12385,8 @@ packages:
       '@babel/preset-typescript': registry.npmmirror.com/@babel/preset-typescript@7.23.2(@babel/core@7.23.2)
       '@babel/runtime': registry.npmmirror.com/@babel/runtime@7.23.2
       '@babel/runtime-corejs3': registry.npmmirror.com/@babel/runtime-corejs3@7.23.2
-      '@tarojs/helper': registry.npmmirror.com/@tarojs/helper@3.6.17
-      '@tarojs/shared': registry.npmmirror.com/@tarojs/shared@3.6.17
+      '@tarojs/helper': registry.npmmirror.com/@tarojs/helper@3.6.18
+      '@tarojs/shared': registry.npmmirror.com/@tarojs/shared@3.6.18
       babel-plugin-dynamic-import-node: registry.npmmirror.com/babel-plugin-dynamic-import-node@2.3.3
       babel-plugin-minify-dead-code-elimination: registry.npmmirror.com/babel-plugin-minify-dead-code-elimination@0.5.2
       babel-plugin-transform-imports-api: registry.npmmirror.com/babel-plugin-transform-imports-api@1.0.0
@@ -17152,11 +17133,11 @@ packages:
       source-map: registry.npmmirror.com/source-map@0.6.1
     dev: true
 
-  registry.npmmirror.com/eslint-config-taro@3.6.17(@babel/core@7.23.2)(eslint@8.52.0)(typescript@5.2.2):
-    resolution: {integrity: sha512-gYRqbiM2cZIbLxRaJ7ViilZg0zraz/M1qzvpIUhkB7R8cf8Kxj5A0BogcMMdzutjQy1melWNHynlw6NzeEEncA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/eslint-config-taro/-/eslint-config-taro-3.6.17.tgz}
-    id: registry.npmmirror.com/eslint-config-taro/3.6.17
+  registry.npmmirror.com/eslint-config-taro@3.6.18(@babel/core@7.23.2)(eslint@8.52.0)(typescript@5.2.2):
+    resolution: {integrity: sha512-06TGfDR91iE09c37S58W/EojAXhzCrvw+b+kkOeapqPRBvkTYEks/YILs8Lvk0axwx4mFYQNyW6LptL1Xvkypw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/eslint-config-taro/-/eslint-config-taro-3.6.18.tgz}
+    id: registry.npmmirror.com/eslint-config-taro/3.6.18
     name: eslint-config-taro
-    version: 3.6.17
+    version: 3.6.18
     peerDependencies:
       eslint: '*'
     dependencies:
@@ -26806,11 +26787,11 @@ packages:
       postcss: registry.npmmirror.com/postcss@8.4.31
     dev: true
 
-  registry.npmmirror.com/postcss-html-transform@3.6.17(postcss@8.4.31):
-    resolution: {integrity: sha512-fFOo7dHzu//c2UL3AMY/07ikV+nRCYxPqr+kbRHPqqov3QW4UT7Nie0hvdMiVNuLMExiKhxjE7RBmU93x/4njQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/postcss-html-transform/-/postcss-html-transform-3.6.17.tgz}
-    id: registry.npmmirror.com/postcss-html-transform/3.6.17
+  registry.npmmirror.com/postcss-html-transform@3.6.18(postcss@8.4.31):
+    resolution: {integrity: sha512-Oj6/mhEwUehn138WDK2frIy73VDIuP04/9Lg7ChTFUeSmuqeVj0V3hSntQbLwxsLvz9ceuo1lsag2ECS5ImvZQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/postcss-html-transform/-/postcss-html-transform-3.6.18.tgz}
+    id: registry.npmmirror.com/postcss-html-transform/3.6.18
     name: postcss-html-transform
-    version: 3.6.17
+    version: 3.6.18
     peerDependencies:
       postcss: ^8.4.18
     dependencies:
@@ -27268,11 +27249,11 @@ packages:
       postcss-value-parser: registry.npmmirror.com/postcss-value-parser@4.2.0
     dev: true
 
-  registry.npmmirror.com/postcss-plugin-constparse@3.6.17(postcss@8.4.31):
-    resolution: {integrity: sha512-x8dLWuN0xIIu9O+27DwpfaGfU6id2+jjCXks6wP54OIeffeW1dCpL+cgyNvEtTeIq233JJTqsyrxksO3anfl1w==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/postcss-plugin-constparse/-/postcss-plugin-constparse-3.6.17.tgz}
-    id: registry.npmmirror.com/postcss-plugin-constparse/3.6.17
+  registry.npmmirror.com/postcss-plugin-constparse@3.6.18(postcss@8.4.31):
+    resolution: {integrity: sha512-gaPKg38D5AIpA608v/DES/fw8Q7oxyQunh0Nn+B0CNUnb3Z/lCKiKapA0DJDwK06ZxibDqumfbEBzpeHd/hZ+Q==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/postcss-plugin-constparse/-/postcss-plugin-constparse-3.6.18.tgz}
+    id: registry.npmmirror.com/postcss-plugin-constparse/3.6.18
     name: postcss-plugin-constparse
-    version: 3.6.17
+    version: 3.6.18
     peerDependencies:
       postcss: ^8.4.18
     dependencies:
@@ -27360,11 +27341,11 @@ packages:
       postcss-selector-parser: registry.npmmirror.com/postcss-selector-parser@6.0.13
     dev: true
 
-  registry.npmmirror.com/postcss-pxtransform@3.6.17(postcss@8.4.31):
-    resolution: {integrity: sha512-3m6blfEE/5wfaQ7i7oGR+Og3jg8et5d0DdBVXfn2ihHq/jvUrE8PipNkGtjxKTZe7tWOMtb99NEnqSgL7covoQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/postcss-pxtransform/-/postcss-pxtransform-3.6.17.tgz}
-    id: registry.npmmirror.com/postcss-pxtransform/3.6.17
+  registry.npmmirror.com/postcss-pxtransform@3.6.18(postcss@8.4.31):
+    resolution: {integrity: sha512-fFQH74ZJezshTye5St3cgnz33U5k1RUjjW9nP0zVLDypRQZuI9/bshi6VgurXRYMCVUWitCklzlvqyUUX76abw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/postcss-pxtransform/-/postcss-pxtransform-3.6.18.tgz}
+    id: registry.npmmirror.com/postcss-pxtransform/3.6.18
     name: postcss-pxtransform
-    version: 3.6.17
+    version: 3.6.18
     peerDependencies:
       postcss: ^8.4.18
     dependencies:
@@ -29786,7 +29767,7 @@ packages:
       loglevel: registry.npmmirror.com/loglevel@1.8.1
       loglevel-plugin-prefix: registry.npmmirror.com/loglevel-plugin-prefix@0.8.4
       pretty-bytes: registry.npmmirror.com/pretty-bytes@5.6.0
-      sass: registry.npmmirror.com/sass@1.50.0
+      sass: registry.npmmirror.com/sass@1.69.4
       tslib: registry.npmmirror.com/tslib@1.14.1
     dev: true
 

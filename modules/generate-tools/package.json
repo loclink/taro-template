@@ -26,7 +26,7 @@
   },
   "bugs": {},
   "dependencies": {
-    "@tarojs/service": "^3.6.16"
+    "@tarojs/service": "^3.6.18"
   },
   "devDependencies": {
     "@types/node": "^18.13.0"

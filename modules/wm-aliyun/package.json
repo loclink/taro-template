@@ -20,7 +20,7 @@
   "license": "ISC",
   "dependencies": {
     "ali-oss": "^6.17.1",
-    "@tarojs/taro": "3.6.17",
+    "@tarojs/taro": "3.6.18",
     "core-decorators": "^0.20.0"
   },
   "devDependencies": {
