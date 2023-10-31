@@ -6,9 +6,8 @@ import { execMiddlewares, getMiddlewares } from "../middleware";
 import { PageData } from "../page-data";
 import { execRouterBackListener } from "../router-back-listener";
 import { NavigateOptions, NavigateType, Route } from "./type";
-
-export { NavigateOptions, NavigateType, Route } from "./type";
 import { debounce } from "lodash";
+export { NavigateOptions, NavigateType, Route } from "./type";
 
 /**
  * 私有导航方法（未经过防抖处理）

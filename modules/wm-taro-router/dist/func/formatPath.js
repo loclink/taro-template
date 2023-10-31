@@ -18,4 +18,3 @@ function formatPath(route, params) {
     return url;
 }
 exports.formatPath = formatPath;
-//# sourceMappingURL=formatPath.js.map

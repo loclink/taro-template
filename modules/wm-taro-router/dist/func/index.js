@@ -17,4 +17,3 @@ Object.defineProperty(exports, "__esModule", { value: true });
 __exportStar(require("./formatPath"), exports);
 __exportStar(require("./getCurrentRouteKey"), exports);
 __exportStar(require("./isNil"), exports);
-//# sourceMappingURL=index.js.map

@@ -131,7 +131,7 @@ importers:
   modules/generate-config:
     dependencies:
       '@tarojs/service':
-        specifier: ^3.6.16
+        specifier: ^3.6.18
         version: registry.npmmirror.com/@tarojs/service@3.6.18(@types/react@18.2.32)(postcss@8.4.31)
     devDependencies:
       '@types/node':
@@ -156,7 +156,7 @@ importers:
   modules/generate-router:
     dependencies:
       '@tarojs/service':
-        specifier: ^3.6.16
+        specifier: ^3.6.18
         version: registry.npmmirror.com/@tarojs/service@3.6.18(@types/react@18.2.32)(postcss@8.4.31)
     devDependencies:
       '@tarojs/helper':
@@ -181,7 +181,7 @@ importers:
   modules/generate-tools:
     dependencies:
       '@tarojs/service':
-        specifier: ^3.6.16
+        specifier: ^3.6.18
         version: registry.npmmirror.com/@tarojs/service@3.6.18(@types/react@18.2.32)(postcss@8.4.31)
     devDependencies:
       '@types/node':
@@ -213,8 +213,8 @@ importers:
   modules/wm-aliyun:
     dependencies:
       '@tarojs/taro':
-        specifier: 3.6.17
-        version: registry.npmmirror.com/@tarojs/taro@3.6.17(postcss@8.4.31)
+        specifier: 3.6.18
+        version: registry.npmmirror.com/@tarojs/taro@3.6.18(@types/react@18.2.32)(postcss@8.4.31)
       ali-oss:
         specifier: ^6.17.1
         version: registry.npmmirror.com/ali-oss@6.18.1
@@ -229,8 +229,8 @@ importers:
   modules/wm-request:
     dependencies:
       '@tarojs/taro':
-        specifier: 3.6.17
-        version: registry.npmmirror.com/@tarojs/taro@3.6.17(postcss@8.4.31)
+        specifier: 3.6.18
+        version: registry.npmmirror.com/@tarojs/taro@3.6.18(@types/react@18.2.32)(postcss@8.4.31)
 
   modules/wm-taro-design:
     dependencies:
@@ -7539,16 +7539,6 @@ packages:
       defer-to-connect: registry.npmmirror.com/defer-to-connect@2.0.1
     dev: true
 
-  registry.npmmirror.com/@tarojs/api@3.6.17:
-    resolution: {integrity: sha512-16IDRN0uoBuUhFt5LqrzNKc9ZrzxSplsMN0tuYiIenlqAxsNaPvAVz+93TIWDg14uabGN5JeWKMJs+Ng51rxQw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@tarojs/api/-/api-3.6.17.tgz}
-    name: '@tarojs/api'
-    version: 3.6.17
-    dependencies:
-      '@babel/runtime': registry.npmmirror.com/@babel/runtime@7.23.2
-      '@tarojs/runtime': registry.npmmirror.com/@tarojs/runtime@3.6.17
-      '@tarojs/shared': registry.npmmirror.com/@tarojs/shared@3.6.17
-    dev: false
-
   registry.npmmirror.com/@tarojs/api@3.6.18:
     resolution: {integrity: sha512-deQga4zzgOpZeXoqKLWU4Gn1qrLMnK2y1uOKEXz50ZgR9Uw/Qh2V49lxRY5w0YzYpqaZ29lh0KIxW8jXDiXM0w==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@tarojs/api/-/api-3.6.18.tgz}
     name: '@tarojs/api'
@@ -8155,15 +8145,6 @@ packages:
       - supports-color
     dev: true
 
-  registry.npmmirror.com/@tarojs/runtime@3.6.17:
-    resolution: {integrity: sha512-d8x53AcVkV5EWNKiDGF/71CRgLly76rHJVNatZdewW3+rm/iB0amIUusE++9tzcu4ONgP70cDBC8l1lvVOokAg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@tarojs/runtime/-/runtime-3.6.17.tgz}
-    name: '@tarojs/runtime'
-    version: 3.6.17
-    dependencies:
-      '@tarojs/shared': registry.npmmirror.com/@tarojs/shared@3.6.17
-      lodash-es: registry.npmmirror.com/lodash-es@4.17.21
-    dev: false
-
   registry.npmmirror.com/@tarojs/runtime@3.6.18:
     resolution: {integrity: sha512-94xzXGITo/aFc8xvw2C8Rul7rqaIb23VMgE5dMS2hiH2anyBBS8HIyzHyKHNms6uo26P8MO4dMndmh6Jjm3bVw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@tarojs/runtime/-/runtime-3.6.18.tgz}
     name: '@tarojs/runtime'
@@ -8194,12 +8175,6 @@ packages:
       - postcss
       - supports-color
       - vue
-
-  registry.npmmirror.com/@tarojs/shared@3.6.17:
-    resolution: {integrity: sha512-rWumnlh3OsL2p2Nby4N2OIKep6awR5n4hqxLQq7/QPdoSedNsndWZ/Q5zyE2bIHgpYMgytYEB48Sk6Tm+/+rPw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@tarojs/shared/-/shared-3.6.17.tgz}
-    name: '@tarojs/shared'
-    version: 3.6.17
-    dev: false
 
   registry.npmmirror.com/@tarojs/shared@3.6.18:
     resolution: {integrity: sha512-lJtjAK0Ol/SVu65VsMzsqOwfWrShYRBZgp4WLHrA6dJU0fqTvNklXWyDix22S2hkv0LlbRPgWlJbp5k3IkQsZA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@tarojs/shared/-/shared-3.6.18.tgz}
@@ -8250,34 +8225,6 @@ packages:
       - supports-color
       - vue
     dev: true
-
-  registry.npmmirror.com/@tarojs/taro@3.6.17(postcss@8.4.31):
-    resolution: {integrity: sha512-qcKal6SsFguG3hb/8I4cn5qT60wyqmcohv48ZDg6GFnRSJbmidxcVfyWyGIZgQdJW2QBlyivQNp9w1K9n31I8g==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@tarojs/taro/-/taro-3.6.17.tgz}
-    id: registry.npmmirror.com/@tarojs/taro/3.6.17
-    name: '@tarojs/taro'
-    version: 3.6.17
-    peerDependencies:
-      '@types/react': '*'
-      '@types/webpack': '*'
-      '@types/webpack-dev-server': '*'
-      postcss: '*'
-      vue: '*'
-    peerDependenciesMeta:
-      '@types/react':
-        optional: true
-      '@types/webpack':
-        optional: true
-      '@types/webpack-dev-server':
-        optional: true
-      postcss:
-        optional: true
-      vue:
-        optional: true
-    dependencies:
-      '@tarojs/api': registry.npmmirror.com/@tarojs/api@3.6.17
-      '@tarojs/runtime': registry.npmmirror.com/@tarojs/runtime@3.6.17
-      postcss: registry.npmmirror.com/postcss@8.4.31
-    dev: false
 
   registry.npmmirror.com/@tarojs/taro@3.6.18(@types/react@18.2.32)(postcss@8.4.31):
     resolution: {integrity: sha512-G1BBQcd5YwXPFdX+FtAM4/PnnFKWOBFeVTJY1Y+Lp2urUg2biX5UWAInz6q1lrEVxTXB+/7pu0tXurLtFz02BA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@tarojs/taro/-/taro-3.6.18.tgz}

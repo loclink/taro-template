@@ -45,4 +45,3 @@ function compose(middleware) {
     };
 }
 exports.compose = compose;
-//# sourceMappingURL=compose.js.map

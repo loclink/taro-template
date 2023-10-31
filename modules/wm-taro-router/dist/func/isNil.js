@@ -5,4 +5,3 @@ function isNil(val) {
     return val === undefined || val === null;
 }
 exports.isNil = isNil;
-//# sourceMappingURL=isNil.js.map

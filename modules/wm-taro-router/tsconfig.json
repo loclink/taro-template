@@ -12,7 +12,7 @@
     "noUnusedParameters": false,
     "strictNullChecks": true,
     "resolveJsonModule": true,
-    "sourceMap": true,
+    "sourceMap": false,
     "skipLibCheck": true,
     "target": "ES5",
     "outDir": "dist",

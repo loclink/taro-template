@@ -13,4 +13,3 @@ function getCurrentRouteKey() {
     return taro_1.default.Current.page[constants_1.ROUTE_KEY];
 }
 exports.getCurrentRouteKey = getCurrentRouteKey;
-//# sourceMappingURL=getCurrentRouteKey.js.map

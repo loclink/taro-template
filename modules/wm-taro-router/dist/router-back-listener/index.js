@@ -19,4 +19,3 @@ function execRouterBackListener(from) {
     }
 }
 exports.execRouterBackListener = execRouterBackListener;
-//# sourceMappingURL=index.js.map

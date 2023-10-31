@@ -1,4 +1,3 @@
-export * from './formatPath'
-export * from './getCurrentRouteKey'
-export * from './isNil'
-
+export * from "./formatPath";
+export * from "./getCurrentRouteKey";
+export * from "./isNil";

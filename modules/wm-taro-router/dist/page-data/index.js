@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.PageData = void 0;
 var func_1 = require("../func");
-var PageData = exports.PageData = /** @class */ (function () {
+var PageData = /** @class */ (function () {
     function PageData() {
     }
     PageData.getPageData = function (default_value) {
@@ -51,4 +51,4 @@ var PageData = exports.PageData = /** @class */ (function () {
     PageData.backResult = new Map();
     return PageData;
 }());
-//# sourceMappingURL=index.js.map
+exports.PageData = PageData;

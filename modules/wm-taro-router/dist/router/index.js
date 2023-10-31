@@ -79,9 +79,9 @@ var middleware_1 = require("../middleware");
 var page_data_1 = require("../page-data");
 var router_back_listener_1 = require("../router-back-listener");
 var type_1 = require("./type");
+var lodash_1 = require("lodash");
 var type_2 = require("./type");
 Object.defineProperty(exports, "NavigateType", { enumerable: true, get: function () { return type_2.NavigateType; } });
-var lodash_1 = require("lodash");
 /**
  * 私有导航方法（未经过防抖处理）
  * @param route 目标路由对象
@@ -267,4 +267,3 @@ var Router = /** @class */ (function () {
     return Router;
 }());
 exports.Router = Router;
-//# sourceMappingURL=index.js.map

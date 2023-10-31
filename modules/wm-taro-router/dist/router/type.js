@@ -12,4 +12,3 @@ var NavigateType;
     /** 跳转到 tabBar 页面，并关闭其他所有非 tabBar 页面 */
     NavigateType["switchTab"] = "switchTab";
 })(NavigateType || (exports.NavigateType = NavigateType = {}));
-//# sourceMappingURL=type.js.map

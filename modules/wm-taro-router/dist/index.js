@@ -15,4 +15,3 @@ var router_back_listener_1 = require("./router-back-listener");
 Object.defineProperty(exports, "registerRouterBackListener", { enumerable: true, get: function () { return router_back_listener_1.registerRouterBackListener; } });
 var router_2 = require("./router");
 exports.default = router_2.Router;
-//# sourceMappingURL=index.js.map
