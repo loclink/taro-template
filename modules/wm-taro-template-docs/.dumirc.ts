@@ -32,6 +32,19 @@ export default defineConfig({
         link: '/router',
       },
       {
+        title: '集成模块',
+        children: [
+          {
+            title: '工具库 wm-kit',
+            link: 'http://frontdoc.develop.meimob.com/',
+          },
+          {
+            title: '组件库 wm-taro-design',
+            link: 'http://wm-taro-design.develop.meimob.com/',
+          },
+        ],
+      },
+      {
         title: '更新日志',
         link: '/CHANGELOG',
       },

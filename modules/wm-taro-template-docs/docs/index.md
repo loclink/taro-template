@@ -2,7 +2,7 @@
 title: A static site based on dumi
 hero:
   title: WmTaro
-  description: 武汉美萌Taro小程序起手开发模板使用文档
+  description: 武汉美萌 Taro 起手式项目模板框架开发文档
   actions:
     - text: 开发指南
       link: /guide
