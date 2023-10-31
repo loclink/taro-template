@@ -25,6 +25,9 @@ export default defineAppConfig({
       ]
     }
   ],
+  usingComponents: {
+    wxparse: "./weapp-cpns/wxparse/index"
+  },
   window: {
     navigationStyle: "custom",
     backgroundTextStyle: "light",
