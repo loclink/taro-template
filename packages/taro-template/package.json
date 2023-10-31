@@ -65,7 +65,8 @@
     "wm-request": "workspace:*",
     "wm-taro-design": "workspace:*",
     "wm-taro-router": "workspace:*",
-    "wm-taro-template-docs": "workspace:*"
+    "wm-taro-template-docs": "workspace:*",
+    "wm-aliyun": "workspace:*"
   },
   "devDependencies": {
     "@babel/core": "^7.8.0",
