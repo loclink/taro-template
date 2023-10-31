@@ -6,7 +6,7 @@ order: 1
 
 ## 为什么使用开发模板
 
-WmTaro是一个用来帮助团队成员快速搭建一个Taro项目模板的起手式开发框架，成员不需要关注公共的或者底层代码逻辑，只需要关注针对项目的业务逻辑；此基础之上还会帮你尽量减少不必要的重复性工作，统一开发规范，从多个角度减少开发与维护成本，从而提高开发效率。
+WmTaro是一个用来帮助团队成员快速搭建一个Taro项目模板的起手式开发框架，成员不需要关注公共的或者底层代码逻辑，只需要关注针对项目的业务逻辑；此基础之上还会帮你尽量减少不必要的重复性工作，统一开发规范，从多个维度减少开发与维护成本，从而提高开发效率。
 
 ## 为此我做了什么
 
@@ -39,7 +39,17 @@ WmTaro是一个用来帮助团队成员快速搭建一个Taro项目模板的起�
 
 ## 更新日志
 
-查阅： [ChangeLog](/CHANGELOG)
+历史版本更新内容请查阅： [ChangeLog](/CHANGELOG)
+
+## 相关链接
+
+- [武汉美萌前端开发日志](http://wm-front-issue.develop.meimob.com/)
+
+- [武汉美萌前端工具库 wm-kit](http://frontdoc.develop.meimob.com/)
+
+- [武汉美萌Taro组件库 wm-taro-design](http://wm-taro-design.develop.meimob.com/)
+
+- [武汉前端代码组](https://codeup.aliyun.com/5f855dfb1858a17210466fd0/wuhang-meimeng-development)
 
 ## 未来计划
 

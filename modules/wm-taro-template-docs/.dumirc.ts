@@ -5,6 +5,7 @@ export default defineConfig({
   resolve: {
     codeBlockMode: 'passive',
   },
+
   themeConfig: {
     name: 'WmTaro',
     lastUpdated: true,
@@ -17,6 +18,7 @@ export default defineConfig({
       '/configure/': [],
       '/router/': [],
     },
+    socialLinks: {},
     prefersColor: { default: 'auto', switch: true },
     nav: [
       {

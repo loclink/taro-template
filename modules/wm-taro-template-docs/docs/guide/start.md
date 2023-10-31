@@ -4,10 +4,33 @@ order: 3
 
 # 快速上手
 
+## 获取代码
+
+### 一、使用git工具clone模板代码
+
+请先确保拥有前端代码组的开发者权限，并可以访问该代码仓库：  
+https://codeup.aliyun.com/5f855dfb1858a17210466fd0/wuhang-meimeng-development/wm-taro-template.git
+
+之后使用git工具通过 https 或 ssh 的方式将仓库代码拉取到本地
+
+#### 仓库分支说明：
+
+- next：先行版（该版本包含目前最新特性，但相对不稳定）
+- master：稳定版 （该版本经过一系列测试，属于相对稳定版本）
+- demo-\*\* : 示例项目 （所有以demo开头的分支均为完整项目的示例代码，你可以随时查阅这些代码，了解与学习它们的各项业务处理方式与编码习惯）
+
+:::info{title=注意}
+在通常情况下，你只需要使用 master 分支即可。
+:::
+
+### 二、使用CLI工具创建模板项目
+
+> 待补充
+
 ## 安装依赖
 
 ```bash
-# 根目录下执行
+# 在项目根目录下执行
 pnpm install
 ```
 
@@ -119,6 +142,5 @@ module.exports = {
 ```bash
 pnpm api
 ```
-
 
 > 待补充
