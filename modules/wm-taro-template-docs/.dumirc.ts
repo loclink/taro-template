@@ -31,6 +31,10 @@ export default defineConfig({
         title: '高级路由',
         link: '/router',
       },
+      {
+        title: '更新日志',
+        link: '/CHANGELOG',
+      },
     ],
   },
 });
