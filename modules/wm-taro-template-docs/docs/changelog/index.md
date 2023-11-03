@@ -1,5 +1,42 @@
 # Changelog
 
+## [0.0.2](https://codeup.aliyun.com/5f855dfb1858a17210466fd0/wuhang-meimeng-development/wm-taro-template/compare/v0.0.1...v0.0.2) (2023-11-03)
+
+
+### ✨ Features | 新功能
+
+* **all:** Taro版本更新至3.6.18 ([0a85249](https://codeup.aliyun.com/5f855dfb1858a17210466fd0/wuhang-meimeng-development/wm-taro-template/commit/0a85249cb37b0ddfdda61c3fe6ae0a98c3035a1f))
+* **wm-taro-design:** 新增瀑布流、上拉刷新、下拉加载、更好用的滚动加载组件 ([f546609](https://codeup.aliyun.com/5f855dfb1858a17210466fd0/wuhang-meimeng-development/wm-taro-template/commit/f546609ba5d515fbade7a360dc44376dfa549a0f))
+
+
+### 🐛 Bug Fixes | Bug 修复
+
+* 更新文档 ([4a105e5](https://codeup.aliyun.com/5f855dfb1858a17210466fd0/wuhang-meimeng-development/wm-taro-template/commit/4a105e5265bdadd24fe05f2eaa86d85fc062d9b6))
+* 更新readme ([c903148](https://codeup.aliyun.com/5f855dfb1858a17210466fd0/wuhang-meimeng-development/wm-taro-template/commit/c903148ffb0930d24aa9bc3250c727d6cae4ca07))
+* **doc:** 更新文档 ([7369ec8](https://codeup.aliyun.com/5f855dfb1858a17210466fd0/wuhang-meimeng-development/wm-taro-template/commit/7369ec83dddf5e7410cc55d481af897e9f4e9102))
+* **types:** 新增模板配置类型 ([42ccc72](https://codeup.aliyun.com/5f855dfb1858a17210466fd0/wuhang-meimeng-development/wm-taro-template/commit/42ccc72f308898986fcc14e9f9cc8472e9c3bab6))
+* **wm-taro-router:** 移除source-map ([105aa15](https://codeup.aliyun.com/5f855dfb1858a17210466fd0/wuhang-meimeng-development/wm-taro-template/commit/105aa15e641f8b62f68af424b3bb66d25e7bb7f4))
+* **wm-taro-template:** 全局主题作用于body ([f10c823](https://codeup.aliyun.com/5f855dfb1858a17210466fd0/wuhang-meimeng-development/wm-taro-template/commit/f10c8239697549a46503c18a2453ebf0756243cb))
+* **wm-taro-template:** 全局注册组件wxparse ([5fa649e](https://codeup.aliyun.com/5f855dfb1858a17210466fd0/wuhang-meimeng-development/wm-taro-template/commit/5fa649e72d5706ba56da70d17e545eae392619e2))
+
+
+### 🎈 Improvements | 优化
+
+* 工具链性能优化，核心功能重构，改变配置方式 ([efedc3f](https://codeup.aliyun.com/5f855dfb1858a17210466fd0/wuhang-meimeng-development/wm-taro-template/commit/efedc3f0721c67eebec7f99af1a4e2514094746c))
+
+
+### 📝 Documentation | 文档
+
+* **taro-template:** 加入更新日志 ([8978921](https://codeup.aliyun.com/5f855dfb1858a17210466fd0/wuhang-meimeng-development/wm-taro-template/commit/89789212768a40bcd1499d86ddac4603be1cb5c7))
+* **wm-taro-template:** 调整版本号 ([d64032d](https://codeup.aliyun.com/5f855dfb1858a17210466fd0/wuhang-meimeng-development/wm-taro-template/commit/d64032d0e170594d693e5dab3c5e756e1502af40))
+* **wm-taro-template:** 调整文档内容 ([d5dcca9](https://codeup.aliyun.com/5f855dfb1858a17210466fd0/wuhang-meimeng-development/wm-taro-template/commit/d5dcca9d1713d8863db4b4f605adbabeb068d7bd))
+
+
+### 🛠️ Continuous Integration | CI 配置
+
+* **taro-template:** 修改release-it日志相关配置 ([0686875](https://codeup.aliyun.com/5f855dfb1858a17210466fd0/wuhang-meimeng-development/wm-taro-template/commit/0686875e90ee5419a2beeea77e317cf7ae644025))
+* **template:** 修改更新日志保存位置 ([3ca1def](https://codeup.aliyun.com/5f855dfb1858a17210466fd0/wuhang-meimeng-development/wm-taro-template/commit/3ca1defd392d796d40c7173faa75455ac455532e))
+
 ## 0.0.1 (2023-10-31)
 
 
