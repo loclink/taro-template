@@ -5,7 +5,7 @@ import profile from '../src/assets/images/tabbar/profile.png';
 import profile_active from '@/assets/images/tabbar/profile_active.png';
 
 export default {
-  homePage: '/pages/tabbar/home/index',
+  router: Router,
   silentAuthorization: true,
   silentAuthorizationUrl: '/wechat/auth/wx-token',
   loginUrl: '/pages/auth/index',
@@ -13,8 +13,7 @@ export default {
     dev: '',
     pro: ''
   },
-  router: Router,
-  printLog: true,
+  printLog: false,
   tabbar: [
     {
       text: '首页',
@@ -29,4 +28,4 @@ export default {
       selectedIconPath: profile_active
     }
   ]
-};
+} as GlobalConfig;

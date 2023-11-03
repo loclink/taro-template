@@ -1,4 +1,5 @@
 /// <reference types="@tarojs/taro" />
+/// <reference types="template-types" />
 
 declare module '*.png';
 declare module '*.gif';

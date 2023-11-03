@@ -1,27 +1,12 @@
 import React, { memo } from 'react';
 import { View } from '@tarojs/components';
-import { Button, PageContainer } from 'wm-taro-design';
+import { PageContainer } from 'wm-taro-design';
 import styles from './index.module.less';
-import Router from 'wm-taro-router';
-import RichText from '@/components/rich-text';
 
 const Component: React.FC = () => {
-  const handleJump = () => {
-    Router.profile.toUser_Info();
-  };
-
   return (
     <PageContainer title='Home'>
-      <View className={styles.homeWrapper}>
-        <Button type='primary' onClick={handleJump}>
-          跳转
-        </Button>
-        <RichText
-          html='<div>
-          <div>富文本组件</div>
-          <img src="https://loclink.cn/logo.jpg"/> </div>'
-        />
-      </View>
+      <View className={styles.homeWrapper}>Home</View>
     </PageContainer>
   );
 };

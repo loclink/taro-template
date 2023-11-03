@@ -1,6 +1,7 @@
 import { ScrollViewProps, ViewProps } from '@tarojs/components';
 import { FunctionComponent, PropsWithChildren } from 'react';
 import { NavBarProps } from './nav-bar';
+import type { Config } from 'template-types';
 
 export interface PageContainerProps extends ViewProps {
   /**
@@ -48,7 +49,7 @@ export interface pageContainerProps {
   /**
    * @description 注入页面全局配置的context
    */
-  Context: React.Context<any>;
+  Context: React.Context<Config>;
 
   /**
    * @description NavBar整体高度常量

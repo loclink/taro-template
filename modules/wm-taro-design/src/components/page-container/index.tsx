@@ -20,7 +20,7 @@ export const PageContainer = (props: PropsWithChildren<PageContainerProps>) => {
   } = props;
   const [isTab, setIsTab] = useState(false);
   const config = useContext(PageContainer.Context);
-  const homePagePath = config.homePage || `/${Taro.getApp()['config'].pages[0]}`;
+  const homePagePath = `/${Taro.getApp()['config'].pages[0]}`;
 
   useEffect(() => {
     if (config.tabbar) {
@@ -40,7 +40,7 @@ export const PageContainer = (props: PropsWithChildren<PageContainerProps>) => {
       if (isLeftArrow()) {
         config.router.back();
       } else {
-        config.router.navigate({ url: homePagePath }, { type: 'reLaunch' });
+        config?.router?.navigate?.({ url: homePagePath }, { type: 'reLaunch' });
       }
     } else {
       if (isLeftArrow()) {
@@ -92,7 +92,8 @@ const { statusBarHeight: _statusBarHeight } = getSystemInfoSync();
 
 const menuButtonInfo = getMenuButtonBoundingClientRect();
 const statusBarHeight = Number.isNaN(_statusBarHeight) ? 22 : _statusBarHeight;
-PageContainer.Context = React.createContext<any>({});
 PageContainer.NavBarHeight = (menuButtonInfo.top - statusBarHeight) * 2 + menuButtonInfo.height + statusBarHeight;
+
+PageContainer.Context = React.createContext<any>({});
 
 export default PageContainer;
