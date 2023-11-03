@@ -17,6 +17,7 @@ export default defineConfig({
       '/guide/': [],
       '/configure/': [],
       '/router/': [],
+      '/changelog/': [],
     },
     prefersColor: { default: 'auto', switch: true },
     nav: [
@@ -47,7 +48,7 @@ export default defineConfig({
       },
       {
         title: '更新日志',
-        link: '/CHANGELOG',
+        link: '/changelog',
       },
     ],
   },
