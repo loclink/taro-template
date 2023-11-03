@@ -1,6 +1,6 @@
 {
   "name": "wm-request",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "武汉美萌请求库",
   "files": [
     "src"

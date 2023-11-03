@@ -15,6 +15,8 @@ const CIPluginOpt: CIOptions = {
 
 // https://taro-docs.jd.com/docs/next/config#defineconfig-辅助函数
 export default defineConfig(async (merge) => {
+  // console.log(pluginConfig, 'pluginConfig');
+
   const baseConfig: UserConfigExport = {
     projectName: 'taro-template',
     date: '2023-10-16',
@@ -28,12 +30,7 @@ export default defineConfig(async (merge) => {
 
     sourceRoot: 'src',
     outputRoot: 'dist',
-    plugins: [
-      ['@tarojs/plugin-mini-ci', CIPluginOpt],
-      'tarojs-plugin-generate-router',
-      'tarojs-plugin-generate-tools',
-      'tarojs-plugin-generate-config'
-    ],
+    plugins: ['taro-plugin-router-creator', 'taro-plugin-candy', ['@tarojs/plugin-mini-ci', CIPluginOpt]],
     defineConstants: {},
     copy: {
       patterns: [],
