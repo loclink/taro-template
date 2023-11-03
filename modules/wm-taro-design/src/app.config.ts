@@ -18,7 +18,11 @@ export default defineAppConfig({
     'pages/popup/index',
     'pages/calendar/index',
     'pages/cascader/index',
-    'pages/picker/index'
+    'pages/picker/index',
+    'pages/waterfall-flow/index',
+    'pages/pull-to-refresh/index',
+    'pages/easy-scroll/index',
+    'pages/infinite-scroll/index'
   ],
   navigationStyle: 'custom',
   window: {

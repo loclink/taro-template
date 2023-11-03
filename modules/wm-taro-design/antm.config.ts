@@ -176,7 +176,7 @@ function getMenus() {
         {
           path: 'picker',
           title: 'Picker 选择器'
-        },
+        }
         // {
         //   path: 'radio',
         //   title: 'Radio 单选框'
@@ -310,7 +310,7 @@ function getMenus() {
         {
           path: 'tag',
           title: 'Tag 标签'
-        }
+        },
         // {
         //   path: 'water-mark',
         //   title: 'WaterMark 水印'
@@ -319,22 +319,22 @@ function getMenus() {
         //   path: 'number-keyboard',
         //   title: 'NumberKeyboard 数字键盘'
         // },
-        // {
-        //   path: 'infinite-scroll',
-        //   title: 'InfiniteScroll 无限滚动'
-        // },
-        // {
-        //   path: 'pull-to-refresh',
-        //   title: 'PullToRefresh 下拉刷新'
-        // },
+        {
+          path: 'infinite-scroll',
+          title: 'InfiniteScroll 无限滚动'
+        },
+        {
+          path: 'pull-to-refresh',
+          title: 'PullToRefresh 下拉刷新'
+        },
         // {
         //   path: 'virtual-list',
         //   title: 'VirtualList 虚拟列表'
         // },
-        // {
-        //   path: 'waterfall-flow',
-        //   title: 'WaterfallFlow 瀑布流'
-        // }
+        {
+          path: 'waterfall-flow',
+          title: 'WaterfallFlow 瀑布流'
+        }
       ]
     },
     {
@@ -405,11 +405,11 @@ function getMenus() {
         {
           path: 'page-container',
           title: 'PageContainer 页面容器'
+        },
+        {
+          path: 'easy-scroll',
+          title: 'EasyScroll 滚动加载'
         }
-        // {
-        //   path: 'easy-scroll',
-        //   title: 'EasyScroll 滚动加载'
-        // }
       ]
     }
   ];
