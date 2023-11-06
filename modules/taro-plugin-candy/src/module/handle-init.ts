@@ -17,14 +17,19 @@ export const handleInitAppConfig = async (ctx: IContext) => {
     JSON.stringify(pagesConfig.pagesPaths),
     false
   );
-  if (ctx.pluginConfigModel?.getConfig<PluginOptions>().tabbarType) {
+
+  const tababrType =
+    ctx.pluginConfigModel?.getConfig<PluginOptions>().tabbarType;
+  const tabBarConfig = ctx.appConfigModel?.getConfig().tabBar;
+
+  if (tababrType) {
     ctx.appConfigModel?.setConfig(
       "tabBar",
       JSON.stringify(pagesConfig.tabbarPaths),
       false
     );
   } else {
-    if (fs.pathExistsSync(getTabbarPath(ctx))) {
+    if (fs.pathExistsSync(getTabbarPath(ctx)) && tabBarConfig) {
       ctx.appConfigModel?.remove("tabBar");
     }
   }

@@ -9,20 +9,22 @@ const handle_path_1 = require("./handle-path");
  * @param ctx
  */
 const handleInitAppConfig = async (ctx) => {
-    var _a, _b, _c, _d, _e, _f;
+    var _a, _b, _c, _d, _e, _f, _g;
     const pagesConfig = await (0, exports.generateMainPackagePaths)(ctx);
     const subPackagesPaths = await (0, exports.generateSubPackagePaths)(ctx);
     (_a = ctx.appConfigModel) === null || _a === void 0 ? void 0 : _a.setConfig("pages", JSON.stringify(pagesConfig.pagesPaths), false);
-    if ((_b = ctx.pluginConfigModel) === null || _b === void 0 ? void 0 : _b.getConfig().tabbarType) {
-        (_c = ctx.appConfigModel) === null || _c === void 0 ? void 0 : _c.setConfig("tabBar", JSON.stringify(pagesConfig.tabbarPaths), false);
+    const tababrType = (_b = ctx.pluginConfigModel) === null || _b === void 0 ? void 0 : _b.getConfig().tabbarType;
+    const tabBarConfig = (_c = ctx.appConfigModel) === null || _c === void 0 ? void 0 : _c.getConfig().tabBar;
+    if (tababrType) {
+        (_d = ctx.appConfigModel) === null || _d === void 0 ? void 0 : _d.setConfig("tabBar", JSON.stringify(pagesConfig.tabbarPaths), false);
     }
     else {
-        if (fs.pathExistsSync((0, handle_path_1.getTabbarPath)(ctx))) {
-            (_d = ctx.appConfigModel) === null || _d === void 0 ? void 0 : _d.remove("tabBar");
+        if (fs.pathExistsSync((0, handle_path_1.getTabbarPath)(ctx)) && tabBarConfig) {
+            (_e = ctx.appConfigModel) === null || _e === void 0 ? void 0 : _e.remove("tabBar");
         }
     }
-    (_e = ctx.appConfigModel) === null || _e === void 0 ? void 0 : _e.setConfig("subPackages", JSON.stringify(subPackagesPaths), false);
-    (_f = ctx.appConfigModel) === null || _f === void 0 ? void 0 : _f.saveConfig();
+    (_f = ctx.appConfigModel) === null || _f === void 0 ? void 0 : _f.setConfig("subPackages", JSON.stringify(subPackagesPaths), false);
+    (_g = ctx.appConfigModel) === null || _g === void 0 ? void 0 : _g.saveConfig();
     console.log(ctx.helper.chalk.green(`✅ 页面路径已自动同步成功`));
 };
 exports.handleInitAppConfig = handleInitAppConfig;

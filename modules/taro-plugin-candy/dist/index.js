@@ -20,6 +20,8 @@ exports.default = async (ctx) => {
     ctx.helper.chokidar
         .watch([(0, handle_path_1.getPluginConfigPath)(ctx)])
         .on("change", async () => {
+        ctx.pluginConfigModel = await (0, little_spanner_1.loadPluginConfig)(ctx.paths.sourcePath);
+        ctx.appConfigModel = await (0, little_spanner_1.loadAppConfig)(ctx.paths.sourcePath);
         await (0, handle_rich_text_1.handleGenerateRichText)(ctx);
         await (0, handle_init_1.handleInitAppConfig)(ctx);
     });

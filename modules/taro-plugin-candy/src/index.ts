@@ -24,6 +24,8 @@ export default async (ctx: IContext) => {
   ctx.helper.chokidar
     .watch([getPluginConfigPath(ctx)])
     .on("change", async () => {
+      ctx.pluginConfigModel = await loadPluginConfig(ctx.paths.sourcePath);
+      ctx.appConfigModel = await loadAppConfig(ctx.paths.sourcePath);
       await handleGenerateRichText(ctx);
       await handleInitAppConfig(ctx);
     });
