@@ -17,7 +17,9 @@ const handleInitAppConfig = async (ctx) => {
         (_c = ctx.appConfigModel) === null || _c === void 0 ? void 0 : _c.setConfig("tabBar", JSON.stringify(pagesConfig.tabbarPaths), false);
     }
     else {
-        (_d = ctx.appConfigModel) === null || _d === void 0 ? void 0 : _d.remove("tabBar");
+        if (fs.pathExistsSync((0, handle_path_1.getTabbarPath)(ctx))) {
+            (_d = ctx.appConfigModel) === null || _d === void 0 ? void 0 : _d.remove("tabBar");
+        }
     }
     (_e = ctx.appConfigModel) === null || _e === void 0 ? void 0 : _e.setConfig("subPackages", JSON.stringify(subPackagesPaths), false);
     (_f = ctx.appConfigModel) === null || _f === void 0 ? void 0 : _f.saveConfig();

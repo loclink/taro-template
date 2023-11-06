@@ -24,7 +24,9 @@ export const handleInitAppConfig = async (ctx: IContext) => {
       false
     );
   } else {
-    ctx.appConfigModel?.remove("tabBar");
+    if (fs.pathExistsSync(getTabbarPath(ctx))) {
+      ctx.appConfigModel?.remove("tabBar");
+    }
   }
 
   ctx.appConfigModel?.setConfig(
