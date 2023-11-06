@@ -45,7 +45,7 @@ export interface easyScrollProps {
     onLoadMore: () => Promise<'loading' | 'complete' | 'error'>;
     onRefresh: (refreshParams?: { clearList: boolean }) => Promise<void>;
     list: T[];
-    ref: React.MutableRefObject<EasyScrollInstance | undefined>;
+    reload: () => void;
   };
 }
 
