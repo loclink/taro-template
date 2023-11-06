@@ -5,6 +5,10 @@ import { getPagesPath, getSubPackagePath, getTabbarPath } from "./handle-path";
 import { PluginOptions } from "template-types";
 import { IContext } from "src/types";
 
+/**
+ * app.config.ts初始化
+ * @param ctx
+ */
 export const handleInitAppConfig = async (ctx: IContext) => {
   const pagesConfig = await generateMainPackagePaths(ctx);
   const subPackagesPaths = await generateSubPackagePaths(ctx);
@@ -13,12 +17,15 @@ export const handleInitAppConfig = async (ctx: IContext) => {
     JSON.stringify(pagesConfig.pagesPaths),
     false
   );
-
-  ctx.appConfigModel?.setConfig(
-    "tabBar",
-    JSON.stringify(pagesConfig.tabbarPaths),
-    false
-  );
+  if (ctx.pluginConfigModel?.getConfig<PluginOptions>().tabbarType) {
+    ctx.appConfigModel?.setConfig(
+      "tabBar",
+      JSON.stringify(pagesConfig.tabbarPaths),
+      false
+    );
+  } else {
+    ctx.appConfigModel?.remove("tabBar");
+  }
 
   ctx.appConfigModel?.setConfig(
     "subPackages",
@@ -68,11 +75,12 @@ export const generateSubPackagePaths = async (ctx: IPluginContext) => {
 /** 生成tabbar路径配置 */
 export const generateTabbarPaths = async (ctx: IContext) => {
   const tabbarPath = getTabbarPath(ctx);
-  if (!fs.pathExistsSync(tabbarPath))
+  if (!fs.pathExistsSync(tabbarPath)) {
     return {
       custom: true,
       list: [],
     };
+  }
 
   const tabbarDir = ctx.pluginConfigModel?.getConfig<PluginOptions>().tabbarDir;
   const tabbarPaths = fs

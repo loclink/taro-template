@@ -5,7 +5,7 @@ declare interface PluginConfigOptions {
   /** 定义项目中需要使用什么额外组件 */
   usingComponents?: "RichText"[];
 
-  tabbarType: "Custom" | "SinglePage";
+  tabbarType: "Custom" | "SinglePage" | false;
 
   subPackageDir: string;
 

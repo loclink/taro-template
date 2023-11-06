@@ -1,7 +1,6 @@
 /* eslint-disable */
 
 import { Component } from 'react';
-import DemoPage from '@/base-ui/demo-page/index';
 import DemoBlock from '@/base-ui/demo-block/index';
 import Demo1 from './demo1';
 import Demo2 from './demo2';

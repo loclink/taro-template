@@ -1,7 +1,7 @@
 export default definePluginConfig({
   homePage: '/pages/tabbar/home/index',
-  tabbarType: 'Custom',
+  tabbarType: false,
   usingComponents: ['RichText'],
   subPackageDir: 'pages-sub',
-  tabbarDir: 'tabbar',
+  tabbarDir: 'tabbar'
 });

@@ -4,14 +4,23 @@ exports.generateMainPackagePaths = exports.generateTabbarPaths = exports.generat
 const fs = require("fs-extra");
 const path = require("path");
 const handle_path_1 = require("./handle-path");
+/**
+ * app.config.ts初始化
+ * @param ctx
+ */
 const handleInitAppConfig = async (ctx) => {
-    var _a, _b, _c, _d;
+    var _a, _b, _c, _d, _e, _f;
     const pagesConfig = await (0, exports.generateMainPackagePaths)(ctx);
     const subPackagesPaths = await (0, exports.generateSubPackagePaths)(ctx);
     (_a = ctx.appConfigModel) === null || _a === void 0 ? void 0 : _a.setConfig("pages", JSON.stringify(pagesConfig.pagesPaths), false);
-    (_b = ctx.appConfigModel) === null || _b === void 0 ? void 0 : _b.setConfig("tabBar", JSON.stringify(pagesConfig.tabbarPaths), false);
-    (_c = ctx.appConfigModel) === null || _c === void 0 ? void 0 : _c.setConfig("subPackages", JSON.stringify(subPackagesPaths), false);
-    (_d = ctx.appConfigModel) === null || _d === void 0 ? void 0 : _d.saveConfig();
+    if ((_b = ctx.pluginConfigModel) === null || _b === void 0 ? void 0 : _b.getConfig().tabbarType) {
+        (_c = ctx.appConfigModel) === null || _c === void 0 ? void 0 : _c.setConfig("tabBar", JSON.stringify(pagesConfig.tabbarPaths), false);
+    }
+    else {
+        (_d = ctx.appConfigModel) === null || _d === void 0 ? void 0 : _d.remove("tabBar");
+    }
+    (_e = ctx.appConfigModel) === null || _e === void 0 ? void 0 : _e.setConfig("subPackages", JSON.stringify(subPackagesPaths), false);
+    (_f = ctx.appConfigModel) === null || _f === void 0 ? void 0 : _f.saveConfig();
     console.log(ctx.helper.chalk.green(`✅ 页面路径已自动同步成功`));
 };
 exports.handleInitAppConfig = handleInitAppConfig;
@@ -46,11 +55,12 @@ exports.generateSubPackagePaths = generateSubPackagePaths;
 const generateTabbarPaths = async (ctx) => {
     var _a;
     const tabbarPath = (0, handle_path_1.getTabbarPath)(ctx);
-    if (!fs.pathExistsSync(tabbarPath))
+    if (!fs.pathExistsSync(tabbarPath)) {
         return {
             custom: true,
             list: [],
         };
+    }
     const tabbarDir = (_a = ctx.pluginConfigModel) === null || _a === void 0 ? void 0 : _a.getConfig().tabbarDir;
     const tabbarPaths = fs
         .readdirSync(tabbarPath)

@@ -258,6 +258,7 @@ var Router = exports.Router = /** @class */ (function () {
     };
     Router.toAuth = function (options) { return Router.navigate({ url: "/pages/auth/index", ext: {} }, options); };
     Router.tabbar = {
+        toGoods: function (options) { return Router.navigate({ url: "/pages/tabbar/goods/index" }, options); },
         toHome: function (options) { return Router.navigate({ url: "/pages/tabbar/home/index", ext: {} }, options); },
         toProfile: function (options) { return Router.navigate({ url: "/pages/tabbar/profile/index", ext: {} }, options); }
     };
