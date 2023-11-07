@@ -1,5 +1,5 @@
-import { useRef, useState } from "react";
-import { EasyScrollInstance, IUseEasyScrollOptions } from "types";
+import { useRef, useState } from 'react';
+import { EasyScrollInstance, IUseEasyScrollOptions } from 'types';
 
 enum LoadMoreStatus {
   /**
@@ -80,6 +80,7 @@ export const useScroll = function useScroll<T>(options: IUseEasyScrollOptions<T>
     onLoadMore,
     onRefresh,
     list,
-    reload
+    reload,
+    ref
   };
 };
