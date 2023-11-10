@@ -189,7 +189,7 @@ var debounceNavigate = (0, lodash_1.debounce)(function (route, options) {
         _navigate(route, options).then(resolve).catch(reject);
     });
 }, 1000, { leading: true, trailing: false });
-var Router = exports.Router = /** @class */ (function () {
+var Router = /** @class */ (function () {
     function Router() {
     }
     /**
@@ -266,3 +266,4 @@ var Router = exports.Router = /** @class */ (function () {
     };
     return Router;
 }());
+exports.Router = Router;

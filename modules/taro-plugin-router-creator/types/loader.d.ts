@@ -1,7 +1,7 @@
-import { Project, SourceFile } from "ts-morph";
-import { IConfigPackage } from "./config";
-import { ConfigPage, Page } from "./entitys";
-import { Plugin } from "./plugin";
+import { Project, SourceFile } from 'ts-morph';
+import { IConfigPackage } from './config';
+import { ConfigPage, Page } from './entitys';
+import { Plugin } from './plugin';
 export declare class Loader {
     private readonly root;
     project: Project;

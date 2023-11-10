@@ -1,6 +1,6 @@
 /// <reference types="node" />
-import { Project, SourceFile } from "ts-morph";
-import { Plugin } from "./plugin";
+import { Project, SourceFile } from 'ts-morph';
+import { Plugin } from './plugin';
 export declare class Generator {
     private readonly root;
     project: Project;

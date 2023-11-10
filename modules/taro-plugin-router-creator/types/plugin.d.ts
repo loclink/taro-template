@@ -1,12 +1,12 @@
 /// <reference types="node" />
-import { processTypeEnum } from "@tarojs/helper";
-import { IPluginContext } from "@tarojs/service";
-import { IPaths } from "@tarojs/service/src/utils/types";
-import { IConfig } from "./config";
-import { Page } from "./entitys";
-import { Generator } from "./generator";
-import { Loader } from "./loader";
-import { FSWatcher } from "fs";
+import { processTypeEnum } from '@tarojs/helper';
+import { IPluginContext } from '@tarojs/service';
+import { IPaths } from '@tarojs/service/src/utils/types';
+import { IConfig } from './config';
+import { Page } from './entitys';
+import { Generator } from './generator';
+import { Loader } from './loader';
+import { FSWatcher } from 'fs';
 export declare class Plugin {
     readonly ctx: IPluginContext;
     config: IConfig;
@@ -14,7 +14,7 @@ export declare class Plugin {
     generator: Generator;
     isWatch: boolean;
     paths: IPaths;
-    helper: typeof import("@tarojs/helper");
+    helper: typeof import('@tarojs/helper');
     watcher: FSWatcher;
     routerWatcher: FSWatcher;
     pages: Page[];

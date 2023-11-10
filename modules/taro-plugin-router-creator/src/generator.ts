@@ -1,128 +1,133 @@
-import { processTypeEnum } from "@tarojs/helper/dist/constants";
-import * as path from "path";
-import { Project, SourceFile } from "ts-morph";
-import { Page } from "./entitys";
-import { Plugin } from "./plugin";
+import { processTypeEnum } from '@tarojs/helper/dist/constants'
+import * as path from 'path'
+import { Project, SourceFile } from 'ts-morph'
+import { Page } from './entitys'
+import { Plugin } from './plugin'
+import * as fs from 'fs-extra'
 
 export class Generator {
-  project: Project;
-  routerSourceFile: SourceFile;
-  targetModulePath: string;
+  project: Project
+  routerSourceFile: SourceFile
+  targetModulePath: string
 
   constructor(private readonly root: Plugin) {
     this.targetModulePath = path.resolve(
       this.root.ctx.paths.nodeModulesPath,
-      "wm-taro-router"
-    );
+      'wm-taro-router'
+    )
     const tsConfigFilePath = path.resolve(
       this.targetModulePath,
-      "tsconfig.json"
-    );
+      'tsconfig.json'
+    )
     this.project = new Project({
       tsConfigFilePath,
-    });
+    })
     this.routerSourceFile = this.project.addSourceFileAtPath(
-      path.resolve(this.targetModulePath, "./src/router/index.ts")
-    );
+      path.resolve(this.targetModulePath, './src/router/index.ts')
+    )
   }
 
-  emitTimer: NodeJS.Timeout;
+  emitTimer: NodeJS.Timeout
 
   emit(force = false) {
-    clearTimeout(this.emitTimer);
+    clearTimeout(this.emitTimer)
     const _emit = () => {
-      this.routerSourceFile.refreshFromFileSystemSync();
+      this.routerSourceFile.refreshFromFileSystemSync()
 
       const tempSourceFile = this.project.createSourceFile(
-        "temp.ts",
+        'temp.ts',
         (writer) => {
           writer.writeLine(
-            "type RequiredKeys<T> = { [K in keyof T]-?: {} extends Pick<T, K> ? never : K }[keyof T]"
-          );
+            'type RequiredKeys<T> = { [K in keyof T]-?: {} extends Pick<T, K> ? never : K }[keyof T]'
+          )
           writer.writeLine(
-            "type Data<Q> = RequiredKeys<Q> extends never ? { data?: Q } : { data: Q }"
-          );
+            'type Data<Q> = RequiredKeys<Q> extends never ? { data?: Q } : { data: Q }'
+          )
           writer.writeLine(
-            "type Params<P> = RequiredKeys<P> extends never ? { params?: P } : { params: P }"
-          );
-          writer.writeLine("class Router {");
+            'type Params<P> = RequiredKeys<P> extends never ? { params?: P } : { params: P }'
+          )
+          writer.writeLine('class Router {')
 
-          writer.write(this.generateMethods());
+          writer.write(this.generateMethods())
 
-          writer.writeLine("}");
+          writer.writeLine('}')
         }
-      );
+      )
 
-      const routerClass = this.routerSourceFile.getClass("Router")!;
+      const routerClass = this.routerSourceFile.getClass('Router')!
       const staticMembers = tempSourceFile
-        .getClass("Router")!
-        .getStaticMembers();
+        .getClass('Router')!
+        .getStaticMembers()
       this.routerSourceFile.addTypeAliases(
         tempSourceFile.getTypeAliases().map((m) => m.getStructure())
-      );
-      routerClass.addMembers(staticMembers.map((m) => m.getStructure() as any));
+      )
+      routerClass.addMembers(staticMembers.map((m) => m.getStructure() as any))
+      this.routerSourceFile.emitSync()
+      tempSourceFile.delete()
+      this.root.log(processTypeEnum.REMIND, '👋 已成功生成')
 
-      this.routerSourceFile.emitSync();
-      tempSourceFile.delete();
-      this.root.log(processTypeEnum.REMIND, "👋 已成功生成");
-    };
+      fs.writeFileSync(
+        path.resolve(this.root.paths.nodeModulesPath, './.tarojs-router-next'),
+        new Date().getDate().toString()
+      )
+    }
 
     if (force) {
-      _emit();
+      _emit()
     } else {
-      this.emitTimer = setTimeout(_emit, 300);
+      this.emitTimer = setTimeout(_emit, 300)
     }
   }
 
   generateMethods() {
-    let methodText = "";
+    let methodText = ''
     let packages = this.root.pages.reduce((store, page) => {
-      let pages = store.get(page.packageName);
+      let pages = store.get(page.packageName)
       if (!pages) {
-        pages = [];
-        store.set(page.packageName, pages);
+        pages = []
+        store.set(page.packageName, pages)
       }
 
       if (page.method?.type) {
         page.method.type = page.method?.type.replace(
           /([A-Za-z]:\\(?:[^\\]*\\)*[^\/:*?"<>|\r\n]*)/g,
           (match) => {
-            return path.normalize(match).replace(/\\/g, "/");
+            return path.normalize(match).replace(/\\/g, '/')
           }
-        );
+        )
       }
 
-      pages.push(page);
-      return store;
-    }, new Map<string, Page[]>());
+      pages.push(page)
+      return store
+    }, new Map<string, Page[]>())
 
     for (const packageName of packages.keys()) {
-      const pages = packages.get(packageName);
-      if (packageName === "main") {
+      const pages = packages.get(packageName)
+      if (packageName === 'main') {
         methodText += pages
           ?.map((page) => {
-            return `static ${page.method?.name}: ${page.method?.type} = ${page.method?.value}`;
+            return `static ${page.method?.name}: ${page.method?.type} = ${page.method?.value}`
           })
-          .join("\n\n");
+          .join('\n\n')
       } else {
         methodText += `
         static ${packageName}: {
           ${pages
             ?.map((page) => {
-              return `${page.method?.name}: ${page.method?.type}`;
+              return `${page.method?.name}: ${page.method?.type}`
             })
-            .join(";\n")}
+            .join(';\n')}
         } = {
           ${pages
             ?.map((page) => {
-              return `${page.method?.name}: ${page.method?.value}`;
+              return `${page.method?.name}: ${page.method?.value}`
             })
-            .join(",\n")}
+            .join(',\n')}
         }
-        `;
+        `
       }
     }
 
-    return methodText;
+    return methodText
   }
 }
