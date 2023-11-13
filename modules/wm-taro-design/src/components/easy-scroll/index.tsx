@@ -10,7 +10,6 @@ import {
 import classNames from 'classnames';
 import { useScroll } from './hooks';
 import './index.less';
-import { View } from '@tarojs/components';
 
 export const EasyScroll = forwardRef((props: PropsWithChildren<EasyScrollProps>, ref) => {
   const { renderEmpty = <></> } = props;

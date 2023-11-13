@@ -1,4 +1,4 @@
-import { FunctionComponent } from 'react';
+import { FunctionComponent, ReactNode } from 'react';
 import { ViewProps } from '@tarojs/components';
 import { InfiniteScrollProps } from 'wm-taro-design';
 
@@ -46,6 +46,10 @@ export interface easyScrollProps {
     onRefresh: (refreshParams?: { clearList: boolean }) => Promise<void>;
     list: T[];
     reload: () => void;
+    /**
+     * @description 是否为空数据
+     */
+    isEmpty: boolean;
   };
 }
 
@@ -60,6 +64,16 @@ export interface EasyScrollProps extends ViewProps {
    * @returns
    */
   onRefresh: () => Promise<void>;
+
+  /**
+   * @description 数据是否为空
+   */
+  isEmpty: boolean;
+
+  /**
+   * @description 空数据状态渲染内容
+   */
+  renderEmpty?: ReactNode;
 }
 
 declare const EasyScroll: React.ForwardRefExoticComponent<
