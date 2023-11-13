@@ -1,11 +1,13 @@
 import React, { memo } from 'react';
 import { View } from '@tarojs/components';
-import { PageContainer } from 'wm-taro-design';
 import styles from './index.module.less';
-
+import { PageContainer } from 'wm-taro-design';
+import { Button } from '@nutui/nutui-react-taro';
+import './index.less';
 const Component: React.FC = () => {
   return (
-    <PageContainer title='Home'>
+    <PageContainer title='Home' className={styles.homeWrapper}>
+      <Button className={styles.testBtn}>Home</Button>
       <View className={styles.homeWrapper}>Home</View>
     </PageContainer>
   );
