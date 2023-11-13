@@ -8,11 +8,14 @@ import {
   EasyScrollProps
 } from 'wm-taro-design';
 import classNames from 'classnames';
-import './index.less';
 import { useScroll } from './hooks';
+import './index.less';
+import { View } from '@tarojs/components';
 
 export const EasyScroll = forwardRef((props: PropsWithChildren<EasyScrollProps>, ref) => {
+  const { renderEmpty = <></> } = props;
   const infiniteScrollInstance = useRef<InfiniteScrollInstance>();
+
   useImperativeHandle(ref, () => {
     return {
       reset: infiniteScrollInstance.current?.reset
@@ -27,8 +30,8 @@ export const EasyScroll = forwardRef((props: PropsWithChildren<EasyScrollProps>,
       touchMinTime={100}
       headHeight={30}
     >
-      {props.children}
-      <InfiniteScroll loadMore={props.onLoadMore} ref={infiniteScrollInstance} />
+      {props.isEmpty ? renderEmpty : props.children}
+      <InfiniteScroll loadMore={props.onLoadMore} ref={infiniteScrollInstance} completeText={!props.isEmpty} />
     </PullToRefresh>
   );
 }) as React.ForwardRefExoticComponent<
