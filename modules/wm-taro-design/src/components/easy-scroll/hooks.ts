@@ -19,6 +19,7 @@ enum LoadMoreStatus {
 export const useScroll = function useScroll<T>(options: IUseEasyScrollOptions<T>) {
   const { params, defaultData } = options;
   const [list, setList] = useState(defaultData || []);
+  const [isEmpty, setIsEmpty] = useState(false);
   const [_, setTotal] = useState(0);
   const ref = useRef<EasyScrollInstance>();
   const pageNum = useRef(0);
@@ -45,6 +46,8 @@ export const useScroll = function useScroll<T>(options: IUseEasyScrollOptions<T>
         dataList = list.concat(dataList);
         setList(dataList);
       }
+      if (!dataList.length) setIsEmpty(true);
+      else setIsEmpty(false);
       setTotal(totalNum);
 
       const noMore = isLastPage !== undefined ? !!isLastPage : totalNum !== -1 ? dataList.length >= totalNum : true;
@@ -77,6 +80,7 @@ export const useScroll = function useScroll<T>(options: IUseEasyScrollOptions<T>
   };
 
   return {
+    isEmpty,
     onLoadMore,
     onRefresh,
     list,
