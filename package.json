@@ -14,8 +14,9 @@
     "build": "pnpm -F=taro-template run build:weapp",
     "router": "pnpm -F=taro-template run router",
     "g": "pnpm -F=taro-template run g",
-    "gp": "pnpm -F=taro-template run g -p",
-    "gs": "pnpm -F=taro-template run g -s",
+    "gp": "pnpm -F=taro-template run gp",
+    "gs": "pnpm -F=taro-template run gs",
+    "gt": "pnpm -F=taro-template run gt",
     "api": "pnpm -F=taro-template run api",
     "release": "release-it"
   },
